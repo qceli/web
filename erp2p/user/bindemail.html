@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>e融在线-邮箱绑定</title>
+	<meta content="yes" name="apple-mobile-web-app-capable"/>
+	<meta content="yes" name="apple-touch-fullscreen"/>
+	<meta name="data-spm" content="a215s"/>
+	<meta content="telephone=no,email=no" name="format-detection"/>
+	<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
+	<link type="text/css" rel="stylesheet" href="../css/index.css">
+	<link type="text/css" rel="stylesheet" href="../css/dd-component-bundle.css">
+  <link type="text/css" rel="stylesheet" href="../css/pop-up.css">
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+  <script>
+  jQuery(document).ready(function($) {
+    $(".in_close").on('click',function(event) {
+      event.preventDefault();
+      $(this).hide();
+      $(this).prev("div").children('input').val("");
+      $(this).prev("div").children('input').focus();
+    });
+    $(".blue_btn_b>a").on('click',function(event) {
+      event.preventDefault();
+      /* Act on the event */
+      var email =$("#email").val();
+       $.ajax({
+        url: 'http://app.erp2p.com/down/action/user/bindemailAction.php',
+        type: 'GET',
+        async: false,
+        dataType : "jsonp",
+        data : {mode:'1',email:email},
+        jsonp: "callbackparam",//服务端用于接收callback调用的function名的参数
+        jsonpCallback:"success_jsonpCallback",//callback的function名称 
+        success : function(data){
+
+        },
+        error:function(){
+          alert("系统错误");
+        }
+      });     
+    });
+
+  });
+  </script>
+  <script>
+    function OnInput (event){ 
+      if($(event.target).val()!=""){
+        $(event.target).parent("div").children("div").show();      
+      }else{
+        $(event.target).parent("div").children("div").hide();
+      }
+    }
+  </script>
+	</head>
+	<body class="web-page">
+<!--头部-->
+  <header>
+    <div class="back" onclick="javascript:history.back(-1);"></div>
+      <div class="hd-title">
+        <h2 id="J_header_title">绑定邮箱</h2>
+      </div>
+  </header>
+<!--头部--> 
+<!--中间-->
+<div class="home_page">
+<div class="scroll_container"> 
+    <!-- 输入框   --> 
+     <div class="input_div" style=" margin-top:15px;">
+      <div class="in_close" style="display:none"><i></i></div>
+            <input class="form_input in17" id="email" type="text" value="" oninput="OnInput (event)" placeholder="请输入邮箱地址" errortext="">  
+    </div>    
+    <!-- 输入框   -->   
+    <!-- 按钮   -->
+    	<div style="width:100%; margin:10px auto; float:left;">
+    	<div class="blue_btn_b">
+			<a href="#">完成</a>
+        </div>
+        </div>
+    <!-- 按钮   -->    
+    <!-- 
+    	<div style="width:100%; margin:10px auto; float:left;">
+    	<div class="blue_btn_b">
+			<a href="#">立即绑定</a>
+        </div>
+        </div>
+       -->             
+  </div>
+    </div>
+<!--中间--> 
+<!-- 弹出框 -->
+<div class="cd-popup" role="alert">
+  <div class="cd-popup-container">
+    <p>绑定失败！</p>
+        <span></span>
+    <ul class="cd-buttons">
+      <li style="width:100%;"><a href="#0">确定</a></li>
+    </ul>
+    <a href="#0" class="cd-popup-close img-replace"></a>
+  </div> 
+</div>
+<!-- 弹出框 -->
+</body>
+</html>

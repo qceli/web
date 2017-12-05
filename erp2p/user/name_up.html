@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>e融在线-实名认证</title>
+	<meta content="yes" name="apple-mobile-web-app-capable"/>
+	<meta content="yes" name="apple-touch-fullscreen"/>
+	<meta content="telephone=no,email=no" name="format-detection"/>
+	<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
+	<link type="text/css" rel="stylesheet" href="../css/index.css">
+	<link type="text/css" rel="stylesheet" href="../css/dd-component-bundle.css">
+	<link type="text/css" rel="stylesheet" href="../css/pop-up.css">
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+	<script>
+	var state;
+		$(document).ready(function() {
+			$("div.blue_btn_b:eq(0)").on('click',function(event) {
+				event.preventDefault();
+				/* Act on the event */
+				var realname = $("input[name='realname']").val();
+				var code = $("input[name='code']").val();
+				if(realname==""){
+					state = 1;
+					$('.cd-popup').addClass('is-visible'); 
+					$('.cd-popup-container>span').html("请输入真实姓名");
+					return false;
+				}
+				if(code.length<15||code.length>18){
+					state = 2;
+					$('.cd-popup').addClass('is-visible');
+					$('.cd-popup-container>span').html("身份证号码格式不正确");
+					$('.cd-popup-container'); 
+					return false;
+				}
+				$.ajax({
+			      url: 'http://app.erp2p.com/down/action/user/name_upAction.php',
+			      type: 'GET',
+			      async: false,
+			      dataType : "jsonp",
+			      jsonp: "callbackparam",//服务端用于接收callback调用的function名的参数
+			      jsonpCallback:"success_jsonpCallback",//callback的function名称 
+				  data: {mode: '1',realname:realname,code:code},
+				  success : function(data){
+				  	if(data.error==0){
+				  		$(".input_div,div.blue_btn_b:eq(0)").hide();
+				  		$(".name_div,div.blue_btn_b:eq(1),div.blue_btn_b:eq(2)").show();
+				  	}
+				  },
+				  error : function(data){
+					alert("系统错误");
+				  }
+				});
+			});
+		    $(".cd-buttons").on("click",function(event){
+		    	event.preventDefault();
+		    	$('.cd-popup').removeClass('is-visible'); 
+		    	if(state==1){
+		    		var objRealName = $("input[name='realname']");
+					objRealName.val("");
+					objRealName.focus();
+					objRealName.prev(".in_close").hide();
+		    	}
+		    	if(state==2){
+					$("input[name='code']").val("");
+		    		var objCode = $("input[name='code']");
+					objCode.val("");
+					objCode.focus();
+					objCode.prev(".in_close").hide();				
+		    	}
+		 	});
+
+		    $("div.blue_btn_b:eq(1)").on('click',function(event) {
+		    	event.preventDefault();
+		    	/* Act on the event */
+		    	getPicture("camera");
+			});
+		    $("div.blue_btn_b:eq(2)").on('click',function(event) {
+		    	event.preventDefault();
+		    	/* Act on the event */
+		    	getPicture("album");
+			});			
+		});
+/////获取图片//////////
+	 function  getPicture(type){
+		api.getPicture({
+			sourceType: type,
+			encodingType: 'jpg',
+			mediaValue: 'pic',
+			destinationType: 'url',
+			allowEdit: false,
+			quality: 100,
+			targetWidth:500,
+			targetHeight:500,
+			saveToPhotoAlbum: true
+			}, function(ret, err){ 
+				if (ret) {
+					if(ret.data==""){
+						return false;
+					}
+					uploadPic(ret.data);
+				} else{
+					api.alert({msg:err.msg});
+				};
+			}); 	 	
+	 }
+/////双传图片//////////
+	function uploadPic(objImg){
+		api.showProgress({title:'上传中', text:'正在上传照片...', modal:false});
+		api.ajax({
+		    url: 'http://app.erp2p.com/down/action/user/up_codeAction.php',
+		    method: 'post',
+		    cache: false,
+		    timeout: 30,
+		    dataType: 'json',
+		    data: {
+		        files: {
+		            file:objImg
+		        }
+		    }
+		}, function(ret, err){
+		    api.hideProgress();
+				if (ret) {
+					if(ret.error==0){
+						alert("上传成功");
+						location.href="settings.html";
+					}
+				} else{
+				   api.alert({msg:err.msg});
+				};
+			});  
+		}
+     function OnInput (event) { 
+      if($(event.target).val()!=""){
+        $(event.target).parent("div").children("div").show();     
+      }else{
+        $(event.target).parent("div").children("div").hide();
+      }
+    }		
+	</script>
+	</head>
+	<body class="web-page">
+	<!--头部-->
+	  <header>
+	    <div class="back" onclick="javascript:history.back(-1);"></div>
+	      <div class="hd-title">
+	        <h2 id="J_header_title">实名认证</h2>
+	      </div>
+	  </header>
+	<!--头部--> 
+<!--中间-->
+  <div class="home_page">
+    <div class="scroll_container"> 
+	    <div class="input_div" style="margin-top:15px;">
+	    	<div class="in_close" style="display:none"><i></i></div>
+	        <input class="form_input in17" name="realname" type="text"  maxlength="10" placeholder="真实姓名" errortext="" oninput="OnInput (event)">
+	    </div> 
+	    <div class="input_div" style="margin-top:15px;">
+	    	<div class="in_close" style="display:none"><i></i></div>
+	        <input class="form_input in17" name="code" type="text" maxlength="18" placeholder="身份证号" errortext="" oninput="OnInput (event)">
+	    </div> 
+		<div class="name_div" style="display:none">
+				<div class="name_i"><i></i></div>
+		</div>  	    
+    </div>
+
+    <div style="width:100%; margin:10px auto; float:left; padding-top:10px;">
+       <div class="blue_btn_b">
+			<a href="#">下一步</a>
+        </div>
+        <div class="blue_btn_b" style="display:none">
+			<a href="#">拍照</a>
+        </div>
+        <div class="blue_btn_b" style="display:none">
+			<a href="#">相册</a>
+        </div>
+    </div> 
+
+  </div>
+<!--中间--> 
+<!-- 弹出框 -->
+<div  class="cd-popup" role="alert">
+	<div class="cd-popup-container">
+	    <p></p>
+	    <span></span>
+	    <ul class="cd-buttons">
+	        <li style="width:100%;"><a href="#0">确定</a></li>
+	    </ul>
+	</div>
+</div>
+<!-- 弹出框 -->
+</body>
+</html>

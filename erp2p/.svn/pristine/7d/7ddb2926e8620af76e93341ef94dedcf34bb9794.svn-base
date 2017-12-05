@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>e融在线-投资列表</title>
+  <meta content="yes" name="apple-mobile-web-app-capable"/>
+  <meta content="yes" name="apple-touch-fullscreen"/>
+  <meta content="telephone=no,email=no" name="format-detection"/>
+  <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
+  <link type="text/css" rel="stylesheet" href="../css/index.css">
+  <link type="text/css" rel="stylesheet" href="../css/dd-component-bundle.css">
+  <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script>
+    var count=1;
+(function( $ ){
+  $.fn.animateProgress = function(progress, callback) {    
+    return this.each(function() {
+      $(this).children('em').show();
+      $(this).animate({
+        width: progress+'%'
+      }, {
+        duration: 1000, 
+        step: function(progress){
+              var valueEl = $(this).children('em');
+              var valueE1Parent = $(this).parent("div");
+              valueEl.text(Math.ceil(progress) + '%');
+              if(progress==100){
+                  valueEl.html("还款中");
+                  valueE1Parent.removeClass('progress');
+                  valueE1Parent.addClass('gray');
+              }
+         }
+      });
+    });
+  };
+})( jQuery);
+
+  </script>
+<script type="text/javascript"> 
+  function loading(){
+      $.ajax({
+          data: {mode: 2,beginNum:0,pageNum:0},
+          success : function(data){
+             var str = "";
+             for(var i=0;i<data.length;i++){
+                str = '<div class="list_mark" onclick="openProject('+data[i].pid+')";><div class="l_pad"><div class="list_t"><ul><li class="w80 title">'+data[i].title+'</li><li class="w20 reward">'+data[i].reward+'</li></ul></div><div class="list_c"><ul><li class="w43">'+data[i].money+'</li><li class="bor"></li><li class="w24 text_l reg">'+data[i].yearRate+'</li><li class="bor"></li><li class="w24 text_l">1</li></ul></div><div  class="list_b name"><ul><li class="w43">金额（元）</li><li class="bor"></li><li class="w24 text_l">利率（'+data[i].rateType+'）</li><li class="bor"></li><li class="w24 text_l">期限（'+data[i].rateTimeType+'）</li></ul></div></div><div class="progress_b"><div id="'+data[i].pid+'" class="meter"><span><em style="display:none">'+data[i].progress+'</em></span></div></div></div>';
+                $("#loading").before(str);
+                  $("#"+data[i].pid+" > span").each(function() {
+                    $(this).width(0);
+                    $(this).parent("div").addClass('progress');
+                    $(this).animateProgress($(this).children('em').html());
+                  });
+             }
+            
+
+          },
+          error : function(){
+            alert("系统错误");
+          }
+      });
+  }
+        jQuery(document).ready(function($) {
+          $.ajaxSetup({
+            url: 'http://app.erp2p.com/down/action/invest/bidlistsAction.php',
+            type: 'GET',
+            dataType : "jsonp",
+            jsonp: "callbackparam",//服务端用于接收callback调用的function名的参数
+            jsonpCallback:"success_jsonpCallback",//callback的function名称 
+          });
+          loading();       
+        $(".refresh").on('click',function(event) {
+          event.preventDefault();
+          /* Act on the event */
+          $("#thelist").html('<div id="loading" style="display:none"><span class="pullUpIcon"></span><span class="pullUpLabel">正在加载...</span></div>');
+          loading();
+          count = 1;
+
+        });   
+            });
+
+</script>
+
+<style type="text/css" media="all">
+
+#wrapper {
+  position:relative; z-index:1;
+  top:0px; bottom:0px; left:0;
+  width:100%;
+  overflow:auto;
+}
+
+
+</style>
+</head>
+<body  class="web-page">
+<!--头部-->
+   <header>
+    <div class="back" onclick="javascript:history.back(-1);"></div>
+      <div class="refresh"></div>
+      <div class="hd-title">
+        <h2 id="J_header_title">投资列表</h2>
+      </div>
+  </header>
+<!--头部-->
+<div id="wrapper" class="home_page">
+  <div id="scroller" class="scroll_container"> 
+    <div id="thelists">
+    <div id="loadings" style="display:none" class="list_xl"><span class="pullUpIcon"></span><span class="pullDownLabel">正在加载...</span>
+    </div>
+    </div>
+    
+  </div>
+</div>
+      <script language="javascript">
+        $(window).scroll(function () {
+            if ($(document).scrollTop() + $(window).height() >= $(document).height()) {
+              count = count+1;
+              $("#loading").show();
+       $.ajax({
+           data: {mode: 2,beginNum:0,pageNum:count},
+          success : function(data){
+             var str = "";
+             for(var i=0;i<data.length;i++){
+                str = '<div class="list_mark" onclick="openProject('+data[i].pid+')";><div class="l_pad"><div class="list_t"><ul><li class="w80 title">'+data[i].title+'</li><li class="w20 reward">'+data[i].reward+'</li></ul></div><div class="list_c"><ul><li class="w43">'+data[i].money+'</li><li class="bor"></li><li class="w24 text_l reg">'+data[i].yearRate+'</li><li class="bor"></li><li class="w24 text_l">1</li></ul></div><div  class="list_b name"><ul><li class="w43">金额（元）</li><li class="bor"></li><li class="w24 text_l">利率（'+data[i].rateType+'）</li><li class="bor"></li><li class="w24 text_l">期限（'+data[i].rateTimeType+'）</li></ul></div></div><div class="progress_b"><div id="'+data[i].pid+'" class="meter"><span><em style="display:none">'+data[i].progress+'</em></span></div></div></div>';
+                 $("#loading").before(str);
+                  $("#"+data[i].pid+" > span").each(function() {
+                    $(this).width(0);
+                    $(this).parent("div").addClass('progress');
+                    $(this).animateProgress($(this).children('em').html());
+                  });
+             }
+          },
+          error : function(){
+            alert("系统错误");
+          }
+      }); 
+            }
+        });
+
+      </script>
+
+</body>
+</html>

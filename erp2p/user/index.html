@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>e融在线-我的账户</title>
+	<meta content="yes" name="apple-mobile-web-app-capable"/>
+	<meta content="yes" name="apple-touch-fullscreen"/>
+	<meta content="telephone=no,email=no" name="format-detection"/>
+	<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
+	<link type="text/css" rel="stylesheet" href="../css/index.css">
+  <link type="text/css" rel="stylesheet" href="../css/pop-up.css">
+	<link type="text/css" rel="stylesheet" href="../css/dd-component-bundle.css">
+  <script type="text/javascript" src="../js/jquery.min.js"></script>
+  <script type="text/javascript" src="../js/api.js"></script>
+  <script type="text/javascript" src="../js/jquery.reveal.js"></script>
+  <script>
+     jQuery(document).ready(function($) {
+       $.ajaxSetup({
+          url: 'http://app.erp2p.com/down/action/user/indexAction.php',
+          type: 'GET',
+          async: false,
+          dataType : "jsonp",
+          jsonp: "callbackparam",//服务端用于接收callback调用的function名的参数
+          jsonpCallback:"success_jsonpCallback",//callback的function名称 
+        });   
+        $.ajax({
+          data: {mode: 1},
+          success : function(data){
+            if(data.headpic!=""){
+              $(".por_i>i").html('<img src="'+data.headpic+'">');           
+            }
+            $("#J_header_title").text(data.username);
+            $(".bot").text(data.sumMoney);
+            $(".data_red>div:eq(0)>div:eq(1)").text(data.availableMoney);
+            $(".data_red>div:eq(1)>div:eq(1)").text(data.tatalIncome);
+            $(".data_white>div:eq(1)>div:eq(1)>span").text(data.ds);
+            $(".data_white>div:eq(0)>div:eq(1)>span").text(data.accountMoney);
+            $("input").val("http://app.erp2p.com/user/reg/?promote="+data.username);
+
+            $(".web-page").show();
+            //znq//
+            if(data.znqstate==1){
+               $("#chb").trigger("click");
+            }
+          },
+          error : function(){
+            alert("系统错误");
+          }
+        });
+        $(".link").on('click',function(event) {
+          event.preventDefault();
+          /* Act on the event */
+          var clibV = $("input").val();
+          var obj = api.require('clipBoard');
+          obj.set({
+              value: clibV
+              }, function(ret, err){
+                  if(ret.status){
+                      api.alert({msg:'复制到剪切板成功'});
+                  }else{
+                      api.alert({msg:err.msg});
+              }
+          });
+          $('.cd-popup').addClass('is-visible');
+
+        });
+
+        ///////拆红包////
+          itemWrapper = $('.reveal-modal');
+          itemWrapper.on('click', function(e) {
+            $("#myModal").fadeOut(function() {
+              ///执行周年庆活动程序///
+              $.ajax({
+                data: {mode: 2},
+                success : function(data){
+                  if(data.hbstate==1){
+                    $("#myModal1").removeClass();
+                    $("#myModal1").addClass('an_hb1');
+                  }
+                  if(data.hbstate==2){
+                    $("#myModal1").removeClass();
+                    $("#myModal1").addClass('an_hb2');         
+                  } 
+                  if(data.hbstate==3){
+                    $("#myModal1").removeClass();
+                    $("#myModal1").addClass('an_hb3');         
+                  } 
+                  $("#myModal1").fadeIn();         
+                }
+              })
+           });
+          });
+          $("#myModal1").on("click",function(){
+              $("#myModal1").fadeOut(function(){
+                location.href="";
+              });
+          }); 
+});
+  </script>
+	</head>
+	<body class="web-page" style="display:none" >
+<!--头部-->
+  <header>
+ 	 <div class="user" onClick="window.location.href='basic_xx.html'">
+     	<div class="por_i"><i></i></div><h2 id="J_header_title"></h2>
+     </div>
+    <div  class="git" onClick="window.location.href='settings.html'"></div>
+  </header>
+<!--头部--> 
+<!--中间-->
+
+  <div class="home_page">
+    	<div class="scroll_container"> 
+          <!--list-->
+          <div class="user_data">
+                <div class="data_t" onClick="window.location.href='t_assets.html'">
+                	<div class="red_br"><i class="tri_t"></i>
+                    <div class="top">总资产（元）</div>
+                    <div class="bot"></div>
+                	</div>    
+                </div>
+                <div class="data_red">                
+             		<div class="data_b">
+                          <div class="txt_t">可用余额（元）</div>
+                          <div class="txt_d br_r"></div>
+                	</div>        
+                	 <div class="data_b" onClick="window.location.href='earnings.html'"><i class="tri_c_r"></i>
+                          <div class="txt_t">总收益（元）</div>
+                          <div class="txt_d"></div>
+                  </div>      
+          		</div>
+                 <div class="data_white">                
+             		<div class="data_bw" onClick="window.location.href='account.html'"><i class="tri_b_l"></i>
+                          <div class="txt_t"><em>最新一笔流水（元）</em></div>
+                          <div class="txt_d br_w"><span class="txt_g"></span></div>
+                	</div>        
+                	 <div class="data_bw" onClick="window.location.href='collected.html'"><i class="tri_b_r"></i>
+                          <div class="txt_t"><em>待收总额（元）</em></div>
+                          <div class="txt_d"><span class="txt_b"></span></div>
+                  </div>      
+          		</div>               
+  		</div> 
+                </div>
+        <!--list--> 
+<!-- 下级菜单   -->
+        <div class="menu_div" onClick="window.location.href='mybid.html'">
+			<div class="menu_l">我的投资</div>
+            <div class="menu_r"></div>
+        </div>
+        <div class="menu_div  margin_b19"><a href="#" class="cd-popup-trigger">
+			<div class="menu_l link">我的推广链接</div> 
+            <div class="menu_r"></div>
+            <input type="hidden" value="">
+            <div id="copy-button" class="menu_c">复制链接</div></a>    
+        </div>  
+<!-- 下级菜单   --> 
+
+
+<!-- 下级菜单   -->
+        <div class="menu_div" onClick="window.location.href='pay.html'">
+			<div class="menu_l">充值</div>
+            <div class="menu_r"></div>
+        </div> 
+        <div class="menu_div  margin_b19" onClick="window.location.href='cash.html'">
+			<div class="menu_l">提现</div>
+            <div class="menu_r"></div>            
+        </div>                        
+<!-- 下级菜单   --> 
+        
+        </div>
+  </div>
+<!--中间--> 
+<!--底部-->
+<nav class="nav-bar">
+  <ul>
+    <li class="nav-home"><a href="../index.html">
+      <div class="nav-bg"><i></i></div>
+      <div class="nav-title-wrap"><span class="nav-title">首页</span></div>
+      </a></li>
+    <li class="nav-er"><a href="../company/index.html">
+      <div class="nav-bg"><i></i></div>
+      <div class="nav-title-wrap"><span class="nav-title"><em>e</em>融</span></div>
+      </a></li>
+    <li class="nav-my"><a class="active">
+      <div class="nav-bg"><i></i><!-- <s class="dot ng-hide" ng-show="index.dot"></s>--></div>
+      <div class="nav-title-wrap"><span class="nav-title">账户</span></div>
+      </a></li>
+  </ul>
+</nav>
+<!--底部-->
+
+
+<!-- 弹出框 -->
+<a id="chb" href="#" style="display:none" data-reveal-id="myModal"></a>
+ <!--抢红包 添加部分-->
+<div id="myModal" class="reveal-modal">
+ <div id="container"></div>   
+</div>
+<div id="myModal1" class="an_hb1">
+<a class="close-reveal-modal"></a>
+</div>
+
+
+</body>
+</html>

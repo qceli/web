@@ -1,0 +1,275 @@
+/*头部*/
+header {
+	height: 55px;
+	background:#f8f8f8;
+	position:fixed;
+	box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 99;
+}
+header .hd-title {
+	position: absolute;
+	left: 50%;
+	margin-left: -100px;
+	top: 0;
+	width: 200px;
+	height: 55px;
+	overflow: hidden;
+	text-align: center;
+	line-height: 55px
+}
+header .hd-title h2 {
+	display: inline-block;
+	font-size: 18px;
+	margin: 0 5px;
+	color: #333;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	max-width: 185px;
+	vertical-align: top;
+	font-weight: 400
+}
+
+header .hd-title h2 em {
+	font-size: 20px;
+}
+header .hd-title .logo {
+	background:url(../images/logo.png) center center no-repeat;
+	-webkit-background-size: 85px;
+	background-size: 85px;
+	display: inline-block;
+	height: 50px;
+	width: 85px;
+	}
+
+header .back {
+	float: left;
+	display: inline-block;
+	height: 55px;
+	font-size: 14px;
+	line-height: 55px;
+	background:url(../images/icon/back.png) center center no-repeat;
+	background-size:45px;
+	padding: 0 17px 0 25px;
+}
+
+header .user {
+	float: left;
+	height: 55px;
+	font-size: 14px;
+	line-height: 55px;
+	padding: 0px 17px 0 17px;
+}
+
+header .user .por_i{ width:30px; float:left; color:#2f2f2f; font-size:16px; line-height:65px;border-radius:50%;}
+header .user .por_i i{float:left; width:30px; height:55px; line-height:55px; background:url(../images/por_i.png) center center no-repeat; background-size:30px;}
+header .user .por_i i img{width:30px; height:30px;background-size:30px;border-radius:50%;border:1px solid #dbdde3;}
+header .user h2{	
+	display: inline-block;
+	font-size: 18px;
+	color: #81838a;
+	padding-left:7px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	max-width: 185px;
+	vertical-align: top;
+	font-weight: 400;
+	padding-top:2px;}
+
+header .refresh {
+	float: right;
+	display: inline-block;
+	height: 55px;
+	font-size: 14px;
+	line-height: 55px;
+	background:url(../images/icon/refresh.png) center center no-repeat;
+	background-size:45px;
+	padding: 0 25px 0 25px;
+}
+
+header .git {
+	float: right;
+	display: inline-block;
+	height: 55px;
+	font-size: 14px;
+	line-height: 55px;
+	background:url(../images/icon/git.png) center center no-repeat;
+	background-size:45px;
+	padding: 0 25px 0 25px;
+}
+
+header .options i {
+	width: 22px;
+	height: 22px;
+	display: inline-block
+}
+
+header .options span {
+	color: #999;
+	max-width: 50px;
+	line-height: 22px;
+	height: 22px;
+	display: inline-block;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	vertical-align: top;
+	font-size: 12px
+}
+
+
+
+/*底部*/
+.nav-bar {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	height: 55px;
+	background:#f8f8f8;
+	box-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	z-index: 10
+}
+.nav-bar ul {
+	width: 100%
+}
+.nav-bar ul li {
+	display: inline-block;
+	width: 33.3%;
+	float: left;
+	text-align: center;
+	height: 50px
+}
+.nav-bar ul li a {
+	display: block;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0 10px;
+	position: relative
+}
+.nav-bar ul li a .nav-bg {
+	width: 100%;
+	height: 100%;
+	position: relative
+}
+.nav-bar ul li a .nav-bg img {
+	height: 100%
+}
+.nav-bar ul li a .nav-bg .n {
+	display: inline-block
+}
+.nav-bar ul li a .nav-bg .h {
+	display: none
+}
+.nav-bar ul li a .nav-bg i {
+	-webkit-background-size: 49px;
+	background-size: 49px;
+	display: inline-block;
+	height: 49px;
+	width: 49px
+}
+.nav-bar ul li a .nav-title-wrap {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	width: 100%
+}
+
+.nav-bar ul li a .nav-title-wrap em {
+	 font-size:16px;
+}
+.nav-bar ul li a .nav-title-wrap .nav_title {
+	color: #61636c
+}
+.nav-bar ul li a s.dot {
+	width: 5px;
+	height: 5px;
+	background: #e84538;
+	border-radius: 5px;
+	display: inline-block;
+	position: absolute;
+	top: 10px
+}
+.nav-bar ul li .active .nav-bg .n {
+	display: none
+}
+.nav-bar ul li .active .nav-bg .h {
+	display: inline-block
+}
+.nav-bar ul li .active .nav-title-wrap .nav-title, .nav-bar ul li i {
+	color: #e73f3d
+}
+.nav-bar ul .nav-home i {
+	background:url(../images/icon/home.png) center center no-repeat;
+}
+.nav-bar ul .nav-home .active i {
+	background:url(../images/icon/home_x.png) center center no-repeat;
+	-webkit-background-size: 49px;
+	background-size: 49px
+}
+.nav-bar ul .nav-er i {
+	background:url(../images/icon/er.png) center center no-repeat;
+}
+.nav-bar ul .nav-er .active i {
+	background:url(../images/icon/er_x.png) center center no-repeat;
+	-webkit-background-size: 49px;
+	background-size: 49px
+}
+.nav-bar ul .nav-my i {
+	background:url(../images/icon/my.png) center center no-repeat;
+}
+.nav-bar ul .nav-my .active i {
+	background:url(../images/icon/my_x.png) center center no-repeat;
+	-webkit-background-size: 49px;
+	background-size: 49px
+}
+
+
+/* 底部悬浮投标按钮 */
+
+.bottom-btns {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	height: 55px;
+	background:#e73b39;
+	background-image: -moz-linear-gradient(top, #e54c57, #dd3941);
+	background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #e54c57),color-stop(1, #dd3941));
+	background-image: -webkit-linear-gradient(#e54c57, #dd3941);
+	border-top:1px solid #ca2321;
+	overflow: hidden;
+	z-index: 10
+}
+.bottom-btns a {
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    color:#fff;
+    font-size:24px;
+}
+
+.bottom-btns_g{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	height: 55px;
+	background:#6e7078;
+	overflow: hidden;
+	z-index: 10;
+	border:1px solid #61636c;
+	 }	
+.bottom-btns_g a {
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    color:#fff;
+    font-size:24px;}

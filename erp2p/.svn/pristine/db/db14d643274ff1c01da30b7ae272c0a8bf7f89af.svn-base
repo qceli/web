@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>e融在线-账户设置</title>
+	<meta content="yes" name="apple-mobile-web-app-capable"/>
+	<meta content="yes" name="apple-touch-fullscreen"/>
+	<meta name="data-spm" content="a215s"/>
+	<meta content="telephone=no,email=no" name="format-detection"/>
+	<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
+	<link type="text/css" rel="stylesheet" href="../css/index.css">
+	<link type="text/css" rel="stylesheet" href="../css/dd-component-bundle.css">
+    <link type="text/css" rel="stylesheet" href="../css/pop-up.css">
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script>
+    var rztel,bankpwd,codeState;
+    $(document).ready(function() {
+        $.ajaxSetup({
+            url: 'http://app.erp2p.com/down/action/user/settingAction.php',
+            type: 'GET',
+            async: false,
+            dataType : "jsonp",
+            jsonp: "callbackparam",//服务端用于接收callback调用的function名的参数
+            jsonpCallback:"success_jsonpCallback",//callback的function名称            
+        });        
+        $.ajax({
+            data : {mode:'1'},
+            success : function(data){
+                rztel = data.telState;
+                codeState = data.codeState;
+                bankpwd = data.bankpwdState;
+                if(data.headpic!=""){
+                    $(".por_i>i").html("<img src='"+data.headpic+"'>");                    
+                }
+
+                if(data.username==""){
+                    $(".user_x").html("未设置用户名");
+                }
+                else{
+                    $(".user_x").text(data.username);
+                }
+                if(data.codeState==0){
+                    $(".seta").html('<em class="txt_b">立即设置</em>');
+                }else if(data.codeState==1){
+                    $(".seta").html("审核中");
+                    $(".codeVerified>div:eq(2)").addClass('set-r');
+                    $(".seta").prev("div").hide();
+                    $(".codeVerified").off();
+                }else{
+                    $(".codeVerified>div:eq(2)").addClass('set-r');
+                    $(".seta").html(data.realName+"&nbsp&nbsp&nbsp&nbsp"+data.code);
+                    $(".codeVerified>div:eq(1)").remove();
+                    $(".codeVerified").off();                  
+                }
+                if(data.telState==2){
+                    $(".setb").html(data.tel);
+                }else{
+                    $(".setb").html("立即绑定");
+                }
+                if(data.emailState==2){
+                    $(".setc").html(data.email);
+                    $(".emailVerified").off();
+                }else{
+                    $(".setc").html("立即绑定");
+                }
+                $(".setd>em").html(data.bankCount);
+                if(data.bankpwdState==1){
+                    $(".sete").html("重设密码");
+                }else{
+                    $(".sete").html('<em class="txt_b">立即设置</em>');
+                }
+                
+            },
+            error :function(){
+                alert("系统错误");
+            }
+        });
+        $(".codeVerified").on('click', function(event) {
+            event.preventDefault();
+            /* Act on the event */
+            location.href="name_up.html";
+        });
+        //  $(".emailVerified").on('click', function(event) {
+        //     event.preventDefault();
+        //     /* Act on the event */
+        //     location.href="bindemail.html";
+        // });
+         $(".addBank").on('click', function(event) {
+            event.preventDefault();
+            /* Act on the event */
+            if(rztel!=2){
+                $(".cd-popup-container>p").html("添加失败");
+                $(".cd-popup-container>span").html("手机未认证");
+                $('.cd-popup').addClass('is-visible');
+                return false;
+            }
+            if(codeState!=2){
+                $(".cd-popup-container>p").html("添加失败");
+                $(".cd-popup-container>span").html("未实名认证");
+                $('.cd-popup').addClass('is-visible');
+                return false;           
+            }
+            $.ajax({
+                data: {mode: 3},
+                success : function(data){
+                   if(data.error==0){
+                    location.href="Bank_choose.html";
+                   }
+                }
+            });
+        });
+        $(".cashVerified").on('click', function(event) {
+            event.preventDefault();
+            /* Act on the event */
+            if(rztel!=2 && bankpwd==1){
+                $(".cd-popup-container>span").html("手机未认证");
+                $('.cd-popup').addClass('is-visible');
+                return false;
+            }else{
+                location.href="cashpass.html";
+            }
+        });
+        $(".cd-popup-close,.cd-buttons").on("click",function(event){
+            event.preventDefault();
+            $('.cd-popup').removeClass('is-visible');
+        });
+
+        $(".white_btn_b>a").on('click', function(event) {
+            event.preventDefault();
+            /* Act on the event */
+            $.ajax({
+                data : {mode:'2'},
+                success : function(data){
+                    if(data.success==1){
+                        location.href="../index.html";
+                        return false;
+                    }    
+                },
+                error : function(){
+                    alert("系统错误");
+                }
+            })            
+        });
+    });
+
+    
+    </script>
+	</head>
+	<body class="web-page">
+<!--头部-->
+  <header>
+    <div class="back" onclick="javascript:location.href='index.html';"></div>
+      <div class="hd-title">
+        <h2 id="J_header_title">账户设置</h2>
+      </div>
+  </header>
+<!--头部--> 
+<!--中间-->
+    <div class="home_page">
+	    <div class="scroll_container">      
+			<!-- 用户名/头像   -->
+		    <div class="por_div" onClick="window.location.href='basic_xx.html'">
+				<div class="por_i"><i></i></div>
+		        <div class="user_x"></div> 
+                <div class="por_r"></div> 
+		    </div>    
+		<!-- 用户名/头像   -->   
+ <!-- 下级菜单   -->
+        <div class="menu_div codeVerified" >
+			<div class="menu_l ">实名认证</div>
+            <div class="menu_r"></div>
+            <div class="menu_c seta"></div>  
+        </div>
+        <div class="menu_div margin_b19" onClick="window.location.href='bindphone.html'">
+			<div class="menu_l link">绑定手机</div> 
+            <div class="menu_r"></div>
+            <div class="menu_c setb"></div>  
+        </div>
+<!--         <div class="menu_div margin_b19 emailVerified">
+			<div class="menu_l link">绑定邮箱</div> 
+            <div class="menu_r"></div>
+            <div class="menu_c setc"></div>  
+        </div>  -->   
+        <div class="menu_div addBank">
+			<div class="menu_l">我的银行卡</div>
+            <div class="menu_r"></div>
+            <div class="menu_c setd"><em class="txt_r"></em>张</div>  
+        </div> 
+        <div class="menu_div" onClick="window.location.href='loginpass.html'">
+			<div class="menu_l">登录密码</div>
+            <div class="menu_r"></div>
+            <div class="menu_c">修改</div>  
+        </div>
+        <div class="menu_div  margin_b19 cashVerified">
+			<div class="menu_l link">提现密码</div> 
+            <div class="menu_r"></div>
+            <div class="menu_c sete"></div>  
+        </div>                       
+<!-- 下级菜单   -->   
+    	<div style="width:100%; margin:0px auto; float:left;">
+    	<div class="white_btn_b">
+			<a href="#">退出登录</a>
+        </div>
+        </div>                                
+    </div>
+  </div>
+<!--中间--> 
+<!-- 弹出框 -->
+<div class="cd-popup" role="alert">
+  <div class="cd-popup-container">
+    <p>重设密码失败</p>
+        <span></span>
+    <ul class="cd-buttons">
+      <li style="width:100%;"><a href="#0">确定</a></li>
+    </ul>
+  </div> 
+</div>
+<!-- 弹出框 --> 
+
+</body>
+</html>

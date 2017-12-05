@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>e融在线-您的投资理财专家</title>
+	<meta content="yes" name="apple-mobile-web-app-capable"/>
+	<meta content="yes" name="apple-touch-fullscreen"/>
+	<meta content="telephone=no,email=no" name="format-detection"/>
+	<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
+	<link type="text/css" rel="stylesheet" href="../css/index.css">
+	<link type="text/css" rel="stylesheet" href="../css/dd-component-bundle.css">
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+  <script>
+ var netState = 1;
+apiready = function () {
+  var connectionType = api.connectionType;
+  if(connectionType =="none"){
+    netState = 0;
+  }
+  api.addEventListener({
+      name:'online'
+  },function(ret,err){
+      var connectionType = ret.connectionType;
+      location.href="index.html";
+      
+  });
+  api.addEventListener({
+    name:'offline'
+  },function(ret,err){
+      var connectionType = ret.connectionType;
+      netState = 0;
+      //alert(connectionType);    
+  })
+} 
+  jQuery(document).ready(function($) {
+    $(".nav-my").on('click',function(event) {
+      event.preventDefault();
+      /* Act on the event */
+         $.ajaxSetup({
+          url: 'http://app.erp2p.com/down/action/company/indexAction.php',
+          type: 'GET',
+          async: false,
+          dataType : "jsonp",
+          jsonp: "callbackparam",//服务端用于接收callback调用的function名的参数
+          jsonpCallback:"success_jsonpCallback",//callback的function名称 
+        }); 
+        if(netState ==1){
+          $.ajax({
+              data: {mode: 1},
+              success : function(data){
+                if(data.error==1){
+                  location.href="../user/login.html";
+                }
+                if(data.error==0){
+                  location.href="../user/index.html";
+                }
+              },
+              error : function(){
+                alert("系统错误");
+              }
+          });
+        }else{
+          alert("网络异常");
+        }    
+    });
+
+    $(".er-call>ul>li:eq(0)").on('click',function(event) {
+      event.preventDefault();
+      /* Act on the event */
+      var tel = $(this).children('span').html();
+      num = tel.replace("-","").replace("-","");
+      api.call({
+          type: 'tel_prompt',
+          number: num
+      });
+    });
+    $(".er-call>ul>li:eq(1)").on('click',function(event) {
+      event.preventDefault();
+      /* Act on the event */
+      var tel = $(this).children('span').html();
+      num = tel.replace("-","").replace("-","");
+      api.call({
+          type: 'tel_prompt',
+          number: num
+      });
+    });    
+  });
+</script>
+	</head>
+	<body class="web-page">
+<!--头部-->
+    <header>
+          <div class="hd-title">
+        <h2 id="J_header_title">关于我们</h2>
+      </div>
+  </header>
+<!--头部--> 
+<!--中间-->
+      <div class="home_page">
+    	<div class="scroll_container">      
+	<!-- logo   -->
+        <div class="er-logo"><i></i></div>    
+	<!-- logo   -->  
+<!-- 下级菜单   -->
+        <div class="menu_div" onClick="window.location.href='dynamic.html'">
+			<div class="menu_l">最新动态</div>
+            <div class="menu_r"></div>            
+            <div class="menu_c"></div>
+        </div>
+        <div class="menu_div margin_b19" onClick="window.location.href='bbs.html'">
+			<div class="menu_l">最新公告</div>
+            <div class="menu_r"></div>            
+            <div class="menu_c"><em></em></div>
+        </div> 
+        <div class="menu_div  margin_b19" onClick="window.location.href='about.html'">
+			<div class="menu_l">了解e融</div>
+            <div class="menu_r"></div>            
+        </div>  
+        <div class="menu_div  margin_b19">
+			<div class="menu_l">关注微信</div>
+            <!-- <div class="menu_r"></div> -->   
+            <div class="menu_c set-r">erongp2p</div>               
+        </div> 
+        <div class="menu_div  margin_b19">
+			<div class="menu_l">客服电话</div>              
+        </div>
+ 	<!-- 基本   -->
+	<div class="er-call">
+    	<ul>
+        	<li><span> 400-025-2727</span><em>（09:00-21:30）</em><i></i></li>
+        	<li><span>025-85872727</span><em>（09:00-17:00）</em><i></i></li>          
+        </ul>
+ 	</div>     
+      </div>  
+	<!-- 基本   --> 
+<!--    <div class="er-foot"> ©2013-2015 ERP2P.COM All Rights Reserved</div>  -->                                           
+<!-- 下级菜单   -->                     
+        </div>
+  </div>
+<!--中间--> 
+<!--底部-->
+<nav class="nav-bar">
+  <ul>
+    <li class="nav-home"><a href="../index.html">
+      <div class="nav-bg"><i></i></div>
+      <div class="nav-title-wrap"><span class="nav-title">首页</span></div>
+      </a></li>
+    <li class="nav-er"><a  class="active">
+      <div class="nav-bg"><i></i></div>
+      <div class="nav-title-wrap"><span class="nav-title"><em>e</em>融</span></div>
+      </a></li>
+    <li class="nav-my"><a href="../user/index.html">
+      <div class="nav-bg"><i></i><!-- <s class="dot ng-hide" ng-show="index.dot"></s>--></div>
+      <div class="nav-title-wrap"><span class="nav-title">账户</span></div>
+      </a></li>
+  </ul>
+</nav>
+<!--底部-->
+</body>
+</html>

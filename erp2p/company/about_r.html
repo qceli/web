@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>e融在线-融资 高效率</title>
+	<meta content="yes" name="apple-mobile-web-app-capable"/>
+	<meta content="yes" name="apple-touch-fullscreen"/>
+	<meta content="telephone=no,email=no" name="format-detection"/>
+	<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
+	<link type="text/css" rel="stylesheet" href="../css/index.css">
+	<link type="text/css" rel="stylesheet" href="../css/dd-component-bundle.css">
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script>
+   var netState = 1;
+apiready = function () {
+  var connectionType = api.connectionType;
+  if(connectionType =="none"){
+    netState = 0;
+  }
+  api.addEventListener({
+      name:'online'
+  },function(ret,err){
+      var connectionType = ret.connectionType;
+      location.href="index.html";
+      
+  });
+  api.addEventListener({
+    name:'offline'
+  },function(ret,err){
+      var connectionType = ret.connectionType;
+      netState = 0;
+      //alert(connectionType);    
+  })
+}  
+  jQuery(document).ready(function($) {
+    $(".nav-my").on('click',function(event) {
+      event.preventDefault();
+      /* Act on the event */
+         $.ajaxSetup({
+          url: 'http://app.erp2p.com/down/action/company/indexAction.php',
+          type: 'GET',
+          dataType : "jsonp",
+          jsonp: "callbackparam",//服务端用于接收callback调用的function名的参数
+          jsonpCallback:"success_jsonpCallback",//callback的function名称 
+        }); 
+         if(netState ==1){
+           $.ajax({
+              data: {mode: 1},
+              success : function(data){
+                if(data.error==1){
+                  location.href="../user/login.html";
+                }
+                if(data.error==0){
+                  location.href="../user/index.html";
+                }
+              },
+              error : function(){
+                alert("系统错误");
+              }
+          });         
+         }else{
+              alert("网络异常");
+         }
+
+    });
+  });
+</script>
+	</head>
+	<body class="web-page">
+<!--头部-->
+  <header>
+    <div class="back" onclick="javascript:history.back(-1);"></div>
+      <div class="hd-title">
+        <h2 id="J_header_title">融资 更高效</h2>
+      </div>
+  </header>
+<!--头部--> 
+<!--中间-->
+  <div class="home_page ">
+    	<div class="scroll_container">      
+                                    
+<!-- 内容   -->   
+<div class="basic margin_t15">
+	<i><img src="../images/about/about2/ptyl.gif" width="230" style="margin-left:-30px;"></i>
+</div>
+<div class="basic">
+	<i><img src="../images/about/about2/ks.gif" width="230" style="margin-left:-30px;"></i>
+    <h1>提款更快，融资高效</h1>
+    <p>资料完备后申请借款，审核通过e融在线将当天发布相应的借款标的，小额借款当天到账。</p>
+    <h1>成本控制，费用更低</h1>    
+    <p>e融在线为吸引更多的优质借款人前来借款，开通借款人首次借款免手续费。</p>    
+    <i><img src="../images/about/about2/kf.gif" width="230" style="margin-left:-30px; margin-bottom:12px;"></i>
+    <h1>专属客服，优质服务</h1>    
+    <p>e融在线为每一位借款人提供专门的引导客服，为您解答借款的各类问题，让您在愉快的流程中完成融资。</p>
+    <h1>活动多多，积分奖励</h1>    
+    <p>对于多次借款并按期还款的优质借款人，e融在线将提供包括积分兑换在内的各类活动，让您在高效融资的过程中，体验到互联网金融的独特魅力。</p>    
+</div>
+<div class="basic">
+    <h1>更高效融资，轻松还款，周转添力</h1>
+    <h2>仅需4步，轻松借款</h2>
+    <p>
+STEP1 注册成为e融贷客，完成身份认证<br>
+STEP2 发布借款，提交更多资料<br>
+STEP3 向客服申请额度<br>
+STEP4 通过审核后开始筹标，融资快速完成</p>
+	<i><img src="../images/about/about2/4b.gif" width="330" style="margin-left:-30px;"></i>
+</div>
+<!-- 内容   -->                   
+    </div>
+  </div>
+<!--中间--> 
+<!--底部-->
+<nav class="nav-bar">
+  <ul>
+    <li class="nav-home"><a href="../index.html">
+      <div class="nav-bg"><i></i></div>
+      <div class="nav-title-wrap"><span class="nav-title">首页</span></div>
+      </a></li>
+    <li class="nav-er"><a href="index.html"  class="active">
+      <div class="nav-bg"><i></i></div>
+      <div class="nav-title-wrap"><span class="nav-title"><em>e</em>融</span></div>
+      </a></li>
+    <li class="nav-my"><a href="#">
+      <div class="nav-bg"><i></i><!-- <s class="dot ng-hide" ng-show="index.dot"></s>--></div>
+      <div class="nav-title-wrap"><span class="nav-title">账户</span></div>
+      </a></li>
+  </ul>
+</nav>
+<!--底部-->
+</body>
+</html>

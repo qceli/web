@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>e融在线-找回密码</title>
+	<meta content="yes" name="apple-mobile-web-app-capable"/>
+	<meta content="yes" name="apple-touch-fullscreen"/>
+	<meta name="data-spm" content="a215s"/>
+	<meta content="telephone=no,email=no" name="format-detection"/>
+	<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
+	<link type="text/css" rel="stylesheet" href="../css/index.css">
+	<link type="text/css" rel="stylesheet" href="../css/dd-component-bundle.css">
+  <link type="text/css" rel="stylesheet" href="../css/pop-up.css">
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+  <script>
+  var state;
+  var timeStamp;
+  var init;
+  function countdown(){
+    if(timeStamp == 0){
+      clearInterval(init);
+      $(".code").children('div').removeClass('code_b').addClass('code_g').html("发送验证码");
+      $(".code").children('div').on('click', function(event) {
+        event.preventDefault();
+        verifyCode();
+      });
+    }else{
+      timeStamp = timeStamp-1;
+      $(".code").children('div').removeClass('code_g').addClass('code_b').html("重新发送("+timeStamp+")秒"); 
+      $(".code").children('div').off();
+
+    }
+
+  }
+  function verifyCode(){
+      var telPhone = $("#tel").val();
+        if(!(/^0?(13[0-9]|15[012356789]|18[012356789]|14[57])[0-9]{8}$/.test(telPhone))){
+          $(".cd-popup-container>span").html("手机号码格式不对");
+          $('.cd-popup').addClass('is-visible');
+          state = 1;
+        }else{
+        $.ajax({
+          data : {mode: '2'},
+          success : function(data){  
+            if(data.error==0){
+              timeStamp = data.timeStamp;
+              init = setInterval("countdown()",1000);
+            }
+            if(data.error==5){
+              $(".cd-popup-container>span").text('系统错误'); 
+              $(".cd-popup-container>p").text('发送失败'); 
+              $('.cd-popup').addClass('is-visible');
+            }
+          },
+          error:function(){
+            alert("系统错误");
+          }
+        });
+      }
+  }
+
+  jQuery(document).ready(function($) {
+    $.ajaxSetup({
+      url: 'http://app.erp2p.com/down/action/user/repassAction.php',
+      type: 'GET',
+      async: false,
+      dataType : "jsonp",
+      jsonp: "callbackparam",//服务端用于接收callback调用的function名的参数
+      jsonpCallback:"success_jsonpCallback",//callback的function名称 
+    });
+    
+    $(".in_close").on('click',function(event) {
+      event.preventDefault();
+      $(this).hide();
+      $(this).parent("div").children('input').val("");
+      $(this).parent("div").children('input').focus();
+    });
+    $(".code_g").on('click',function(event) {
+      event.preventDefault();
+      verifyCode();
+    });
+   $('.cd-popup-close,.cd-buttons>li:first-child').on('click', function(event){
+    event.preventDefault();
+    if(state==1){
+      $("#tel").val("");
+      $("#tel").focus();
+      $("#tel").prev("div").hide();  
+    }
+    if(state==2){
+      $("#pwd").val("");
+      $("#pwd").focus();
+      $("#pwd").prev("div").hide();  
+    }
+    $(".cd-popup").removeClass('is-visible');
+   });   
+    $(".blue_btn_b>a").on('click',function(event) {
+      event.preventDefault();
+      /* Act on the event */
+      var telPhone = $("#tel").val();
+      var pwd = $("#pwd").val();
+      var confirmPwd = $("#confirmPwd").val();
+      var yzm = $("#yzm").val();
+      if(!(/^0?(13[0-9]|15[012356789]|18[012356789]|14[57])[0-9]{8}$/.test(telPhone))){
+          $(".cd-popup-container>span").html("手机号码格式不对");
+          $('.cd-popup').addClass('is-visible');
+          state = 1;
+          return false;
+        }
+        if(pwd!=confirmPwd){
+          $(".cd-popup-container>span").html("两次密码不一致");
+          $('.cd-popup').addClass('is-visible');
+          state = 2;
+          return false;
+        }
+        if(pwd==""||pwd.length<8||pwd.length>30){
+          $(".cd-popup-container>span").html("密码格式不正确");
+          $('.cd-popup').addClass('is-visible');
+          state = 2;
+          return false;         
+        }        
+       $.ajax({
+        data : {mode:'3',yzm:yzm,pwd:pwd,confirmPwd:confirmPwd,telPhone:telPhone},
+        success : function(data){
+          if(data.error!=0){
+            if($(".cd-popup-container>p").text()=="发送失败"){
+              $(".cd-popup-container>p").text("找回失败");
+            };
+            if(data.error==2){
+              $(".cd-popup-container>span").text('两次密码不一致');
+            }
+            if(data.error==3){
+              $(".cd-popup-container>span").text('密码不正确');
+            }
+            if(data.error==1){
+              $(".cd-popup-container>span").text('手机号码格式不正确');
+            }
+            $('.cd-popup').addClass('is-visible');    
+          }else{
+            history.back(-1);
+          }
+        },
+        error:function(){
+          alert("系统错误");
+        }
+      });     
+    });
+
+  });
+  </script>
+  <script>
+    function OnInput (event) { 
+      if($(event.target).val()!=""){
+        if($(event.target).attr("id")=="tel"){
+          if(!isNaN($(event.target).val())){
+            $(event.target).parent("div").children("div").show();
+          }
+        }else{
+            $(event.target).parent("div").children("div").show();
+        }       
+      }else{
+        $(event.target).parent("div").children("div").hide();
+      }
+    }
+  </script>
+	</head>
+	<body class="web-page">
+<!--头部-->
+  <header>
+    <div class="back" onclick="javascript:history.back(-1);"></div>
+      <div class="hd-title">
+        <h2 id="J_header_title">重置密码</h2>
+      </div>
+  </header>
+<!--头部--> 
+<!--中间-->
+<div class="home_page">
+<div class="scroll_container"> 
+     <div class="input_div" style=" margin-top:15px;">
+		    <div class="in_close" style="display:none"><i></i></div> 
+            <input class="form_input in17" maxlength="30" id="pwd" type="password"  value="" placeholder="请输入新密码" oninput="OnInput (event)" errortext="">  
+    </div> 
+       
+     <div class="input_div" style=" margin-top:-2px;">
+		<div class="in_close" style="display:none"><i></i></div>
+            <input  class="form_input in17" maxlength="30" id="confirmPwd" type="password"  value="" placeholder="确认密码" oninput="OnInput (event)" errortext="">  
+    </div> 
+               
+    <!-- 输入框   -->   
+    <!-- 按钮   -->
+    	<div style="width:100%; margin:10px auto; float:left; padding-top:10px;">
+    	<div class="blue_btn_b">
+			<a href="#">完成</a>
+        </div>
+        </div>
+    <!-- 按钮   -->           
+  </div>
+    </div>
+<!--中间--> 
+<!-- 弹出框 -->
+<div class="cd-popup" role="alert">
+  <div class="cd-popup-container">
+    <p>找回失败！</p>
+        <span></span>
+    <ul class="cd-buttons">
+      <li style="width:100%;"><a href="#0">确定</a></li>
+    </ul>
+    <a href="#0" class="cd-popup-close img-replace"></a>
+  </div> 
+</div>
+<!-- 弹出框 -->
+</body>
+</html>

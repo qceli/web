@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>e融在线-投资记录</title>
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="yes" name="apple-touch-fullscreen"/>
+    <meta content="telephone=no,email=no" name="format-detection"/>
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
+    <link type="text/css" rel="stylesheet" href="../css/index.css">
+    <link type="text/css" rel="stylesheet" href="../css/dd-component-bundle.css">
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script>
+    var count=1;
+    var length=0;
+    function loading(){
+      $.ajax({
+      data:{beginNum:0,pageNum:0},
+      success : function(data){ 
+        if(data.length==0){
+          $("#no-data").show();
+          return false;
+        }
+        length =  data.length;
+        if(length<10){
+           $("#loading").hide();
+        }
+        var str = "";
+        for(var i=0;i<(data.length);i++){
+          str = str +'<li><div class="tzjl_list"><ul><li class="left"><span class="vip_div">';
+          if(data[i].vipState==0){
+              str = str +  '<em class="vip_i_h"></em></span>'+data[i].userName+'</li><li class="right">'+data[i].money+'元</li><li class="left"><span class="txt_gray">'+data[i].addtime+'</span></li>';
+          }else{
+            str = str +  '<em class="vip_i"></em></span>'+data[i].userName+'</li><li class="right">'+data[i].money+'元</li><li class="left"><span class="txt_gray">'+data[i].addtime+'</span></li>'; 
+          }
+          if(data[i].projectType==4){
+            str = str + '<li class="right">'+data[i].yearRate+'‰/年</li></ul><div class="tzjl_list_br"></div></div>';
+          }else{
+          str = str + '<li class="right">'+data[i].yearRate+'%/年</li></ul><div class="tzjl_list_br"></div></div></li>';
+          }
+        }
+        $("#loading").before(str);
+               
+      },
+      error:function(){
+          alert('系统错误');
+      }
+    });
+  }
+</script>
+<script type="text/javascript"> 
+        jQuery(document).ready(function($) {
+          $.ajaxSetup({
+              url: 'http://app.erp2p.com/down/action/invest/bidrecordAction.php',
+              type: 'GET',
+              async: false,
+              dataType : "jsonp",
+              jsonp: "callbackparam",//服务端用于接收callback调用的function名的参数
+              jsonpCallback:"success_jsonpCallback",//callback的function名称
+          });     
+          loading();
+          $(".refresh").on('click',function(event) {
+            event.preventDefault();
+            /* Act on the event */
+            $("#thelist").html('<div id="loading" class="list_xl" style=" display:none;"><span class="icon"></span><span class="Label">正在加载...</span></div>');
+            loading();
+            $(window).scrollTop(0);
+            count = 1;
+
+          });
+
+        });
+
+</script>
+
+<style type="text/css" media="all">
+
+#wrapper {
+  position:relative; z-index:1;
+  top:0px; bottom:0px; left:0;
+  width:100%;
+  overflow:auto;
+}
+
+
+</style>
+</head>
+    <div id="no-data" style="display:none">
+        <i></i>
+        <p>暂无数据</p>
+    </div>
+<body  class="web-page">
+<!--头部-->
+    <header>
+    <div class="back" onclick="javascript:history.back(-1);"></div>
+    <div class="refresh"></div>
+        <div class="hd-title">
+            <h2 id="J_header_title">投资记录</h2>
+        </div>
+    </header>
+<!--头部--> 
+<div id="wrapper" class="home_page">
+  <div id="scroller" class="scroll_container">
+
+    
+    <div id="thelist" class="tzjl_list_div">
+
+
+          <div id="loading" class="list_xl" style=" display:none;"><span class="icon"></span><span class="Label">正在加载...</span></div>
+    </div> 
+  </div>
+</div>
+      <script language="javascript">
+        $(window).scroll(function () {
+            if ($(document).scrollTop() + $(window).height() >= $(document).height()) {
+              if(length==0){
+                  $("#no-data").show();
+                  return false;
+              }  
+              count = count+1;     
+          $.ajax({
+            data: {beginNum:0,pageNum:count},
+            success : function(data){
+              length = data.length;
+               if(length<10){
+                  $("#loading").hide();
+              }
+              var str = "";
+              for(var i=0;i<(data.length);i++){
+                str = str +'<li><div class="tzjl_list"><ul><li class="left"><span class="vip_div">';
+                if(data[i].vipState==0){
+                    str = str +  '<em class="vip_i_h"></em></span>'+data[i].userName+'</li><li class="right">'+data[i].money+'元</li><li class="left"><span class="txt_gray">'+data[i].addtime+'</span></li>';
+                }else{
+                  str = str +  '<em class="vip_i"></em></span>'+data[i].userName+'</li><li class="right">'+data[i].money+'元</li><li class="left"><span class="txt_gray">'+data[i].addtime+'</span></li>'; 
+                }
+                if(data[i].projectType==4){
+                  str = str + '<li class="right">'+data[i].yearRate+'‰/年</li></ul><div class="tzjl_list_br"></div></div>';
+                }else{
+                str = str + '<li class="right">'+data[i].yearRate+'%/年</li></ul><div class="tzjl_list_br"></div></div></li>';
+                }
+              }
+              $("#loading").before(str);
+            },
+            error : function(){
+              alert("系统错误");
+            }
+          });
+            }
+        });
+
+      </script>
+
+</body>
+</html>

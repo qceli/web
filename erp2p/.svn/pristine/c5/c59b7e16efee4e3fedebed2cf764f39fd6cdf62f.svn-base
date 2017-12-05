@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>e融在线-安全 无忧虑</title>
+	<meta content="yes" name="apple-mobile-web-app-capable"/>
+	<meta content="yes" name="apple-touch-fullscreen"/>
+	<meta content="telephone=no,email=no" name="format-detection"/>
+	<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
+	<link type="text/css" rel="stylesheet" href="../css/index.css">
+	<link type="text/css" rel="stylesheet" href="../css/dd-component-bundle.css">
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script>
+    var netState = 1;
+apiready = function () {
+  var connectionType = api.connectionType;
+  if(connectionType =="none"){
+    netState = 0;
+  }
+  api.addEventListener({
+      name:'online'
+  },function(ret,err){
+      var connectionType = ret.connectionType;
+      location.href="index.html";
+      
+  });
+  api.addEventListener({
+    name:'offline'
+  },function(ret,err){
+      var connectionType = ret.connectionType;
+      netState = 0;
+      //alert(connectionType);    
+  })
+}    
+  jQuery(document).ready(function($) {
+    $(".nav-my,#elogin").on('click',function(event) {
+      event.preventDefault();
+      /* Act on the event */
+         $.ajaxSetup({
+          url: 'http://app.erp2p.com/down/action/company/indexAction.php',
+          type: 'GET',
+          dataType : "jsonp",
+          jsonp: "callbackparam",//服务端用于接收callback调用的function名的参数
+          jsonpCallback:"success_jsonpCallback",//callback的function名称 
+        });
+        if(netState ==1){
+          $.ajax({
+              data: {mode: 1},
+              success : function(data){
+                if(data.error==1){
+                  location.href="../user/login.html";
+                }
+                if(data.error==0){
+                  location.href="../user/index.html";
+                }
+              },
+              error : function(){
+                alert("系统错误");
+              }
+          });
+        }else{
+            alert("网络异常");
+        } 
+    });
+  });
+</script>
+	</head>
+	<body class="web-page">
+<!--头部-->
+  <header>
+    <div class="back" onclick="javascript:history.back(-1);"></div>
+      <div class="hd-title">
+        <h2 id="J_header_title">安全 无忧虑</h2>
+      </div>
+  </header>
+<!--头部--> 
+<!--中间-->
+ <div class="home_page ">
+    <div class="scroll_container">      
+                                    
+<!-- 内容   -->   
+<div class="basic margin_t15">
+    <h1>本金保障</h1>
+    <h2>什么是e融VIP资金安全保障计划？</h2>
+    <p>VIP资金安全保障计划指当投资人投资的借款出现严重逾期时（即逾期超过2日），e融在线将向VIP投资人收购此笔借款未归还的剩余出借本息的全部债权，从而为理财人营造一个安全的投资环境，保障VIP投资人的资金安全。</p>
+    <h2>投资人需要向e融在线支付VIP资金安全保障计划服务的费用吗？</h2>
+    <p>当前投资人无需支付任何费用，通过身份认证成为投资人即可享受此服务。当您投资的借款发生逾期2日后，e融在线风险备用金账户会在一个工作日内将此笔借款的应赔付金额自动充入您的e融在线账户中。</p>  
+    <h2>我在e融在线上的所有理财投资是否都适用e融在线VIP资金安全保障计划？</h2>
+    <p>是的，目前每项投资都适用于VIP资金保障计划。</p>      
+</div>
+<div class="basic">
+    <h1>交易安全保障</h1>
+    <h2>独立服务器设置</h2>
+    <p>e融在线平台服务器为专器专用，放置于南京市电信局内，不同于部分网贷平台将服务器放在国外的某个岛屿，受监督和保护更多，才能给您提供更安心的服务。</p>
+    <h2>避免私下交易</h2>
+    <p>私下交易无保障，虽然成本更低，但是一旦损失难以承受，所以e融在线建议客户避免尝试私下交易。私下交易的约束力极低，不受《合同法》的保护，造成逾期的风险非常高，同时您的个人信息将有可能被泄漏，存在隐患极大。</p>  
+    <h2>用户安全守则</h2>
+	<i><img src="../images/about/about3/yhbz.gif" width="350" style="margin-left:-30px;"></i> 
+</div>
+<div class="basic">
+    <h1>借款审核保障</h1>
+    <h2>一. 证明材料人工审核的意义是什么？</h2>
+    <p>为防范虚假资料，提高放款者所放资金的安全性，平台对每个已经达审核条件的标进行人工审核。未通过审核的标的，平台首先通知贷入者补充完善资料。在规定时间不能提供真实资料的标的做流标处理。</p>
+    <h2>二. 所发的标什么时候进入人工审核？</h2>
+    <p>满足以下条件进入人工审核：<br>
+    1、投标额度已经达到需借款额度；<br> 2、竞标模式下，投标时间到期；</p>  
+    <h2>三. 材料审核不通过如何处理？</h2>
+    <p>未通过审核的标的，平台首先通知贷入者补充完善资料。在规定时间不能提供真实资料的标的做流标处理。</p>
+    <h2>四.平台需审核借款人哪些材料？</h2>
+    <p>审核所有提交的证明材料：<br>
+        1、身份信息（身份证及户口）<br>
+        2、婚姻状况（结婚证或单身证明）<br>
+        3、工作证明（盖公章证明或工号牌）<br> 
+        4、收入证明（可与工作证明一并开具）<br> 
+        5、个人征信报告本<br>
+        6、近6个月银行流水<br>
+        7、抵押物信息（房产或机动车整套材料）<br>
+        8、第二居所或长期居住地证明<br>
+        9、2位常用联系人联系方式<br>
+        10、其他资产证明
+     </p>
+</div>
+<div class="basic">
+	<h1>密码管理</h1>
+    <h2>设置登录密码</h2>
+    <p>1、登录密码的位数不要短于6位，建议您使用使用大写字母和小写字母、标点和数字的集合;</p>
+    <p>2、请您不要以任何单词、生日、身份证号、手机号、姓名为原型做为登录密码；</p>
+    <p>3、您在登录密码中使用的的英文最好有大小之分；</p>
+    <p>4、如果在程序允许的情况下，最好能加上英文半角的符号；</p>
+    <p>5、建议您不要用a、b、c等比较小顺序的字母或数字开头，使用z开头将大大增加安全性。</p>
+</div>
+<!-- 内容   --> 
+    	<div style="width:100%; margin:0 auto; float:left;">
+    	<div class="blue_btn_b">
+			<a id="elogin">登录</a>
+        </div>
+        </div>                   
+	</div>
+  </div>
+<!--中间--> 
+<!--底部-->
+<nav class="nav-bar">
+  <ul>
+    <li class="nav-home"><a href="../index.html">
+      <div class="nav-bg"><i></i></div>
+      <div class="nav-title-wrap"><span class="nav-title">首页</span></div>
+      </a></li>
+    <li class="nav-er"><a href="index.html"  class="active">
+      <div class="nav-bg"><i></i></div>
+      <div class="nav-title-wrap"><span class="nav-title"><em>e</em>融</span></div>
+      </a></li>
+    <li class="nav-my"><a href="#">
+      <div class="nav-bg"><i></i><!-- <s class="dot ng-hide" ng-show="index.dot"></s>--></div>
+      <div class="nav-title-wrap"><span class="nav-title">账户</span></div>
+      </a></li>
+  </ul>
+</nav>
+<!--底部-->
+</body>
+</html>

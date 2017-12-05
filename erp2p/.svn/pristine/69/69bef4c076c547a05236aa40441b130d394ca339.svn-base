@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>e融在线-理财 高回报</title>
+	<meta content="yes" name="apple-mobile-web-app-capable"/>
+	<meta content="yes" name="apple-touch-fullscreen"/>
+	<meta content="telephone=no,email=no" name="format-detection"/>
+	<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
+	<link type="text/css" rel="stylesheet" href="../css/index.css">
+	<link type="text/css" rel="stylesheet" href="../css/dd-component-bundle.css">
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+  <script>
+  var netState = 1;
+apiready = function () {
+  var connectionType = api.connectionType;
+  if(connectionType =="none"){
+    netState = 0;
+  }
+  api.addEventListener({
+      name:'online'
+  },function(ret,err){
+      var connectionType = ret.connectionType;
+      location.href="index.html";
+      
+  });
+  api.addEventListener({
+    name:'offline'
+  },function(ret,err){
+      var connectionType = ret.connectionType;
+      netState = 0;
+      //alert(connectionType);    
+  })
+} 
+  jQuery(document).ready(function($) {
+    $(".nav-my").on('click',function(event) {
+      event.preventDefault();
+      /* Act on the event */
+         $.ajaxSetup({
+          url: 'http://app.erp2p.com/down/action/company/indexAction.php',
+          type: 'GET',
+          dataType : "jsonp",
+          jsonp: "callbackparam",//服务端用于接收callback调用的function名的参数
+          jsonpCallback:"success_jsonpCallback",//callback的function名称 
+        }); 
+         if(netState ==1){
+            $.ajax({
+                data: {mode: 1},
+                success : function(data){
+                  if(data.error==1){
+                    location.href="../user/login.html";
+                  }
+                  if(data.error==0){
+                    location.href="../user/index.html";
+                  }
+                },
+                error : function(){
+                  alert("系统错误");
+                }
+            });
+         }else{
+          alert("网络异常");
+        }
+    });
+  });
+</script>
+	</head>
+	<body class="web-page">
+<!--头部-->
+  <header>
+    <div class="back" onclick="javascript:history.back(-1);"></div>
+      <div class="hd-title">
+        <h2 id="J_header_title">理财 高回报</h2>
+      </div>
+  </header>
+<!--头部--> 
+<!--中间-->
+  <div class="home_page ">
+    <div class="scroll_container">      
+                                    
+<!-- 内容   -->   
+<div class="basic margin_t15">
+	<i><img src="../images/about/about1/ptyl.gif" width="230" style="margin-left:-30px;"></i>
+</div>
+<div class="basic">
+	<i><img src="../images/about/about1/18-24.gif" width="230" style="margin-left:-30px;"></i>
+    <h1>18%的高年化收益</h1>
+    <p>成为投资人后，投资平台发布的各类借款标，18%年化收益唾手可得。</p>
+    <h1>投资理财更轻松</h1>    
+    <p>只要您是18周岁以上或16周岁以上且有固定工作的中国公民，最低充值100元即可在e融在线理财，充值投资易如反掌。</p>    
+    <i><img src="../images/about/about1/vip-100.gif" width="230" style="margin-left:-30px; margin-bottom:12px;"></i>
+    <h1>100%本息保障</h1>
+    <p>所有成功申请VIP的投资人，都将享受e融在线特别保障服务，如果借款标逾期支付任何一期还款超过2日，e融在线将全部收购投资人拥有借款人的债权以及借款人应当支付给投资人的
+利息及罚息。</p>
+    <h1>成本控制，费用更低</h1>    
+    <p>投资人享受每月5笔免费提现，无利息管理费。</p>   
+</div>
+<div class="basic">
+    <h1>高收益回报，丰厚回报，安全便捷</h1>
+    <h2>仅需一分钟，安全理财</h2>
+    <p>
+STEP1 完成注册并免费申请VIP特权<br>
+STEP2 充值并设置提现账户<br>
+STEP3 资金投入符合心意的借款标，收益轻松到手</p>
+	<i><img src="../images/about/about1/3b.gif" width="330" style="margin-left:-30px;"></i>
+
+</div>
+<!-- 内容   --> 
+    	<div style="width:100%; margin:0 auto; float:left;">
+    	<div class="red_btn_b">
+			<a href="../invest/bidlists.html">投标</a>
+        </div>
+        </div>                  
+        </div>
+  </div>
+<!--中间--> 
+<!--底部-->
+<nav class="nav-bar">
+  <ul>
+    <li class="nav-home"><a href="../index.html">
+      <div class="nav-bg"><i></i></div>
+      <div class="nav-title-wrap"><span class="nav-title">首页</span></div>
+      </a></li>
+    <li class="nav-er"><a href="index.html"  class="active">
+      <div class="nav-bg"><i></i></div>
+      <div class="nav-title-wrap"><span class="nav-title"><em>e</em>融</span></div>
+      </a></li>
+    <li class="nav-my"><a href="#">
+      <div class="nav-bg"><i></i><!-- <s class="dot ng-hide" ng-show="index.dot"></s>--></div>
+      <div class="nav-title-wrap"><span class="nav-title">账户</span></div>
+      </a></li>
+  </ul>
+</nav>
+<!--底部-->
+</body>
+</html>

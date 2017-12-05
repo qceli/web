@@ -1,0 +1,395 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>e融在线-您的投资理财专家</title>
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="yes" name="apple-touch-fullscreen"/>
+<meta content="telephone=no,email=no" name="format-detection"/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
+<link type="text/css" rel="stylesheet" href="css/index.css">
+<link type="text/css" rel="stylesheet" href="css/swiper.min.css">
+<link type="text/css" rel="stylesheet" href="css/dd-component-bundle.css">
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/iscroll.js"></script>
+<script>
+var netState = 1;
+apiready = function () {
+	var connectionType = api.connectionType;
+	if(connectionType =="none"){
+		offlineR();
+		netState = 0;
+	}
+	api.addEventListener({
+	    name:'online'
+	},function(ret,err){
+	    var connectionType = ret.connectionType;
+	    location.href="index.html";
+	    
+	});
+	api.addEventListener({
+    name:'offline'
+	},function(ret,err){
+	    var connectionType = ret.connectionType;
+	    netState = 0;
+	    //alert(connectionType);		
+	})
+}
+</script>
+<script>
+(function( $ ){
+  $.fn.animateProgress = function(progress,injuck,callback) {    
+    return this.each(function() {
+      $(this).children('em').show();
+//
+
+      var progresst;var progressf;
+      progressf = progress;
+      
+      if(progress < 1)
+      {
+        progresst = 0;
+        
+      }
+      else if(progress < 5)
+      {
+        progresst = 5;
+      }
+      else
+      {
+        progresst = progress;
+      }
+	  
+//
+           
+      $(this).animate({
+        width: progresst + '%'
+      }, {
+        duration: 1000, 
+        step: function(progress){
+              var valueEl = $(this).children('em');
+              var valueE1Parent = $(this).parent("div");
+              valueEl.text(Math.ceil(progressf) + '%');
+              if(progress==100){
+                if(injuck==2){
+                  valueEl.html("审核中");
+                }
+                if(injuck==1){
+                   valueEl.html("还款中");
+                }
+                  valueE1Parent.removeClass('progress');
+                  valueE1Parent.addClass('gray');
+              }
+         }		
+      });
+    });
+  };
+})( jQuery);
+//创建数据库
+var dataBase = openDatabase("cacheInfo", "1.0", "缓存", 1024 * 1024);
+//创建数据表
+var sql = "create table if not exists info (pid REAL unique, title TEXT,reward TEXT,money TEXT,yearRate TEXT,timeLimit TEXT,rateType TEXT,rateTimeType TEXT,progress TEXT)";
+
+dataBase.transaction(function (tx) {
+tx.executeSql(sql);
+});
+  </script>
+<script>
+  function loading(){
+      $.ajax({
+          data: {mode: 2},
+          success : function(data){
+             var str = "";
+             //数据删除
+              dataBase.transaction(function (tx) {
+              tx.executeSql("delete from info",[],function (tx, result) {
+              },null);
+              });           
+              //数据插入
+              dataBase.transaction(function (tx) {
+                for(var i=0;i<data.length;i++){
+                  tx.executeSql("INSERT INTO info (pid,title,reward,money,yearRate,timeLimit,rateType,rateTimeType,progress) values(?,?,?,?,?,?,?,?,?)", [data[i].pid,data[i].title,data[i].reward,data[i].money,data[i].yearRate,data[i].timeLimit,data[i].rateType,data[i].rateTimeType,data[i].progress], null, null);
+                }
+              });           
+             for(var i=0;i<data.length;i++){
+                str = str +'<div class="list_mark" onclick="openProject('+data[i].pid+')";><div class="l_pad"><div class="list_t"><ul><li class="w80 title">'+data[i].title+'</li><li class="w20 reward">'+data[i].reward+'</li></ul></div><div class="list_c"><ul><li class="w43">'+data[i].money+'</li><li class="bor"></li><li class="w24 text_l reg">'+data[i].yearRate+'</li><li class="bor"></li><li class="w24 text_l">'+data[i].timeLimit+'</li></ul></div><div  class="list_b name"><ul><li class="w43">金额（元）</li><li class="bor"></li><li class="w24 text_l">利率（'+data[i].rateType+'）</li><li class="bor"></li><li class="w24 text_l">期限（'+data[i].rateTimeType+'）</li></ul></div></div><div class="progress_b"><div class="meter"><span><em style="display:none">'+data[i].progress+'</em></span></div></div></div>';
+             }
+            $("#thelist").append(str);
+            $(".meter > span").each(function() {
+			var tt = $(this).children('em').html();
+
+
+				$(this).width(0);
+				$(this).parent("div").addClass('progress');
+				$(this).animateProgress($(this).children('em').html());			
+	
+
+      });
+          },
+          error : function(){
+            alert("系统错误");
+          }
+      });
+  }
+  function openProject(paramID){
+  if(netState==1){
+      $.ajax({
+          data: {mode:3,pid:paramID},
+          success : function(data){
+            if(data.error==0){
+              location.href="./invest/bidinfo.html";
+            }
+          },
+          error : function(){
+            alert("系统错误");
+          }
+      });  
+  }else{
+	alert("网络异常");
+  }
+
+  }
+
+  function offlineR(){
+    dataBase.transaction(function (tx) {
+      tx.executeSql("select  *  from  info", [],
+        function (tx, result) {
+        var len = result.rows.length, i;
+        var strs = "";
+        for (i = 0; i < len; i++){
+          strs = strs +'<div class="list_mark" onclick="openProject('+result.rows.item(i).pid+')";><div class="l_pad"><div class="list_t"><ul><li class="w80 title">'+result.rows.item(i).title+'</li><li class="w20 reward">'+result.rows.item(i).reward+'</li></ul></div><div class="list_c"><ul><li class="w43">'+result.rows.item(i).money+'</li><li class="bor"></li><li class="w24 text_l reg">'+result.rows.item(i).yearRate+'</li><li class="bor"></li><li class="w24 text_l">'+result.rows.item(i).timeLimit+'</li></ul></div><div  class="list_b name"><ul><li class="w43">金额（元）</li><li class="bor"></li><li class="w24 text_l">利率（'+result.rows.item(i).rateType+'）</li><li class="bor"></li><li class="w24 text_l">期限（'+result.rows.item(i).rateTimeType+'）</li></ul></div></div><div class="progress_b"><div class="meter"><span><em style="display:none">'+result.rows.item(i).progress+'</em></span></div></div></div>'; 
+        }
+            $("#thelist").html("");
+            $("#thelist").append(strs);
+            $(".meter > span").each(function() {
+			
+
+
+				$(this).width(0);
+				$(this).parent("div").addClass('progress');
+				$(this).animateProgress($(this).children('em').html());			
+		
+			
+			
+            });
+          },null);
+    });
+  }
+
+
+</script>
+
+<script>
+  jQuery(document).ready(function($) {
+    $.ajaxSetup({
+      url: 'http://app.erp2p.com/down/action/indexAction.php',
+      type: 'GET',
+      async: false,
+      dataType : "jsonp",
+      jsonp: "callbackparam",//服务端用于接收callback调用的function名的参数
+      jsonpCallback:"success_jsonpCallback",//callback的function名称 
+    });
+   loading();
+    $(".nav-my").on('click',function(event) {
+      event.preventDefault();
+      /* Act on the event */
+      if(netState==1){
+        $.ajax({
+            data: {mode: 1},
+            success : function(data){
+              if(data.error==1){
+                location.href="./user/login.html";
+              }
+              if(data.error==0){
+                location.href="./user/index.html";
+              }
+            },
+            error : function(){
+              alert("系统错误");
+            }
+        });
+      }else{
+        alert("网络异常");
+      }
+
+      
+    });
+  });
+ function injucknet(){
+    if(netState==1){
+        loading()
+    }else{
+    	offlineR();
+    }
+ }
+</script>
+
+<script type="text/javascript">
+var myScroll,
+  pullDownEl, pullDownOffset;
+
+/**
+ * 下拉刷新 （自定义实现此方法）
+ * myScroll.refresh();    // 数据加载完成后，调用界面更新方法
+ */
+function pullDownAction () {
+  setTimeout(function () {
+    $("#thelist").html("");
+	injucknet();               // <-- Simulate network congestion, remove setTimeout from production! -->  
+    myScroll.refresh();   //数据加载完成后，调用界面更新方法   Remember to refresh when contents are loaded (ie: on ajax completion)
+  }, 1000); // <-- Simulate network congestion, remove setTimeout from production!
+}
+
+/**
+ * 滚动翻页 （自定义实现此方法）
+ * myScroll.refresh();    // 数据加载完成后，调用界面更新方法
+ */
+function pullUpAction () {
+  setTimeout(function () {  // <-- Simulate network congestion, remove setTimeout from production!   
+    myScroll.refresh();   // 数据加载完成后，调用界面更新方法 Remember to refresh when contents are loaded (ie: on ajax completion)
+  }, 1000); // <-- Simulate network congestion, remove setTimeout from production!
+}
+
+/**
+ * 初始化iScroll控件
+ */
+function loaded() {
+  pullDownEl = document.getElementById('pullDown');
+  var pullDownOffset = 0;
+  myScroll = new iScroll('wrapper', {
+    scrollbarClass: 'myScrollbar', /* 重要样式 */
+    useTransition: false, /* 此属性不知用意，本人从true改为false */
+    topOffset: pullDownOffset,
+    onRefresh: function () {
+        pullDownOffset = pullDownEl.offsetHeight;
+      if (pullDownEl.className.match('loading')) {
+        pullDownEl.className = '';
+        pullDownEl.querySelector('.pullDownLabel').innerHTML = '下拉刷新...';
+        this.minScrollY = -pullDownOffset;
+      }
+    },
+    onScrollMove: function () {
+      if (this.y > 5 && !pullDownEl.className.match('flip')) {
+        pullDownEl.className = 'flip';
+        pullDownEl.style.display="";
+        pullDownEl.querySelector('.pullDownLabel').innerHTML = '下拉刷新...';
+        this.minScrollY = 0;
+      } else if (this.y < 5 && pullDownEl.className.match('flip')) {
+        pullDownEl.className = '';
+        pullDownEl.querySelector('.pullDownLabel').innerHTML = '下拉刷新...';
+        this.minScrollY = -pullDownOffset;
+      }
+    },
+    onScrollEnd: function () {
+      if (pullDownEl.className.match('flip')) {
+        pullDownEl.className = 'loading';
+        pullDownEl.querySelector('.pullDownLabel').innerHTML = '正在加载...';        
+        pullDownAction(); // Execute custom function (ajax call?)
+      }
+    }
+  });
+}
+
+//初始化绑定iScroll控件 
+document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+document.addEventListener('DOMContentLoaded', loaded, false); 
+</script>
+    <style>
+    html, body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        background: #eee;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    </style>
+</head>
+<body class="web-page">
+<!--头部-->
+  <header>
+      <div class="hd-title">
+        <div class="logo"></div>
+      </div>
+  </header>
+<!--头部-->
+  <div  id="wrapper" class="home_page">
+    <div id="scroller" class="scroll_container">
+    <div class="pull_div">
+      <div id="pullDown" style="display:none">
+        <span class="pullDownIcon"></span>
+        <div class="pullDownLabel"></div>
+      </div>
+    </div>
+    <!-- Swiper -->
+    <div id="netState" style="display:none">网络异常</div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" onClick="window.open('./activity/gifts_x.html')"><img src="images/banner/img15-2.jpg" width="100%"></div> 
+        </div>
+         <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+    
+    
+    <!-- Swiper JS -->
+      <div id="thelist">
+
+
+          
+       </div>
+      <div class="list_gd"><a href="invest/bidlists.html"><div class="gd">更多投资</div></a></div>  
+</div>
+  </div>
+</div>
+
+<!--底部-->
+<nav class="nav-bar">
+  <ul>
+    <li class="nav-home"><a class="active">
+      <div class="nav-bg"><i></i></div>
+      <div class="nav-title-wrap"><span class="nav-title">首页</span></div>
+      </a></li>
+    <li class="nav-er"><a href="company/index.html">
+      <div class="nav-bg"><i></i></div>
+      <div class="nav-title-wrap"><span class="nav-title"><em>e</em>融</span></div>
+      </a></li>
+    <li class="nav-my"><a href="#">
+      <div class="nav-bg"><i></i><!-- <s class="dot ng-hide" ng-show="index.dot"></s>--></div>
+      <div class="nav-title-wrap"><span class="nav-title">账户</span></div>
+      </a></li>
+  </ul>
+</nav>
+<!--底部-->
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<script>
+var swiper = new Swiper('.swiper-container', {
+	pagination: '.swiper-pagination',
+	paginationClickable: true
+});
+</script>
+</body>
+</html>

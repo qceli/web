@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>e融在线-公告</title>
+  <meta content="yes" name="apple-mobile-web-app-capable"/>
+  <meta content="yes" name="apple-touch-fullscreen"/>
+  <meta content="telephone=no,email=no" name="format-detection"/>
+  <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
+  <link type="text/css" rel="stylesheet" href="../css/index.css">
+  <link type="text/css" rel="stylesheet" href="../css/dd-component-bundle.css">
+  <script type="text/javascript" src="../js/jquery.min.js"></script>
+  <script>
+var netState = 1;
+apiready = function () {
+  var connectionType = api.connectionType;
+  if(connectionType =="none"){
+    offlineR();
+    netState = 0;
+  }
+  api.addEventListener({
+      name:'online'
+  },function(ret,err){
+      var connectionType = ret.connectionType;
+      location.href="index.html";
+      
+  });
+  api.addEventListener({
+    name:'offline'
+  },function(ret,err){
+      var connectionType = ret.connectionType;
+      netState = 0;
+      //alert(connectionType);    
+  })
+}
+//创建数据库
+var dataBase = openDatabase("cacheInfo", "1.0", "缓存", 1024 * 1024);
+//创建数据表
+var sql = "create table if not exists bbs (nid REAL unique, titles TEXT,addtime TEXT)";
+dataBase.transaction(function (tx) {
+tx.executeSql(sql);
+});
+</script>  
+    <script>
+      var count =1;
+      var newClass = 1;
+      var listCount = 0;
+      function loading(){
+            $.ajax({
+                data: {mode:3,beginNum: 0,pageNum:0},
+                success : function(data){
+                  listCount = data[0].count;
+                  var str = "";
+                  //数据删除
+                  dataBase.transaction(function (tx) {
+                  tx.executeSql("delete from bbs",[],function (tx, result) {
+                  },null);
+                  });                 
+                  //数据插入
+                  dataBase.transaction(function (tx) {
+                  for(var i=0;i<data.length;i++){
+                      tx.executeSql("INSERT INTO bbs (nid,titles,addtime) values(?,?,?)", [data[i].nid,data[i].titles,data[i].addtime], null, null);
+                    }
+                  });                
+                  for(var i=0;i<data.length;i++){
+              str = str +'<li onClick="opennew('+data[i].nid+')"><span>'+data[i].titles+'</span><em>'+data[i].addtime+'</em></li>';
+                  }
+                  $(".data-news>ul").append(str);
+                },
+                error : function(){
+                  alert("系统错误");
+                }
+            });
+      }
+      function opennew(data){
+	  if(netState ==1){
+              $.ajax({
+                data: {nid: data,mode:2,newid:newClass},
+                success : function(data){
+                  if(data.error==0){
+                    location.href="details.html";
+                  }
+                },
+                error : function(){
+                  alert("系统错误");
+                }
+              });	  
+	  }else{
+		alert("网络异常");
+	  }
+   
+      }   
+        jQuery(document).ready(function($) {
+          $.ajaxSetup({
+              url: 'http://app.erp2p.com/down/action/company/dynamicAction.php',
+              type: 'GET',
+              async: false,
+              dataType : "jsonp",
+              jsonp: "callbackparam",//服务端用于接收callback调用的function名的参数
+              jsonpCallback:"success_jsonpCallback",//callback的function名称
+          });
+          loading();        
+        $(".refresh").on('click',function(event) {
+          event.preventDefault();
+          /* Act on the event */
+          if(netState==0){
+              offlineR();
+              $(window).scrollTop(0);
+          }else{
+            $("#loading").hide();
+            $(".data-news>ul").html("");
+            loading();
+            $("#loading>span:eq(1)").html("正在加载...");
+            count = 1;
+            $(window).scrollTop(0);           
+          }
+        });   
+            });
+function offlineR(){
+  api.showProgress({title:'加载中', text:'请稍后...', modal:false});
+    dataBase.transaction(function (tx) {
+      tx.executeSql("select  *  from  dynamic", [],
+        function (tx, result) {
+        var len = result.rows.length, i;
+        var strs = "";
+        for (i = 0; i < len; i++){
+        strs = strs +'<li onClick="opennew('+result.rows.item(i).nid+')"><span>'+result.rows.item(i).titles+'</span><em>'+result.rows.item(i).addtime+'</em></li>';
+        }
+        $(".data-news>ul").html("");
+        $(".data-news>ul").append(strs);
+        api.hideProgress();
+          },null);
+    });
+  }
+</script>
+
+<style type="text/css" media="all">
+
+#wrapper {
+  position:relative; z-index:1;
+  top:0px; bottom:0px; left:0;
+  width:100%;
+  overflow:auto;
+}
+
+
+</style>
+</head>
+<body  class="web-page">
+    <header>
+    <div class="back" onclick="javascript:location.href='index.html';"></div>
+      <div class="refresh"></div>
+      <div class="hd-title">
+        <h2 id="J_header_title">最新公告</h2>
+      </div>
+  </header>
+<div id="wrapper" class="home_page">
+  <div id="scroller" class="scroll_container"> 
+    <div class="data-news">
+      <ul>
+      </ul>
+    </div>
+    <div id="loading" class="list_xl" style="display:none;"><span class="icon"></span><span class="Label">正在加载...</span></div>
+  </div>
+</div>
+      <script language="javascript">
+        $(window).scroll(function () {
+            if ($(document).scrollTop() + $(window).height() >= $(document).height()) {
+              if(listCount<count*15){
+                $("#loading>span:eq(0)").hide();
+                $("#loading>span:eq(1)").html("暂无更多...");
+                return false;
+              }
+              count = count+1;
+              $("#loading").show();
+
+       $.ajax({
+           data: {mode: 3,beginNum:0,pageNum:count},
+          success : function(data){
+             var str = "";
+
+             for(var i=0;i<data.length;i++){
+              str = str +'<li onClick="opennew('+data[i].nid+')"><span>'+data[i].titles+'</span><em>'+data[i].addtime+'</em></li>';
+             }
+                    //数据插入
+                  dataBase.transaction(function (tx) {
+                  for(var i=0;i<data.length;i++){
+                      tx.executeSql("INSERT INTO bbs (nid,titles,addtime) values(?,?,?)", [data[i].nid,data[i].titles,data[i].addtime], null, null);
+                    }
+                  });           
+             $(".data-news>ul").append(str);
+          },
+          error : function(){
+            alert("系统错误");
+          }
+      }); 
+            }
+        });
+
+      </script>
+
+</body>
+</html>

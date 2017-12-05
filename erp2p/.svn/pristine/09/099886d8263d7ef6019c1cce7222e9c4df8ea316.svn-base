@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>e融在线-最新动态</title>
+	<meta content="yes" name="apple-mobile-web-app-capable"/>
+	<meta content="yes" name="apple-touch-fullscreen"/>
+	<meta content="telephone=no,email=no" name="format-detection"/>
+	<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
+	<link type="text/css" rel="stylesheet" href="../css/index.css">
+	<link type="text/css" rel="stylesheet" href="../css/dd-component-bundle.css">
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+  <script>
+var netState = 1;
+apiready = function () {
+  var connectionType = api.connectionType;
+  if(connectionType =="none"){
+    netState = 0;
+  }
+  api.addEventListener({
+      name:'online'
+  },function(ret,err){
+      var connectionType = ret.connectionType;
+      location.href="index.html";
+      
+  });
+  api.addEventListener({
+    name:'offline'
+  },function(ret,err){
+      var connectionType = ret.connectionType;
+      netState = 0;
+      //alert(connectionType);    
+  })
+} 
+  jQuery(document).ready(function($) {
+    $(".more").on('click',function(event) {
+      event.preventDefault();
+      /* Act on the event */
+      $(this).hide();
+      $("#moreInfo").show();
+    });
+    $(".nav-my").on('click',function(event) {
+      event.preventDefault();
+      /* Act on the event */
+         $.ajaxSetup({
+          url: 'http://app.erp2p.com/down/action/company/indexAction.php',
+          type: 'GET',
+          dataType : "jsonp",
+          jsonp: "callbackparam",//服务端用于接收callback调用的function名的参数
+          jsonpCallback:"success_jsonpCallback",//callback的function名称 
+        });
+        if(netState ==1){
+          $.ajax({
+              data: {mode: 1},
+              success : function(data){
+                if(data.error==1){
+                  location.href="../user/login.html";
+                }
+                if(data.error==0){
+                  location.href="../user/index.html";
+                }
+              },
+              error : function(){
+                alert("系统错误");
+              }
+          });
+        }else{
+          alert("网络异常");
+        }
+
+    });
+  });
+</script>
+	</head>
+	<body class="web-page">
+<!--头部-->
+  <header>
+    <div  class="back" onclick="javascript:location.href='index.html';"></div>
+     <div class="hd-title">
+        <h2 id="J_header_title">了解<em class="e">e</em>融</h2>
+      </div>
+  </header>
+<!--头部--> 
+<!--中间-->
+ <div class="home_page">
+    	<div class="scroll_container mar_t15">      
+	<!-- 下级菜单   --> 
+        <div class="menu_div">
+			<div class="menu_l">公司简介</div>              
+        </div>
+ 	<!-- 基本   -->
+    <div>
+	<div class="er-int mar_t-20">
+<p>e融在线是江苏亿荣投资管理有限公司2013年建立并发布的网络借贷平台，总部位于南京市秦淮区正学路1号1865创意园B9栋。</p>
+
+<div class="more">查看更多</div>
+<div id="moreInfo" style="display:none;"><p>e融在线是一家由工商部门批准，获得"金融信息服务"资质，从而得到政府认可的互联网金融平台。<br>
+
+e融在线用先进的理念和创新的技术建立了一个安全、高效、诚信、透明的互联网金融平台，规范了个人借贷行为， 让借入者改善生产生活，让借出者增加投资渠道，获得最大投资收益。随着互联网的发展和中国个人信用体系的健全 ，先进的理念和创新的技术将给民间借贷带来历史性的变革。<br>
+
+e融在线严格遵守国家相关法律法规，并敦促其会员在信息发布和使用过程中严格遵守相关法规；同时，我们也将竭 尽所能,不断完善对网站平台的管理，同时努力打造网站管理者、网站投资者、政府相关部门多方监管的管理模式。<br>
+
+e融在线为VIP会员提供资金安全保障计划，即逾期超过2日的债权将自动转让给e融在线，由e融在线追讨并实现债权。<p></div>
+ 	</div>     
+      </div>                                            
+<!-- 下级菜单   -->   
+<div class="basic" onClick="window.location.href='about_f.html'">
+	<i class="i_a1"></i>
+    <p><em>投资人</em> 在e融在线可以获得18%的年化收益回报。平台借款业务以汽车抵押与房产抵押为主，超过总体借款的80%。</p>
+    <div class="triangle"></div>
+</div>
+<div class="basic" onClick="window.location.href='about_r.html'">
+	<i class="i_a2"></i>
+    <p><em>借款人</em> 借款人 由e融在线提供全方位资金周转支持，灵活还款方式让还款更轻松。最快1日可获得所需资金，借贷服务支持江浙沪地区。</p>
+    <div class="triangle"></div>
+</div>
+<div class="basic" onClick="window.location.href='about_s.html'">
+	<i class="i_a3"></i>
+    <p><em>e融VIP</em> 借款逾期超过2日，e融在线将收购此笔借款未偿还的本金及利息全部债权，确保投资安全有保障。</p>
+    <div class="triangle"></div>
+</div>
+<!-- 下级菜单   -->                   
+        </div>
+  </div>
+<!--中间--> 
+<!--底部-->
+<nav class="nav-bar">
+  <ul>
+    <li class="nav-home"><a href="../index.html">
+      <div class="nav-bg"><i></i></div>
+      <div class="nav-title-wrap"><span class="nav-title">首页</span></div>
+      </a></li>
+    <li class="nav-er"><a href="../company/index.html"  class="active">
+      <div class="nav-bg"><i></i></div>
+      <div class="nav-title-wrap"><span class="nav-title"><em>e</em>融</span></div>
+      </a></li>
+    <li class="nav-my"><a href="#">
+      <div class="nav-bg"><i></i><!-- <s class="dot ng-hide" ng-show="index.dot"></s>--></div>
+      <div class="nav-title-wrap"><span class="nav-title">账户</span></div>
+      </a></li>
+  </ul>
+</nav>
+<!--底部-->
+</body>
+</html>

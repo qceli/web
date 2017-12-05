@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>e融在线-添加银行卡</title>
+  <meta content="yes" name="apple-mobile-web-app-capable"/>
+  <meta content="yes" name="apple-touch-fullscreen"/>
+  <meta name="data-spm" content="a215s"/>
+  <meta content="telephone=no,email=no" name="format-detection"/>
+  <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
+  <link type="text/css" rel="stylesheet" href="../css/index.css">
+  <link type="text/css" rel="stylesheet" href="../css/dd-component-bundle.css">
+  <link type="text/css" rel="stylesheet" href="../css/pop-up.css">
+  <script type="text/javascript" src="../js/jquery.min.js"></script>
+  <script type="text/javascript" src="../js/location.js"></script>
+  <script type="text/javascript" src="../js/area.js"></script>
+  <script>
+  var tel;
+  var timeStamp;
+  var init;
+  var state = "";
+  function countdown(){
+    if(timeStamp == 0){
+      clearInterval(init);
+      $(".code").children('div').removeClass('code_b').addClass('code_g').html("发送验证码");
+      $(".code").children('div').on('click', function(event) {
+        event.preventDefault();
+        verifyCode();
+      });
+    }else{
+      timeStamp = timeStamp-1;
+      $(".code").children('div').removeClass('code_g').addClass('code_b').html("重新发送("+timeStamp+")秒"); 
+      $(".code").children('div').off();
+
+    }
+  }
+    function OnInput (event) { 
+      if($(event.target).val()!=""){
+        if($(event.target).attr("id")=="account"){
+          if(!isNaN($(event.target).val())){
+            $(event.target).parent("div").children("div").show();
+          }
+        }else{
+            $(event.target).parent("div").children("div").show();
+        }       
+      }else{
+        $(event.target).parent("div").children("div").hide();
+      }
+    }
+   //////验证码////////////
+    function verifyCode(){
+     $.ajax({
+      data : {mode:2},
+      success : function(data){
+          if(data.error!=0){
+            if(data.error == 4){
+              alert("发送失败");
+              $('#nexttel').removeClass('is-visible');
+              loading();
+            }
+          }else{
+            timeStamp = data.timeStamp;
+            init = setInterval("countdown()",1000);
+            state = 7;
+            }
+        },
+        error:function(){
+            alert("系统错误");
+        }
+      }); 
+    }
+  function loading(){
+     $.ajax({
+        data : {mode:1},
+        success : function(data){
+          $("#realname").attr("placeholder",data.realName);
+          $("#tel").attr("placeholder",data.tel);
+        },
+        error:function(){
+          alert("系统错误");
+        }
+    });   
+  }   
+  jQuery(document).ready(function($) {
+    $.ajaxSetup({
+      url: 'http://app.erp2p.com/down/action/user/bank_addAction.php',
+      type: 'GET',
+      async: false,
+      dataType : "jsonp",
+      jsonp: "callbackparam",//服务端用于接收callback调用的function名的参数
+      jsonpCallback:"success_jsonpCallback",//callback的function名称       
+    });
+    loading();
+    $(".blue_btn_b>a").on('click',function(event) {
+      event.preventDefault();
+      /* Act on the event */
+      $(".web-page").scrollTop(0);
+      var bank = $("#bank option:selected").text();
+      var province = $("input[name='province']").val();
+      var city = $("input[name='city']").val();
+      var town = $("input[name='town']").val();
+      var accountBank = $("input[name='accountBank']").val();
+      var account = $("input[name='account']").val();
+      account = account.replace(/[ ]/g,"");
+      if(province==""||city==""||town==""){
+        $("#errorShow").children('div').children('p').html("添加失败");
+        $("#errorShow").children('div').children('span').html("请选择支行地点");
+        $('#errorShow').addClass('is-visible');
+        state = 6;
+        return false;
+      }
+      if(accountBank==""||account==""){
+        $("#errorShow").children('div').children('p').html("添加失败");
+        $("#errorShow").children('div').children('span').html("请填写开户行名称和卡号");
+        $('#errorShow').addClass('is-visible');    
+        return false;    
+      }
+      $('#nexttel').addClass('is-visible');
+        state = 7;
+    });
+    $(".in_close").on('click',function(event) {
+      event.preventDefault();
+      /* Act on the event */
+      $(this).parent("div").children("input").val("");
+      $(this).parent("div").children("input").focus();
+      $(this).hide();
+    });
+  $(".select_div:eq(1)").on('click',function(event) {
+    event.preventDefault();
+    /* Act on the event */
+    $("#bankadd").addClass('is-visible');
+    $("input[name='province']").val("");
+    $("input[name='city']").val("");
+    $("input[name='town']").val("");
+    $(".select_div:eq(1)>span").html("请选择");
+    state =6;
+  });
+    $(".code_g").on('click',function(event) {
+      event.preventDefault();
+      tel = $("#tel").attr("placeholder");
+      verifyCode();
+    });
+
+    $(".cd-popup-close,.cd-buttons").on("click",function(event){
+        event.preventDefault();
+        if(state==6){
+          var province = $("input[name='province']").val();
+          var city = $("input[name='city']").val();
+          var town = $("input[name='town']").val();
+          if(province==""||city==""||town==""){
+            $('.cd-popup').removeClass('is-visible'); 
+          }else{
+              $(".select_div:eq(1)>span").html(province+" "+city+" "+town);
+              $('.cd-popup').removeClass('is-visible'); 
+          }
+         
+        }
+        else if(state == 7){
+            var bank = $("#bank option:selected").text();
+            var province = $("input[name='province']").val();
+            var city = $("input[name='city']").val();
+            var town = $("input[name='town']").val();
+            var accountBank = $("input[name='accountBank']").val();
+            var account = $("input[name='account']").val();  
+
+            var yzm = $("input[name='yzm']").val();        
+          $.ajax({
+            data : {mode:3,bank:bank,province:province,city:city,town:town,accountBank:accountBank,account:account,yzm:yzm},
+              success : function(data){
+                if(data.error==0){
+                  alert("添加成功");
+                  $('#nexttel').removeClass('is-visible');
+                  history.go(-1);           
+                }
+                if(data.error==2||data.error==3){
+                    alert("验证码错误");
+                    $('.cd-popup').remove('is-visible');
+                    location.href="";           
+                }
+                if(data.error==5){
+                    alert("银行卡号格式不对");
+                    location.href="";              
+                }                        
+              },
+              error :function(){
+                alert("系统错误");               
+              }         
+          });
+        }else{
+          $('.cd-popup').removeClass('is-visible');
+        }
+      });      
+  });
+  </script>
+<script type="text/javascript">
+window.onload=function(){
+var t=document.getElementById("account");
+t.onkeydown=change;
+t.onkeyup=change;
+t.onkeypress=change;
+}
+function change(){
+this.value=this.value.replace(/(\d{4})(?=[^\s])(?=[^\s])/,'$1 ','$1 ');
+}
+</script>
+  <style>
+.code{ width:100%; margin:0 auto;padding-right:17px; float:right;}
+.code .code_b{
+	 width:100%;
+	 height:40px;
+	 line-height:40px;
+	 margin-top:6px;
+	 text-align:center; 
+	 color:#fff;
+	 font-size:16px;
+	background:#cdced5;	
+	border-radius: 4px;	
+	}
+.code .code_g{
+	 width:100%;
+	 height:40px;
+	 line-height:40px;
+	 margin-top:6px;
+	 text-align:center; 
+	 color:#fff;
+	 font-size:16px;
+	background:#1daef1;
+	border-radius: 4px;	
+	}  
+  </style>
+  </head>
+  <body class="web-page">
+<!--头部-->
+<header>
+    <div class="back" onclick="javascript:history.back(-1);"></div>
+    <div class="hd-title">
+    <h2 id="J_header_title">添加银行卡</h2>
+  </div>
+  </header>
+<!--头部--> 
+<!--中间-->
+<div class="home_page">
+    <div class="scroll_container"> 
+    <!-- 输入框   -->
+    <div class="input_div" style="margin-top:15px;">
+        <input class="form_input in17 input" id="realname" type="text" disabled="disabled" placeholder="" errortext="">
+    </div>
+    <div class="select_div" style="margin-top:15px;">
+        <div class="select_txt">选择银行</div>
+        <select id="bank" name="bank" class="form_select t_in">
+        <option value='1' selected>中国工商银行</option>
+        <option value='2'>中国农业银行</option>
+        <option value='3'>中国建设银行</option>
+        <option value='4'>中国银行</option>
+        <option value='5'>招商银行</option>
+        <option value='6'>交通银行</option>
+        <option value='7'>中国邮政储蓄银行</option>
+        <option value='8'>浦发银行</option>
+        <option value='9'>广东发展银行</option>
+        <option value='10'>中信银行</option>
+        <option value='11'>中国民生银行</option>
+        <option value='12'>中国光大银行</option>
+        <option value='13'>华夏银行</option>
+        <option value='14'>兴业银行</option>
+        <option value='15'>平安银行</option>
+        <option value='16'>上海银行</option>
+        <option value='17'>北京银行</option>
+        <option value='18'>天津银行</option>
+        <option value='19'>宁波银行</option>
+        <option value='20'>上海农商银行</option>
+        <option value='21'>北京农商银行</option>
+      </select>
+      </div>
+    <div class="select_div" style="margin-top:15px;">
+        <div class="select_txt">支行地点</div>
+        <span style="font-size: 15px;color:#5a5b5f;left:100px; position:absolute;">请选择</span>
+    </div>    
+    <div class="input_div" style=" margin-top:15px;">
+        <div class="in_close" style="display:none"><i></i></div>
+        <input class="form_input in17" maxlength="" type="text"  value=""  name="accountBank" oninput="OnInput (event)" placeholder="开户支行" errortext="">
+      </div>
+    <div class="input_div" style="margin-top:-2px;">
+        <div class="in_close" style="display:none"><i></i></div>
+        <input class="form_input in17" maxlength="" type="text"  name="account" id="account" onKeyUp="value=value.replace(/[^\d]/g,'')" value="" oninput="OnInput (event)" placeholder="卡号" errortext="">
+      </div>
+     <div style=" height:130px;">  
+      </div>
+    
+    <!-- 输入框   --> 
+    <!-- 按钮   -->
+    <div style="width:100%; margin:20px auto; float:left;">
+        <div class="blue_btn_b"> <a href="#">下一步</a> </div>
+      </div>
+    <!-- 按钮   --> 
+  </div>
+  </div>
+
+<!--上移效果--> 
+
+<!--中间--> 
+<!-- 弹出框 -->
+<div id="errorShow" class="cd-popup" role="alert">
+  <div class="cd-popup-container">
+    <p></p>
+    <span></span>
+    <ul class="cd-buttons">
+        <li style="width:100%;"><a href="#0">确定</a></li>
+      </ul>
+</div>
+  </div>
+
+<!-- 弹出框 -->
+<div id="bankadd" class="cd-popup" role="alert">
+  <div class="cd-popup-container">
+  	<h1>支行地点</h1>
+	<div class="select_div">
+        <div class="select_txt">省</div>
+        <select id="loc_province" class="form_select t_in"></select>
+      </div> 
+	<div class="select_div" style="margin-top:-2px;">
+        <div class="select_txt">市</div>
+        <select id="loc_city" class="form_select t_in"></select>
+      </div> 
+	<div class="select_div" style="margin-top:-2px;margin-bottom:-11px;">
+        <div class="select_txt">区/县</div>
+        <select id="loc_town" class="form_select t_in"></select>
+      </div> 
+    <input type="hidden" id="province" name="province" />
+    <input type="hidden" id="city" name="city" />
+    <input type="hidden" id="town" name="town" />      
+    <ul class="cd-buttons">
+        <li style="width:100%;"><a href="#0">完成</a></li>
+    </ul>
+   </div>  
+</div>
+<!-- 弹出框 --> 
+<!-- 弹出框 -->
+<div id="nexttel" class="cd-popup" role="alert">
+    <div class="cd-popup-container">
+    <h1>手机验证</h1>
+    <div style="">
+    <div class="input_div" style="border-top:1px solid #fff;">
+        <input class="form_input in17 input" id="tel" maxlength="11" type="text" disabled="disabled" value="" placeholder="" errortext="">
+      </div>
+    <div class="input_div" style="margin-top:-2px; margin-bottom:-10px;border-bottom:1px solid #fff;">
+        <ul>
+        <li style="width:65%; float:left;">
+            <input class="form_input in17" maxlength="6" type="text"  name="yzm" id="yzm" value="" placeholder="验证码" errortext="">
+          </li>
+        <li style="width:35%; float:left;">
+            <div class="code">
+            <div class="code_g">发送验证码</div>
+          </div>
+          </li>
+      </ul>
+      </div>
+    </div>
+    <ul class="cd-buttons">
+        <li style="width:100%;"><a href="#0">完成</a></li>
+    </ul>
+      </div>
+  </div>
+<!-- 弹出框 --> 
+
+<script type="text/javascript">
+$(document).ready(function() {
+ showLocation();
+});
+</script>
+</body>
+</html>

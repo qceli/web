@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>e融在线-投标</title>
+	<meta content="yes" name="apple-mobile-web-app-capable"/>
+	<meta content="yes" name="apple-touch-fullscreen"/>
+	<meta name="data-spm" content="a215s"/>
+	<meta content="telephone=no,email=no" name="format-detection"/>
+	<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
+	<link type="text/css" rel="stylesheet" href="../css/index.css">
+	<link type="text/css" rel="stylesheet" href="../css/dd-component-bundle.css">
+  <link type="text/css" rel="stylesheet" href="../css/pop-up.css">
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/jquery.reveal.js"></script>
+  <script>
+  var rand,special,term,act_day,yearRate,typeID;
+(function( $ ){
+  $.fn.animateProgress = function(progress, callback) { 
+    return this.each(function() {
+      $(this).children('em').show();
+//
+
+      var progresst;var progressf;
+      progressf = progress;
+      
+      if(progress < 1)
+      {
+        progresst = 0;
+        
+      }
+      else if(progress < 5)
+      {
+        progresst = 5;
+      }
+      else
+      {
+        progresst = progress;
+      }
+    
+//
+      
+      $(this).animate({
+        width: progresst+'%'
+      }, {
+        duration: 1000,
+        step: function(progress){
+              var valueEl = $(this).children('em');
+              var valueE1Parent = $(this).parent("div");
+              valueEl.text(Math.ceil(progressf) + '%');
+              if(progress==100){
+                  valueEl.html("审核中");
+                  valueE1Parent.removeClass('progress');
+                  valueE1Parent.addClass('gray');
+              }
+         },
+        // complete: function() {
+        //     alert($(".meter > span").width());
+        //     alert(progress); 
+        // }
+      });
+
+    });
+  };
+})( jQuery);
+  </script>
+
+<script type="text/javascript">
+ $(document).ready(function(){
+    $.ajaxSetup({
+      url: 'http://app.erp2p.com/down/action/invest/bidAction.php',
+      type: 'GET',
+      async: false,
+      dataType : "jsonp",
+      jsonp: "callbackparam",
+      jsonpCallback:"success_jsonpCallback",   
+    });
+    $.ajax({
+      data:{mode:"1"},
+      error: function(){  
+        alert('系统错误');  
+      },
+      success: function(data){
+        ///表单刷新验证值////
+        $("input[name='rand']").val(data.rand);
+
+        special = data.special;
+        term = data.term;
+        act_day = data.act_day;
+        yearRate = data.yearRate;
+        typeID = data.typeID;
+        $("#yuMoney").text(data.money_sum);
+        $("#ktBidMoney").text(data.bidLast);
+        $(".meter").children('span').children('em').text(data.progress);
+        $(".meter > span").each(function() {
+        $(this).width(0);
+        $(this).parent("div").addClass('progress');
+        $(this).animateProgress($(this).children('em').html());
+      });
+      }
+    });
+ $("#bid").on('click',function() {
+    $.ajax({ 
+      data:{mode:"2",bidMoney:$("#bidMoney").val(),rand:$("input[name='rand']").val()},
+      error: function(){  
+        alert('系统错误');  
+      },  
+      success: function(data){
+        if(data.error!=0){
+          if(data.error==1){
+            $(".cd-popup-container>span").text('投标金额必需大于10元');      
+          }
+          if(data.error==2){
+            $(".cd-popup-container>span").text('最大投资不得大于限额');      
+          }
+          if(data.error==3){
+            $(".cd-popup-container>span").text('不能投自己发布的标');      
+          }
+          if(data.error==4){
+            $(".cd-popup-container>span").text('投标金额必需是10的整数倍');      
+          }
+          if(data.error==5){
+            $(".cd-popup-container>span").text('账户余额不足');      
+          }
+          if(data.error==6){
+            $(".cd-popup-container>span").text('数据连接错误');      
+          }
+          if(data.error==7){
+            $(".cd-popup-container>span").text('重复提交错误');      
+          }                                  
+          $('.cd-popup').addClass('is-visible');
+        }else{
+          if(data.full==1){
+            $("#yuMoney").text(data.money_sum);
+            $("#ktBidMoney").text(data.bidLast);
+            $(".meter").children('span').children('em').text(data.progress);
+            $(".meter > span").each(function() {
+
+					$(this).width(0);
+					$(this).parent("div").addClass('progress');
+					$(this).animateProgress($(this).children('em').html());			
+						
+            });
+            $("input.form_input").attr("disabled","disabled");
+            $('#bid').off('click');
+			      $(".cd-popup-container").html('<p>投标成功！</p><ul class="cd-buttons"><li onclick="closePop()" style="width:100%;"><a href="#0">确定</a></li></ul><a href="#0" onclick="closePop()" class="cd-popup-close img-replace"></a>');
+				    $('.cd-popup').addClass('is-visible');
+
+          }else{
+
+            $("#yuMoney").text(data.money_sum);
+            $("#ktBidMoney").text(data.bidLast);
+            $(".meter > span").parent("div").removeClass('progress');
+            $(".meter").children('span').children('em').text(data.progress);
+            $(".meter > span").each(function() {
+
+					$(this).width(0);
+					$(this).parent("div").addClass('progress');
+					$(this).animateProgress($(this).children('em').html());			
+								  
+            });
+	             $(".cd-popup-container").html('<i></i><p>投标成功！</p><ul class="cd-buttons"><li onclick="closePop()"><a href="#0">继续投标</a></li><li><a href="../index.html">返回首页</a></li></ul><a href="#0" onclick="closePop()" class="cd-popup-close img-replace"></a>');	
+				$('.cd-popup').addClass('is-visible');				 
+
+          }
+          
+           $("input.form_input").val("");
+          $(".in_prompt").hide();
+          $("input.form_input").focus();
+          $(".in_close").hide();
+          $("#bid").html("投标");         
+        }
+
+      }
+    });
+
+  });
+
+  $('.cd-popup-close,.cd-buttons>li:first-child').on('click', function(event){
+    event.preventDefault();
+    $(".cd-popup").removeClass('is-visible');
+    $("input.form_input").val("");
+    $(".in_prompt").hide();
+    $("input.form_input").focus();
+    $(".in_close").hide();
+    $("#bid").html("投标");
+  });
+
+
+
+  $("input.form_input").focus(function() {
+    $(".in_prompt").show();
+    var inputFormValue = parseInt($("input.form_input").val());
+    var sy;
+    if(inputFormValue>0){
+      $(".left").children('span').html(inputFormValue+"元");
+     // $(".right").children('span').html(inputFormValue+"元");
+      $(".in_close").show();
+    }else{
+      $(".left").children('span').html("0元");
+      $(".right").children('span').html("0元");    
+    }
+
+  });
+
+  $(".in_close").on('click',function() {
+    $("input.form_input").val("");
+    $("input.form_input").focus();
+    $(".left").children('span').html("0元");
+    $(".right").children('span').html("0元");
+    $(".in_close").hide();
+    $("#bid").html("投标");
+  });
+
+  $(".refresh").on('click',function() {
+    location.href="";
+    // $.ajax({
+    //   data:{mode:"1"},
+    //   error: function(){  
+    //     alert('Error loading XML document');  
+    //   },
+    //   success: function(data){//如果调用php成功
+    //     $("#yuMoney").text(data.money_sum);
+    //     $("#ktBidMoney").text(data.bidLast);
+    //     $(".meter").children('span').children('em').text(data.progress);
+    //     $(".meter > span").each(function() {
+    //     $(this).width(0);
+    //     $(this).parent("div").addClass('progress');
+    //     $(this).animateProgress($(this).children('em').html());
+    //     $(".input_txt>input").text("");
+    //     $(".in_prompt>ul>li:eq(0)>span").text("");
+    //     $(".in_prompt>ul>li:eq(1)>span").text("");
+    //     $("input.form_input").val("");
+    //     $("input.form_input").focus();
+    //     $(".in_close").hide();
+    //     $("#bid").html("投标");
+    //   });
+    // ///进度条显示////////
+    //   }
+    // });
+  });
+///////拆红包////
+  itemWrapper = $('#portfolio').children();
+  itemWrapper.on('click', function(e) {
+  itemWrapper.attr("src","../images/activity/chai/chai.gif");
+  setTimeout(function () {
+  $("#myModal").fadeOut(function() {
+         $.ajax({
+           url: "http://192.168.0.200/apphome/action/activity/chaiAction.php",
+           success: function(data){       
+            if(data.error==2){
+              $("#myModal2").fadeIn();
+            }
+            else{
+              $(".modaln_t").children("span").html(data.chaimoney);
+              $("#myModal1").fadeIn();
+              }
+            }
+         });
+        });
+        }, 1800); 
+  });
+  $("a.close-reveal-modal").on("click",function(){
+      $("#myModal1,#myModal2").fadeOut(function(){
+        location.href="";
+      });
+  }); 
+////////////////
+
+ });
+ function resum(money,month,rate,type)
+ {
+  rate_month = rate/1200;//月利率
+  if(type==101)//等额本息
+  {
+    math=Math.pow(1+rate_month, month);
+    return money*rate_month* math / (math-1)*month;
+  }
+  if(type==100)
+  {
+    return money*(rate_month*month+1);
+  
+  }
+ }
+function OnInput (event) {
+  $(".in_close").show();
+  var oVal = event.target.value;
+  if(oVal.length==0){
+      $("#bid").html("投标");
+      $(".left").children('span').html("0元");
+      $(".right").children('span').html("0元");  
+    return false;
+  }
+  if(oVal.length>8){
+    oVal = oVal.substring(0,8);
+  }
+  if(isNaN(oVal)){
+    oVal = oVal.substring(0,oVal.length-1);
+    if(oVal==""){
+      $("#bid").html("投标");
+      $(".left").children('span').html("0元");
+      $(".right").children('span').html("0元");
+    }
+    return false;
+  }
+        $("#bid").html("确定");
+        $(".left").children('span').html(oVal+"元");
+        if(special==4){
+          sy=oVal*parseInt(yearRate)*0.001*parseInt(act_day);
+        }
+        else if(typeID==102){
+         sy = oVal*parseInt(yearRate)*parseInt(term)/2400;
+        }
+      else{
+         sy = resum(oVal,term,yearRate,typeID);
+         sy = sy - oVal;
+       }
+        $(".right").children('span').html(sy.toFixed(2)+"元");  
+
+}
+
+</script>
+<script>
+function closePop(){
+    $(".cd-popup").removeClass('is-visible');
+    location.href='';
+    //异步
+    // $("input.form_input").val("");
+    // $(".in_prompt").hide();
+    // $("input.form_input").focus();
+    // $(".in_close").hide();
+    // $("#bid").html("投标");
+}
+</script>
+	</head>
+	<body class="web-page">
+<!--头部-->
+  <header>
+    <div class="back" onClick="javascript:history.back(-1);"></div>
+    <div  class="refresh"></div>
+      <div class="hd-title">
+        <h2 id="J_header_title">投资</h2>
+      </div>
+  </header>
+<!--头部--> 
+<!--中间-->
+<input type="hidden" name="rand" value="">
+<div class="home_page">
+<div class="scroll_container"> 
+      <!--list-->
+      <div class="list_data">
+    <div class="l_pad">
+          <div class="list_data_t">
+        <ul>
+              <li class="name">账户可用余额（元）</li>
+              <li id="yuMoney" class="f_bold"></li>
+            </ul>
+      </div>
+        </div>
+     </div>
+      <div class="list_data box_s_w">
+    <div class="l_pad">
+          <div class="list_data_t mar_b10">
+        <ul>
+              <li class="name">本标可投金额（元）</li>
+              <li id="ktBidMoney"class="f_bold"></li>
+            </ul>
+      </div>
+        </div>
+      </div> 
+          <div class="list_mark box_s_w">
+    	<div class="progress_b">
+          <div class="meter"> <span><em style="display:none"></em></span> </div>
+        </div>
+     </div>
+    <!--list-->
+    
+    <!-- 输入框   --> 
+     <div class="input_div">
+     		<div class="in_close" style="display:none"><i></i></div> 
+        	<div class="input_txt">输入金额</div>
+            <input class="form_input in" maxlength="8" id="bidMoney" type="text"  value="" placeholder="填写投标金额（输入10的整数倍）" onKeyUp="value=value.replace(/[^\d]/g,'')" oninput="OnInput (event)" errortext="">    
+              
+    </div> 
+      
+    <!-- 输入框   --> 
+    <!-- 输入后提示  --> 
+    <div class="in_prompt" style="display:none">
+    	<ul>
+        	<li class="left"><label>本次投资</label><span></span></li>
+            <li class="right"><label>投资收益</label><span class="col_t_g"></span></li>
+        </ul>
+    </div>
+    <!-- 输入后提示  --> 
+    <!-- 立即投标   -->
+    	<div style="width:100%; margin:0 auto; float:left;">
+    	<div class="red_btn_b">
+			<a id="bid" href="#" class="cd-popup-trigger">投标</a>
+        </div>
+        </div>
+    <!-- 立即投标   --> 
+    <!-- 继续投标   -->
+<!--   	<div class="red_btn">
+			<a href="/user/pay.html">继续投标</a>
+        </div>-->
+    <!-- 继续投标   -->       
+    <!-- 充值按钮   -->
+    <div style="width:100%; margin:0 auto; float:left;">
+    	<div class="green_btn">
+			<a href="../user/pay.html">充值</a>
+        </div>
+    </div>
+    <!-- 充值按钮   -->  
+    <!-- 返回首页   -->                 
+<!--      <div class="back_btn">
+     	 <a href="../index.html">返回首页</a>
+      </div>-->
+    <!-- 返回首页   --> 
+
+  </div>
+    </div>
+<!--中间--> 
+<!-- 弹出框 -->
+<!--
+<div class="cd-popup" role="alert">
+	<div class="cd-popup-container">
+   		<i></i>
+		<p>投标成功！</p>
+		<ul class="cd-buttons">
+			<li><a href="#0">继续投标</a></li>
+			<li><a href="../index.html">返回首页</a></li>
+		</ul>
+		<a href="#0" class="cd-popup-close img-replace"></a>
+	</div> 
+</div> -->
+<!-- 弹出框 -->
+<!-- 弹出框 -->
+<div class="cd-popup" role="alert">
+	<div class="cd-popup-container">
+		<p>投标失败！</p>
+        <span></span>
+		<ul class="cd-buttons">
+			<li style="width:100%;"><a href="#0">确定</a></li>
+		</ul>
+		<a href="#0" class="cd-popup-close img-replace"></a>
+	</div> 
+</div>
+<!-- 弹出框 -->
+<!-- <a id="chb" href="#" style="display:none" data-reveal-id="myModal"></a> -->
+ <!--抢红包 添加部分-->
+<!-- <div id="myModal" class="reveal-modal">
+ <div id="container">
+    <div id="portfolio"><img src="../images/activity/chai/js_chai.gif" alt="Dump Truck"/></div>
+ </div>   
+</div> -->
+<!-- <div id="myModal1" class="reveal-modaln">
+<div class="modaln_t"><span>1.00</span><em>元</em></div>
+<div class="modaln_b"><a href="../user/account.html">查看我的资金流水</a></div>
+<a class="close-reveal-modal"></a>
+</div> -->
+<!-- <div id="myModal2" class="reveal-modalw">
+<div class="modaln_t"></div>
+<div class="modaln_b" style="padding-top:200px;"><a href="../user/account.html">查看我的资金流水</a></div>
+<a class="close-reveal-modal"></a> 
+</div> -->
+</body>
+</html>

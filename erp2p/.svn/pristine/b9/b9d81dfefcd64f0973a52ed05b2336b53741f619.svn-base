@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>e融在线-银行卡选择</title>
+	<meta content="yes" name="apple-mobile-web-app-capable"/>
+	<meta content="yes" name="apple-touch-fullscreen"/>
+	<meta name="data-spm" content="a215s"/>
+	<meta content="telephone=no,email=no" name="format-detection"/>
+	<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
+	<link type="text/css" rel="stylesheet" href="../css/index.css">
+	<link type="text/css" rel="stylesheet" href="../css/dd-component-bundle.css">
+    <link type="text/css" rel="stylesheet" href="../css/pop-up.css">
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+	<script>
+    var state,delbankid;
+    function loadding(){
+         $.ajax({
+            data : {mode:1},
+            success : function(data){
+                var str = "";
+                for(var i=0;i<data.length;i++){
+                    if(data[i].llpay==0){
+                        str = str + '<div class="bank_div" id='+data[i].bankid+'><div class="bank_i" onclick="choaccount('+data[i].bankid+')"><i><img src="../images/bank/'+data[i].banktype+'"></i></div><div class="bank_d" onclick="delaccount('+data[i].bankid+')"></div><div onclick="choaccount('+data[i].bankid+')" class="bank_x">尾号 '+data[i].account+'</div></div>';                       
+                    }
+                    if(data[i].llpay==1){
+                       str = str + '<div class="bank_div" id='+data[i].bankid+'><div class="bank_i" onclick="choaccount('+data[i].bankid+')"><i><img src="../images/bank/'+data[i].banktype+'"></i></div><div class="bank_nd"></div><div onclick="choaccount('+data[i].bankid+')" class="bank_x">尾号 '+data[i].account+'</div></div>'; 
+                    }
+                 }
+                 $(".menu_div").before(str);
+            },
+            error:function(){
+                alert("系统错误");
+            }
+         }); 
+    }
+	jQuery(document).ready(function($) {
+        $.ajaxSetup({
+            url: 'http://app.erp2p.com/down/action/user/Bank_chooseAction.php',
+            type: 'GET',
+            async: false,
+            dataType : "jsonp",
+            jsonp: "callbackparam",//服务端用于接收callback调用的function名的参数
+            jsonpCallback:"success_jsonpCallback",//callback的function名称             
+        });
+        loadding();
+
+        $(".menu_div").on('click',function(event) {
+            event.preventDefault();
+            $.ajax({
+                data: {mode: 4},
+                success : function(data){
+                    if(data.rzTel!=2){
+                        $(".cd-popup-container>p").html("添加失败");
+                        $(".cd-popup-container>span").html("请手机认证");
+                        $('.cd-popup').addClass('is-visible');
+                        return false;
+                    }
+                    if(data.rzCode!=2){
+                        $(".cd-popup-container>p").html("添加失败");
+                        $(".cd-popup-container>span").html("请实名认证");
+                        $('.cd-popup').addClass('is-visible'); 
+                        return false;   
+                    }
+                    location.href="bank_add.html";
+                },
+                error : function(){
+                    alert("系统错误");
+                }
+            });
+        });
+        $(".cd-buttons").on("click",function(event){
+            event.preventDefault();
+            $('.cd-popup').removeClass('is-visible');
+        }); 
+	});
+    function choaccount(bankid){
+        $.ajax({
+            data : {mode:3,id:bankid},
+            success : function(data){
+                if(data.waytype==1){
+                    location.href="cash.html";
+                    return false;
+                }
+                if(data.waytype==2){
+                    location.href="pay.html";
+                    return false;
+                }
+            },
+            error:function(){
+                alert("系统错误");
+            }
+        });
+        
+    }
+    function delaccount(bankid){
+        if(confirm("删除银行卡？")){
+           delbankid =  bankid;
+            $.ajax({
+                data : {mode:2,delId:bankid},  
+                success : function(data){  
+                    if(data.delstate==1){
+                        $(".cd-popup-container>p").html("删除失败");
+                        $(".cd-popup-container>span").html("您有提现申请未处理");
+                        $('.cd-popup').addClass('is-visible');
+                    }
+                    if(data.delstate==0){
+                        $(".cd-popup-container>p").html("删除成功");
+                        $(".cd-popup-container>span").remove();
+                        $(".cd-popup-container>a").remove();
+                        $('.cd-popup').addClass('is-visible');
+                        $("#"+delbankid).remove();
+
+                    }                   
+                },
+                error : function(data){
+                    alert("系统错误");
+                }        
+            })
+         }else{
+            return false;
+         }
+   
+    }
+     </script>
+	</head>
+	<body class="web-page">
+<!--头部-->
+  <header>
+    <div class="back" onclick="javascript:history.back(-1);"></div>
+      <div class="hd-title">
+        <h2 id="J_header_title">选择银行卡</h2>
+      </div>
+  </header>
+<!--头部--> 
+<!--中间-->
+    <div class="home_page">
+	    <div class="scroll_container">    
+			<!-- 银行卡   -->                            
+		<!-- 银行卡   -->  
+    <!-- 下级菜单   -->
+            <div class="menu_div" style=" margin-top:15px;">
+                <div class="menu_l">添加银行卡</div>
+                <div class="menu_r"></div>            
+            </div> 
+    <!-- 下级菜单  -->	              
+    </div>
+  </div>
+<!--中间--> 
+<!-- 弹出框 -->
+<div class="cd-popup" role="alert">
+  <div class="cd-popup-container">
+    <p></p>
+        <span></span>
+    <ul class="cd-buttons">
+      <li style="width:100%;"><a href="#0">确定</a></li>
+    </ul>
+  </div> 
+</div>
+<!-- 弹出框 --> 
+<!--底部-->
+<!--底部-->
+</body>
+</html>

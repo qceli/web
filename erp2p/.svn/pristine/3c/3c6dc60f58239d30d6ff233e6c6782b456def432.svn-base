@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>e融在线-档案图片</title>
+		<meta content="yes" name="apple-mobile-web-app-capable"/>
+		<meta content="yes" name="apple-touch-fullscreen"/>
+		<meta content="telephone=no,email=no" name="format-detection"/>
+		<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
+		<link type="text/css" rel="stylesheet" href="../css/index.css">
+		<link type="text/css" rel="stylesheet" href="../css/dd-component-bundle.css">
+		<script type="text/javascript" src="../js/jquery.min.js"></script>
+		<script>
+		jQuery(document).ready(function($) {
+			$.ajax({
+      			url: "http://app.erp2p.com/down/action/invest/archivesAction.php",  
+      			type: "GET",
+      			data:{mode:"1"},
+      			dataType:"jsonp",
+      			jsonp: "callbackparam",//服务端用于接收callback调用的function名的参数
+      			jsonpCallback:"success_jsonpCallback",//callback的function名称
+      			error: function(){  
+        			alert('Error loading XML document');  
+      			},
+      			success: function(data){
+      				var str="",i;
+      				for(i=0;i<data.length;i++){
+      					str = str+'<div class="photo_list"><img src="http://app.erp2p.com/upload/dkpic/'+data[i]+'"></div>';
+      				}
+      				$(".photo").html(str);
+      			}
+			})	
+		});				
+		</script>
+	</head>
+	<body class="web-page">
+<!--头部-->
+    <header>
+	    <div class="back" onclick="javascript:history.back(-1);"></div>
+	    <div>
+	          <div class="hd-title">
+	        <h2 id="J_header_title">档案图片</h2>
+	      </div>
+	    </div>
+    </header>
+<!--头部--> 
+<!--中间-->
+    <div class="home_page">
+    <div class="scroll_container"> 
+		<div class="photo">
+                      	
+    	</div>     
+      </div>  
+       <div class="photo_txt">100%实物拍摄，盗图必究</div>  
+    </div>
+<!--中间--> 
+<!--底部-->
+<!--底部-->
+</body>
+</html>

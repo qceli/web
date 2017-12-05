@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>e融在线-总收益</title>
+	<meta content="yes" name="apple-mobile-web-app-capable"/>
+	<meta content="yes" name="apple-touch-fullscreen"/>
+	<meta content="telephone=no,email=no" name="format-detection"/>
+	<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
+	<link type="text/css" rel="stylesheet" href="../css/index.css">
+	<link type="text/css" rel="stylesheet" href="../css/dd-component-bundle.css">
+  <script type="text/javascript" src="../js/jquery.min.js"></script>
+  <script>
+    jQuery(document).ready(function($) {
+     $.ajaxSetup({
+      url: 'http://app.erp2p.com/down/action/user/earningsAction.php',
+      type: 'GET',
+      async: false,
+      dataType : "jsonp",
+      jsonp: "callbackparam",//服务端用于接收callback调用的function名的参数
+      jsonpCallback:"success_jsonpCallback",//callback的function名称 
+    });     
+      $.ajax({
+        data: {mode: 1},
+        success : function(data){
+          $(".bot").text(data.tatalIncome);
+          $(".menu_div:eq(0)>div.menu_c_t").text(data.repay_tb+"元");
+          $(".menu_div:eq(1)>div.menu_c_t").text(data.ds+"元");
+          $(".web-page").show();
+        },
+        error : function(){
+          alert("系统错误");
+        }
+      });   
+    });
+  </script>
+	</head>
+	<body class="web-page" style="display:none">
+<!--头部-->
+  <header>
+    <div class="back" onclick="javascript:history.back(-1);"></div>
+      <div class="hd-title">
+        <h2 id="J_header_title">总收益</h2>
+      </div>
+  </header>
+<!--头部--> 
+<!--中间-->
+  <div class="home_page">
+    	<div class="scroll_container"> 
+          <!--list-->
+          <div class="user_data">
+                <div class="data_t">
+                    <div class="top">您已获得收益（元）</div>
+                    <div class="bot"></div>               	  
+                </div>         
+  		</div>          
+                </div>
+        <!--list--> 
+<!-- 下级菜单   -->
+        <div class="menu_div">
+			<div class="menu_l">已收</div>
+            <div class="menu_c_t"></div>
+        </div> 
+        <div class="menu_div  margin_b19">
+			<div class="menu_l">待收</div>        
+            <div class="menu_c_t"></div>
+        </div>
+<!--         <div class="menu_div  margin_b19">
+			<div class="menu_l">其他收益</div>
+            <div class="menu_c_t">0.8元</div>
+        </div>    -->                                    
+<!-- 下级菜单   --> 
+       
+        </div>
+  </div>
+<!--中间--> 
+
+</body>
+</html>

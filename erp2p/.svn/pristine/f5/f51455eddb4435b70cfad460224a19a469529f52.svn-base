@@ -1,0 +1,261 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title >e融在线-投资详情</title>
+	<meta content="yes" name="apple-mobile-web-app-capable"/>
+	<meta content="yes" name="apple-touch-fullscreen"/>
+	<meta name="data-spm" content="a215s"/>
+	<meta content="telephone=no,email=no" name="format-detection"/>
+	<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
+	<link type="text/css" rel="stylesheet" href="../css/index.css">
+	<link type="text/css" rel="stylesheet" href="../css/dd-component-bundle.css">
+  <script type="text/javascript" src="../js/jquery.min.js"></script>
+  <script language=JavaScript>
+  /////倒计时效果显示器////////
+  var now;//初始时间
+  var urodz;//结束时间
+  var timestamp;
+  function GetServerTime()
+  {
+    now.setTime(now.getTime()+1000);
+    if(urodz-now<=0){
+      clearInterval(timestamp);
+      document.getElementById("timestamp").innerHTML = "00:00:00:00";
+
+    }else{
+      days = (urodz - now) / 1000 / 60 / 60 / 24;
+      daysRound = Math.floor(days);
+      hours = (urodz - now) / 1000 / 60 / 60 - (24 * daysRound);
+      hoursRound = Math.floor(hours);
+      minutes = (urodz - now) / 1000 /60 - (24 * 60 * daysRound) - (60 * hoursRound);
+      minutesRound = Math.floor(minutes);
+      seconds = (urodz - now) / 1000 - (24 * 60 * 60 * daysRound) - (60 * 60 * hoursRound) - (60 * minutesRound);
+      secondsRound = Math.round(seconds);
+      if(daysRound<10){
+        daysRound="0"+daysRound;
+      }
+      if(hoursRound<10){
+       hoursRound="0"+hoursRound;   
+      }
+
+      if(minutesRound<10){
+        minutesRound="0"+minutesRound;
+      }
+       if(secondsRound<10){
+        secondsRound="0"+secondsRound;
+      }
+      document.getElementById("timestamp").innerHTML = daysRound+":"+hoursRound + ":" + minutesRound + ":" + secondsRound;    
+    }
+  }
+  </script>
+
+  <script>
+  (function( $ ){
+    $.fn.animateProgress = function(progress,injuck,callback) {    
+      return this.each(function() {
+        $(this).children('em').show();     
+        $(this).animate({
+          width: progress+'%'
+        }, {
+          duration: 1000, 
+          step: function(progress){
+              var valueEl = $(this).children('em');
+              var valueE1Parent = $(this).parent("div");
+              valueEl.text(Math.ceil(progress) + '%');
+              if(progress==100){
+                if(injuck==2){
+                  valueEl.html("审核中");
+                }
+                if(injuck==1){
+                   valueEl.html("还款中");
+                }
+               
+                valueE1Parent.removeClass('progress');
+                valueE1Parent.addClass('gray');
+              }
+           }
+        });
+      });
+    };
+  })(jQuery);
+  </script> 
+  <script>
+    function initializeAction(){
+      $.ajax({
+      data:{mode:"1"},
+      error: function(){  
+        alert('Error loading XML document');  
+      },  
+      success: function(data){//如果调用php成功
+        $(".menu_c>em").html(data.countNum+"人");
+        $(".f_bold").html(data.money);
+        if(data.special==3){
+          $(".list_b>ul").html('<li class="w100 text_c">利率（&#8241）</li>');
+          $(".list_c>ul").html('<li class="w100 text_c reg">'+data.yearRate+'</li>');
+        }else if(data.special ==4){
+          $(".list_b>ul>li:first-child").html('利率（‰/年）');
+          $(".list_b>ul>li:last-child").html('期限（天）');
+          $(".list_c>ul>li:first-child").html(data.yearRate);
+          $(".list_c>ul>li:last-child").html(data.borrowTerm);
+        }else{
+          $(".list_c>ul>li:first-child").html(data.yearRate);
+          $(".list_c>ul>li:last-child").html(data.borrowTerm);       
+        }
+        var repayWay;
+        if(data.repayWay==101){
+          repayWay = "每月偿还本息";
+        }
+        if(data.repayWay==102){
+          repayWay = "到期偿还本息";
+        }
+        if(data.repayWay==100){
+          repayWay = "每月付息,到期还本";
+        }       
+        $(".basic>ul>li:eq(0)>span").html(data.titles);
+        $(".basic>ul>li:eq(1)>span").html(repayWay);
+        $(".basic>ul>li:eq(2)>span").html(data.bidLast);
+        //$(".title>ul>li:eq(3)>span").html(data.titles);
+       ///进度条显示////////
+        $(".meter").children('span').children('em').text(data.progress);
+        $(".meter > span").each(function() {
+          $(this).width(0);
+          $(this).parent("div").addClass('progress');
+          $(this).animateProgress($(this).children('em').html(),data.injuck);
+        });
+
+  ///////标的状态判定//////////////////////////
+        if(data.bidLast==0){
+          $(".bottom-btns>a").attr("href","#").html("已满标");
+          $(".bottom-btns").off();
+          $(".bottom-btns").removeClass('bottom-btns').addClass('bottom-btns_g');
+          document.getElementById("timestamp").innerHTML = "00:00:00:00";
+        }
+        else{
+////////////////倒计时显示/////////////////
+        now = new Date(data.beginTime);
+        urodz = new Date(data.endTime);
+        timestamp = setInterval("GetServerTime()",1000);        
+        }
+      }
+    });    
+    }
+  </script>
+  <script>
+  $(document).ready(function(){
+    $.ajaxSetup({
+      url: "http://app.erp2p.com/down/action/invest/bidinfoAction.php",  
+      type: "GET",
+      async: false,
+      dataType:"jsonp",
+      jsonp: "callbackparam",//服务端用于接收callback调用的function名的参数
+      jsonpCallback:"success_jsonpCallback",//callback的function名称
+    });    
+    initializeAction();
+    $(".refresh").on('click',function(event) {
+      event.preventDefault();
+      clearInterval(timestamp); 
+      initializeAction();
+    });
+    $(".bottom-btns").on('click', function(event) {
+      event.preventDefault();
+      $.ajax({    
+        data: {mode: '2'},
+        error: function(){  
+          alert('系统错误');
+        },
+        success: function(data){
+          if(data.error==0){
+            location.href="bid.html";
+          }
+          if(data.error==1){
+            location.href="../user/login.html";
+          }
+        }
+      })
+
+      
+    });
+  });
+  </script>
+	</head>
+	<body class="web-page">
+<!--头部-->
+  <header>
+    <div class="back" onclick="javascript:history.back(-1);"></div>
+    <div  class="refresh"></div>
+          <div class="hd-title">
+        <h2 id="J_header_title">投资详情</h2>
+      </div>
+  </header>
+<!--头部--> 
+<!--中间-->
+  <div class="home_page">
+    	<div class="scroll_container"> 
+          <!--list-->
+          <div class="list_data">
+            <div class="l_pad">
+                <div class="list_data_t">
+                    <ul>
+                      <li class="name">借款金额（元）</li>
+                      <li class="f_bold"></li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+          <!---->
+       <div class="list_mark box_s_w">
+            <div class="l_pad">
+                 <div  class="list_b name">
+                    <ul>
+                      <li class="w50 text_c">利率（%/年）</li>
+                      <li class="w50 text_c">期限（个月）</li>
+                    </ul>
+                </div>        
+                <div class="list_c">
+                <ul>
+                      <li class="w50 text_c reg"></li>
+                      <li class="w50 text_c" style="font-weight:normal;"></li>
+                 </ul>
+              </div>
+            </div>          
+            <div class="progress_b">
+                  <div class="meter"><span><em style="display:none"></em></span></div>
+            </div>
+          </div>  
+        <!--list--> 
+	<div class="basic margin_t">
+    	<div class="title" >基本详情</div>
+    	<ul>
+        	<li><label>借款标题</label><span></span></li>
+        	<li><label>还款方式</label><span></span></li>
+        	<li><label>可投金额</label><span></span></li>
+        	<li><label>剩余时间</label><span id="timestamp"></span></li>
+      </ul>
+ 		</div>     
+      </div>
+<!-- 下级菜单   -->
+        <div class="menu_div" onClick="window.location.href='archives.html'">
+			<div class="menu_l">档案图片</div>
+            <div class="menu_r"></div>
+        </div>
+        <div class="menu_div margin_b19" onClick="window.location.href='borinfo.html'">
+			<div class="menu_l">借款人信息</div>
+            <div class="menu_r"></div>
+        </div> 
+        <div class="menu_div  margin_b19" onClick="window.location.href='bidrecord.html'">
+			<div class="menu_l">投资记录</div>
+            <div class="menu_r"></div>            
+            <div class="menu_c"><em class="txt_r"></em>已投资</div>
+        </div>                        
+<!-- 下级菜单   -->     
+        </div>
+  </div>
+<!--中间--> 
+<!--底部-->
+    <nav class="bottom-btns">
+    	 <a href="#">投标</a>
+    </nav>
+<!--底部-->
+</body>
+</html>

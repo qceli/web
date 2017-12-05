@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>e融在线充值</title>
+	<meta content="yes" name="apple-mobile-web-app-capable"/>
+	<meta content="yes" name="apple-touch-fullscreen"/>
+	<meta content="telephone=no,email=no" name="format-detection"/>
+	<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
+	<link type="text/css" rel="stylesheet" href="../css/index.css">
+	<link type="text/css" rel="stylesheet" href="../css/dd-component-bundle.css">
+  <link type="text/css" rel="stylesheet" href="../css/pop-up.css">
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+  <script>
+  var code,state;
+  function OnInput (event){
+    if($(event.target).val()!=""){
+      if(!isNaN($(event.target).val())){
+          $(event.target).parent("div").children('.in_close').show(); 
+      }
+    }else{
+        $(event.target).parent("div").children('.in_close').hide();
+    }
+  }
+  jQuery(document).ready(function($) {
+    $.ajaxSetup({
+      url: 'http://app.erp2p.com/down/action/user/payAction.php',
+      type: 'GET',
+      async: false,
+      dataType : "jsonp",
+      jsonp: "callbackparam",//服务端用于接收callback调用的function名的参数
+      jsonpCallback:"success_jsonpCallback",//callback的function名称       
+    });
+    $.ajax({
+      data : {mode:1},
+      success : function(data){
+        code = data.code;
+        $("#moneySum").text(data.money_sum);
+        $("#sumPayMoney").text(data.payMoney);
+        if(data.choose==3){
+          $(".menu_div").hide();
+          $(".choOne").show();
+          var str = "../images/bank/"+data.banktype;
+          $("div.choOne>div.bank_i>i>img").attr("src",str);
+          $(".choOne").children(".bank_x").html("尾号 "+data.account);
+          $("input[name='account']").val(data.bankfull);
+        }
+        if(data.choose==2){
+          if(data.bankState!=1){
+            $(".menu_div").hide();
+            $(".choTwo").show();
+            var str = "../images/bank/"+data.banktype;
+            $("div.choTwo>div.bank_i>i>img").attr("src",str);
+            $(".choTwo").children(".bank_x").html("尾号 "+data.account);
+            $("input[name='account']").val(data.bankfull);           
+          }
+
+        }
+      },
+      error:function(){
+          alert("系统错误");
+      }
+    });
+    $(".in_close").on('click',function(event) {
+        event.preventDefault();
+        $(this).hide();
+        $(this).parent("div").children('input').val("");
+        $(this).parent("div").children('input').focus();
+      });
+    $(".green_btn_b>a").on('click',function(event) {
+        event.preventDefault();
+        var payMoney = $("#pay").val();
+        if($("input[name='account']").val()==""){
+           $(".cd-popup-container>span").html("请选择充值银行卡");
+           $('.cd-popup').addClass('is-visible');        
+          return false;
+        }
+         if(payMoney <100){
+           $(".cd-popup-container>span").html("充值金额100元起");
+           $('.cd-popup').addClass('is-visible');
+           return false;
+         }else{
+           if(code!=2){
+             $(".cd-popup-container>span").html("请实名认证");
+             $('.cd-popup').addClass('is-visible');
+             state = 1;
+           }else{
+            $("#payform").submit();
+           }
+         }
+      });
+
+    $(".menu_div,.choTwo").on('click',function(event) {
+      event.preventDefault();
+      /* Act on the event */
+      $.ajax({
+        data: {mode: 2},
+        success : function(data){
+            if(data.error ==0){
+              location.href='Bank_choose.html';
+            }
+        }
+      });
+    });
+    $(".cd-popup-close,.cd-buttons").on("click",function(event){
+        event.preventDefault();
+        $('.cd-popup').removeClass('is-visible');
+        if(state==1){
+          location.href="name_up.html";
+        }
+        $("#pay").val("");
+        $("#pay").focus();
+        $(".in_close").hide();
+    });
+    $("#pay").blur(function(event) {
+        /* Act on the event */
+      if($("#pay").val()==""){
+          $(".in_close").hide();
+      }
+    });
+  });
+  </script>
+	</head>
+	<body class="web-page">
+<!--头部-->
+  <header>
+    <div class="back" onClick="javascript:history.back(-1);"></div>
+      <div class="hd-title">
+        <h2 id="J_header_title">充值</h2>
+     </div>
+  </header>
+<!--头部--> 
+<!--中间-->
+<div class="home_page">
+<div class="scroll_container"> 
+      <!--list-->
+      <div class="list_data">
+    <div class="l_pad">
+          <div class="list_data_t">
+        <ul>
+              <li class="name">可用余额（元）</li>
+              <li class="f_bold" id="moneySum"></li>
+            </ul>
+      </div>
+        </div>
+     </div>
+      <div class="list_data box_s_w">
+    <div class="l_pad">
+          <div class="list_data_t mar_b10">
+        <ul>
+              <li class="name">累计充值（元）</li>
+              <li class="f_bold" id="sumPayMoney"></li>
+            </ul>
+      </div>
+        </div>
+      </div> 
+    <!--list--> 
+<!-- 无选择状态   -->
+      <div class="menu_div" style=" margin-top:15px;">
+			<div class="menu_l">请选择充值银行卡</div>
+            <div class="menu_r"></div>            
+            <!--<div class="menu_c"><em class="txt_r">0</em>张</div>-->
+      </div> 
+<!-- 无选择状态  -->
+<!-- 已选择状态  -->
+<div class="bank_div choOne" style=" margin-top:15px;display:none">
+            <div class="bank_i"><i><img /></i></div>
+            <div class="bank_x" style="padding-right:31px;"></div>                
+ </div>
+ <div class="bank_div choTwo" style=" margin-top:15px;display:none">
+            <div class="bank_i"><i><img /></i></div>
+            <div class="bank_r"></div> 
+            <div class="bank_x"></div>                
+ </div>
+    <!-- 输入框   --> 
+     <div class="select_div" style="margin-top:15px;">
+        	<div class="select_txt">充值方式</div>
+            <select class="form_select t_in">
+              <option value ="lianlian">连连支付</option>
+            </select>
+    </div>    
+    <!-- 输入框   -->        
+    <!-- 输入框   --> 
+    <form action="http://app.erp2p.com/down/action/authllpay/index.php" id="payform" method="post">
+    <div class="input_div" style="margin-bottom:15px; margin-top:-2px;"> 
+	     <div class="in_close" style="display:none"><i></i></div>	
+        	<div class="input_txt">输入金额</div>
+            <input class="form_input in" maxlength="" id="pay" name="pay" type="text"  value="" oninput="OnInput (event)"  placeholder="单笔充值小于5万元且大于100元" errortext="">  
+            <input type="hidden" name="account" value="">
+    </div> 
+     
+    <!-- 输入框   -->  
+    <!-- 充值按钮   -->
+    	<div style="width:100%; margin:10px auto; float:left;">
+    	<div class="green_btn_b">
+			<a href="#">充值</a>
+      </div>
+      </div>
+      <div style="padding-left:17px; padding-right:17px;line-height:25px;font-size:14px;text-align:left;color:#9d9fa7;">*重要提示，当您选择连连手机支付充值后，你的充值帐户将会被成你的唯一提现帐户，且不可变更。</div>
+  </div>
+</div>
+<!--中间-->
+<!-- 弹出框 -->
+<div class="cd-popup" role="alert">
+  <div class="cd-popup-container">
+    <p>充值失败！</p>
+        <span></span>
+    <ul class="cd-buttons">
+      <li style="width:100%;"><a href="#0">确定</a></li>
+    </ul>
+  </div> 
+</div>
+<!-- 弹出框 --> 
+</body>
+</html>

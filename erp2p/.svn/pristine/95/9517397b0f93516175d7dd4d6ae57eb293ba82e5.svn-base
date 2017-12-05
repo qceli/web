@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>e融在线-登录密码设置</title>
+	<meta content="yes" name="apple-mobile-web-app-capable"/>
+	<meta content="yes" name="apple-touch-fullscreen"/>
+	<meta name="data-spm" content="a215s"/>
+	<meta content="telephone=no,email=no" name="format-detection"/>
+	<meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
+	<link type="text/css" rel="stylesheet" href="../css/index.css">
+	<link type="text/css" rel="stylesheet" href="../css/dd-component-bundle.css">
+  <link type="text/css" rel="stylesheet" href="../css/pop-up.css">
+  <script type="text/javascript" src="../js/jquery.min.js"></script>
+  <script>
+  var state;
+    function OnInput (event) { 
+      if($(event.target).val()!=""){
+        $(event.target).prev("div").show();
+      }else{
+        $(event.target).prev("div").hide();
+      }
+    }
+    jQuery(document).ready(function($) {
+     $.ajaxSetup({
+        url: 'http://app.erp2p.com/down/action/user/loginpassAction.php',
+        type: 'GET',
+        async: false,
+        dataType : "jsonp",
+        jsonp: "callbackparam",//服务端用于接收callback调用的function名的参数
+        jsonpCallback:"success_jsonpCallback",//callback的function名称 
+    });     
+      $(".blue_btn_b>a").on('click',function(event) {
+        event.preventDefault();
+        var oldpwd = $("#oldpwd").val();
+        var pwd = $("#oldpwd").val(); 
+        var confirmPwd = $("#confirmPwd").val();
+        if(pwd!=confirmPwd){
+          $(".cd-popup-container>p").text("修改失败");
+          $(".cd-popup-container>span").html("两次密码不一致");
+          $('.cd-popup').addClass('is-visible');
+          state = 1;
+          return false;
+        }
+        if(pwd==""||pwd.length<8||pwd.length>30){
+          $(".cd-popup-container>p").text("修改失败");
+          $(".cd-popup-container>span").html("密码不正确");
+          $('.cd-popup').addClass('is-visible');
+          state = 2;
+          return false;         
+        }
+        $.ajax({
+          data : {mode:'1',oldpwd:oldpwd,pwd:pwd,confirmPwd:confirmPwd},
+          success : function(data){
+            if(data.error!=0){
+              if(data.error==2){
+                  state = 1;
+                  $(".cd-popup-container>p").html("修改失败");
+                  $(".cd-popup-container>span").html("两次密码不一致");
+                  $('.cd-popup').addClass('is-visible');
+              }
+              if(data.error == 1){
+                  state = 2;
+                  $(".cd-popup-container>p").html("修改失败");
+                  $(".cd-popup-container>span").html("密码不正确");
+                  $('.cd-popup').addClass('is-visible');
+              }
+            }else{
+                state = 3;
+                $(".cd-popup-container>p").html("修改成功");
+                $(".cd-popup-container>span").html("");
+                $('.cd-popup').addClass('is-visible');
+            }
+
+          },
+          error:function(){
+              alert("系统错误");
+          }
+        });
+      }); 
+
+      $(".in_close").on('click',function(event) {
+        event.preventDefault();
+        /* Act on the event */
+        $(this).parent("div").children("input").val("");
+        $(this).parent("div").children("input").focus();
+        $(this).hide();
+      }); 
+      $(".cd-popup-close,.cd-buttons").on("click",function(event){
+        event.preventDefault();
+        $('.cd-popup').removeClass('is-visible');
+        if(state == 1){
+          $("#pwd").val("");
+          $("#pwd").focus();
+          $("#pwd").parent("div").children('div').hide();     
+        }
+        if(state == 2){
+          $("#oldpwd").val("");
+          $("#oldpwd").focus();
+          $("#oldpwd").parent("div").children('div').hide(); 
+        }
+        if(state == 3){
+          history.go(-1);
+        }
+      });
+    });
+  </script>
+	</head>
+	<body class="web-page">
+<!--头部-->
+  <header>
+    <div class="back" onclick="javascript:history.back(-1);"></div>
+      <div class="hd-title">
+        <h2 id="J_header_title">登录密码</h2>
+      </div>
+  </header>
+<!--头部--> 
+<!--中间-->
+<div class="home_page">
+<div class="scroll_container"> 
+    <!-- 输入框   --> 
+     <div class="input_div" style=" margin-top:15px;">
+        <div class="in_close" style="display:none"><i></i></div> 
+            <input class="form_input in17" maxlength="30" id="oldpwd" type="password"  value="" placeholder="原密码" oninput="OnInput (event)" errortext="">  
+    </div>     
+     <div class="input_div" style="margin-top:-2px;">
+          <div class="in_close" style="display:none"><i></i></div> 
+            <input class="form_input in17" maxlength="30" id="pwd" type="password"  value="" placeholder="新密码(不小于8位)" oninput="OnInput (event)" errortext="">  
+    </div>    
+     <div class="input_div" style=" margin-top:-2px;">
+          <div class="in_close" style="display:none"><i></i></div> 
+            <input class="form_input in17" maxlength="30" id="confirmPwd" type="password"  value="" placeholder="确认密码" oninput="OnInput (event)" errortext="">  
+    </div>           
+    <!-- 输入框   -->   
+    <!-- 按钮   -->
+    	<div style="width:100%; margin:10px auto; float:left; padding-top:10px;">
+    	<div class="blue_btn_b">
+			 <a href="#">完成</a>
+        </div>
+      </div>
+    <!-- 按钮   -->           
+  </div>
+</div>
+<!--中间--> 
+<!-- 弹出框 -->
+<div class="cd-popup" role="alert">
+  <div class="cd-popup-container">
+    <p></p>
+        <span></span>
+    <ul class="cd-buttons">
+      <li style="width:100%;"><a href="#0">确定</a></li>
+    </ul>
+  </div> 
+</div>
+<!-- 弹出框 -->
+</body>
+</html>
