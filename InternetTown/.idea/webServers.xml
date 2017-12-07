@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a68bc5cf-ab69-4d0f-ac80-a1574526146f" name="115.159.3.215" url="http://115.159.3.215">
+        <fileTransfer host="115.159.3.215" port="21" rootFolder="/xiaozhen">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
