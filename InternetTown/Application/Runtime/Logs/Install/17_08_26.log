@@ -1,0 +1,2371 @@
+[ 2017-08-26T11:09:24+08:00 ] 121.235.241.3 /install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014355s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000867s ]
+
+[ 2017-08-26T11:09:25+08:00 ] 121.235.241.3 /install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001011s ]
+
+[ 2017-08-26T13:06:39+08:00 ] 121.235.241.3 /install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011344s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2017-08-26T13:06:58+08:00 ] 121.235.241.3 /install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2017-08-26T13:07:48+08:00 ] 121.235.241.3 /install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000915s ]
+
+[ 2017-08-26T13:11:13+08:00 ] 121.235.241.3 /install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2017-08-26T13:13:02+08:00 ] 121.235.241.3 /install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010328s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010423s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000904s ]
+
+[ 2017-08-26T13:13:07+08:00 ] 121.235.241.3 /install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000980s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010856s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2017-08-26T14:06:26+08:00 ] 121.235.241.3 /install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2017-08-26T14:09:29+08:00 ] 121.235.241.3 /install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000952s ]
+
+[ 2017-08-26T14:13:47+08:00 ] 121.235.241.3 /install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011679s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000924s ]
+
+[ 2017-08-26T14:20:22+08:00 ] 121.235.241.3 /install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013936s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001159s ]
+
+[ 2017-08-26T14:20:40+08:00 ] 121.235.241.3 /install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011430s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2017-08-26T14:26:44+08:00 ] 121.235.241.3 /install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2017-08-26T14:27:58+08:00 ] 121.235.241.3 /install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000909s ]
+
+[ 2017-08-26T14:27:59+08:00 ] 121.235.241.3 /install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001014s ]
+
+[ 2017-08-26T14:28:39+08:00 ] 121.235.241.3 /install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000919s ]
+
+[ 2017-08-26T14:28:58+08:00 ] 121.235.241.3 /install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000903s ]
+
+[ 2017-08-26T14:51:30+08:00 ] 121.235.241.3 /install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001391s ]
+
+[ 2017-08-26T14:53:36+08:00 ] 121.235.241.3 /install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000481s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000957s ]
+
+[ 2017-08-26T14:53:37+08:00 ] 121.235.241.3 /install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000804s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000885s ]
+
+[ 2017-08-26T14:54:56+08:00 ] 121.235.241.3 /install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2017-08-26T14:54:56+08:00 ] 121.235.241.3 /install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2017-08-26T14:54:57+08:00 ] 121.235.241.3 /install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2017-08-26T15:11:41+08:00 ] 121.235.241.3 /install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012155s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001093s ]
+
+[ 2017-08-26T15:14:10+08:00 ] 121.235.241.3 /install.php/Install/Install/install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001134s ]
+
+[ 2017-08-26T15:14:12+08:00 ] 121.235.241.3 /install.php/Install/Install/install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001189s ]
+
+[ 2017-08-26T15:14:15+08:00 ] 121.235.241.3 /install.php/Install/Install/install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010371s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-08-26T15:14:18+08:00 ] 121.235.241.3 /install.php/Install/Install/install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000960s ]
+
+[ 2017-08-26T15:14:19+08:00 ] 121.235.241.3 /install.php/Install/Install/install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011131s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001156s ]
+
+[ 2017-08-26T15:14:20+08:00 ] 101.226.89.119 /install.php/Install/Install/install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2017-08-26T15:14:21+08:00 ] 121.235.241.3 /install.php/Install/Install/install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011027s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001133s ]
+
+[ 2017-08-26T15:14:25+08:00 ] 121.235.241.3 /install.php/Install/Install/install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000826s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000957s ]
+
+[ 2017-08-26T15:14:26+08:00 ] 121.235.241.3 /install.php/Install/Install/install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013458s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001497s ]
+
+[ 2017-08-26T15:14:26+08:00 ] 121.235.241.3 /install.php/Install/Install/install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000722s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001207s ]
+
+[ 2017-08-26T15:14:27+08:00 ] 121.235.241.3 /install.php/Install/Install/install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000953s ]
+
+[ 2017-08-26T15:14:28+08:00 ] 121.235.241.3 /install.php/Install/Install/install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012783s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000941s ]
+
+[ 2017-08-26T15:19:24+08:00 ] 121.235.241.3 /install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000947s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001376s ]
+
+[ 2017-08-26T15:19:24+08:00 ] 121.235.241.3 /install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011601s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000903s ]
+
+[ 2017-08-26T15:19:24+08:00 ] 121.235.241.3 /install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2017-08-26T15:19:25+08:00 ] 121.235.241.3 /install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000898s ]
+
+[ 2017-08-26T15:37:04+08:00 ] 121.235.241.3 /install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010643s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000956s ]
+
+[ 2017-08-26T15:38:26+08:00 ] 121.235.241.3 /install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000991s ]
+
+[ 2017-08-26T15:38:28+08:00 ] 121.235.241.3 /install.php?m=Install&c=Install&a=step1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2017-08-26T15:38:30+08:00 ] 121.235.241.3 /install.php?m=Install&c=Install&a=step2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2017-08-26T15:38:38+08:00 ] 101.226.33.225 /install.php?m=Install&c=Install&a=step1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001150s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+
+[ 2017-08-26T15:38:38+08:00 ] 101.226.33.225 /install.php?m=Install&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012543s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012645s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001129s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001246s ]
+
+[ 2017-08-26T15:38:41+08:00 ] 61.151.218.119 /install.php?m=Install&c=Install&a=step2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+
+[ 2017-08-26T15:38:44+08:00 ] 61.151.218.119 /install.php?m=Install&c=Index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001030s ]
+
+[ 2017-08-26T15:38:55+08:00 ] 121.235.241.3 /install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010056s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000965s ]
+
+[ 2017-08-26T15:39:02+08:00 ] 121.235.241.3 /install.php?m=Install&c=Install&a=step1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017831s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2017-08-26T15:39:05+08:00 ] 121.235.241.3 /install.php?m=Install&c=Install&a=step2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000931s ]
+
+[ 2017-08-26T15:39:50+08:00 ] 106.11.242.95 /./install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2017-08-26T15:40:16+08:00 ] 121.235.241.3 /install.php?m=Install&c=Install&a=step2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+NOTIC: [8] Undefined offset: 6 /data/www/smalltown/Application/Install/Controller/InstallController.class.php 第 78 行.
+NOTIC: [8] Undefined index: db_name /data/www/smalltown/ThinkPHP/Library/Think/Db.class.php 第 68 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'smalltown'@'127.0.0.1' (using password: YES)
+
+[ 2017-08-26T15:42:38+08:00 ] 121.235.241.3 /install.php?m=Install&c=Install&a=step2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000878s ]
+
+[ 2017-08-26T15:42:46+08:00 ] 121.235.241.3 /install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001061s ]
+
+[ 2017-08-26T15:42:48+08:00 ] 121.235.241.3 /install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001144s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001272s ]
+
+[ 2017-08-26T15:43:26+08:00 ] 121.235.241.3 /install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000945s ]
+
+[ 2017-08-26T15:43:32+08:00 ] 121.235.241.3 /install.php?m=Install&c=Install&a=step1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001367s ]
+
+[ 2017-08-26T15:43:36+08:00 ] 121.235.241.3 /install.php?m=Install&c=Install&a=step2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014087s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2017-08-26T15:44:57+08:00 ] 121.235.241.3 /install.php?m=Install&c=Install&a=step2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001209s ]
+NOTIC: [8] Undefined offset: 6 /data/www/smalltown/Application/Install/Controller/InstallController.class.php 第 78 行.
+NOTIC: [8] Undefined index: db_name /data/www/smalltown/ThinkPHP/Library/Think/Db.class.php 第 68 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'115.159.221.216' (using password: YES)
+
+[ 2017-08-26T15:45:36+08:00 ] 121.235.241.3 /install.php?m=Install&c=Install&a=step2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+NOTIC: [8] Undefined offset: 6 /data/www/smalltown/Application/Install/Controller/InstallController.class.php 第 78 行.
+NOTIC: [8] Undefined index: db_name /data/www/smalltown/ThinkPHP/Library/Think/Db.class.php 第 68 行.
+SQL: CREATE DATABASE IF NOT EXISTS `smalltown` DEFAULT CHARACTER SET utf8 [ RunTime:0.0003s ]
+
+[ 2017-08-26T15:45:37+08:00 ] 121.235.241.3 /install.php?m=Install&c=Install&a=step3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027362s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027480s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000499s ]
+SQL: SET FOREIGN_KEY_CHECKS = 0 [ RunTime:0.0001s ]
+SQL: -- ------------------------------
+
+-- Table structure for admin_user.
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_admin_user` [ RunTime:0.0001s ]
+SQL: CREATE TABLE `wb_admin_user` (
+
+  `id`           INT(10)      NOT NULL AUTO_INCREMENT,
+
+  `gid`          INT(10)               DEFAULT 1
+
+  COMMENT '管理员级别',
+
+  `username`     VARCHAR(20)  NOT NULL
+
+  COMMENT '登陆名',
+
+  `password`     VARCHAR(128) NOT NULL
+
+  COMMENT '登陆密码',
+
+  `last_login`   INT(10)      NOT NULL
+
+  COMMENT '最后登陆时间',
+
+  `created_time` INT(10)      NOT NULL
+
+  COMMENT '账户添加时间',
+
+  `login_count`  INT(10)               DEFAULT 0
+
+  COMMENT '登录次数',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '管理员表' [ RunTime:0.4600s ]
+SQL: DROP TABLE IF EXISTS `wb_user` [ RunTime:0.0002s ]
+SQL: CREATE TABLE `wb_user` (
+
+  `id`         INT(10)      NOT NULL AUTO_INCREMENT,
+
+  `openid`     VARCHAR(128) NOT NULL
+
+  COMMENT '公众号粉丝ID',
+
+  `nickname`   VARCHAR(20)           DEFAULT ''
+
+  COMMENT '用户昵称',
+
+  `headimgurl` VARCHAR(255)          DEFAULT ''
+
+  COMMENT '头像',
+
+  `sex`        TINYINT(1)            DEFAULT 1
+
+  COMMENT '性别',
+
+  `language`   VARCHAR(10)           DEFAULT ''
+
+  COMMENT '语言',
+
+  `city`       VARCHAR(10)           DEFAULT ''
+
+  COMMENT '城市',
+
+  `province`   VARCHAR(10)           DEFAULT ''
+
+  COMMENT '省份',
+
+  `country`    VARCHAR(10)           DEFAULT '中国'
+
+  COMMENT '国家',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '粉丝用户表' [ RunTime:0.2237s ]
+SQL: -- ------------------------------
+
+-- Table structure for admin_group.
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_admin_group` [ RunTime:0.0002s ]
+SQL: CREATE TABLE `wb_admin_group` (
+
+  `id`   INT(10)     NOT NULL AUTO_INCREMENT,
+
+  `name` VARCHAR(10) NOT NULL
+
+  COMMENT '组名',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '管理员组' [ RunTime:0.0913s ]
+SQL: INSERT INTO `wb_admin_group` VALUES (1, '超级管理员') [ RunTime:0.0037s ]
+SQL: INSERT INTO `wb_admin_group` VALUES (2, '管理员') [ RunTime:0.0088s ]
+SQL: -- ------------------------------
+
+-- Table structure for admin_group.
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_permission` [ RunTime:0.0001s ]
+SQL: CREATE TABLE `wb_permission` (
+
+  `id`    INT(10)     NOT NULL AUTO_INCREMENT,
+
+  `value` VARCHAR(10) NOT NULL
+
+  COMMENT '权限',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '权限表' [ RunTime:0.0852s ]
+SQL: INSERT INTO `wb_permission` VALUES (1, 'admin_add') [ RunTime:0.0038s ]
+SQL: INSERT INTO `wb_permission` VALUES (2, 'admin_edit') [ RunTime:0.0040s ]
+SQL: INSERT INTO `wb_permission` VALUES (3, 'admin_del') [ RunTime:0.0061s ]
+ERR: 1406:Data too long for column 'value' at row 1
+ [ SQL语句 ] : INSERT INTO `wb_permission` VALUES (4, 'article_add')
+ERR: 1406:Data too long for column 'value' at row 1
+ [ SQL语句 ] : INSERT INTO `wb_permission` VALUES (4, 'article_add')
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/www/smalltown/Application/Install/Common/function.php:207) /data/www/smalltown/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/www/smalltown/Application/Install/Common/function.php:207) /data/www/smalltown/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-08-26T15:47:54+08:00 ] 121.235.241.3 /install.php?m=Install&c=Install&a=step2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000957s ]
+
+[ 2017-08-26T15:47:55+08:00 ] 121.235.241.3 /install.php?m=Install&c=Install&a=step2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001354s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001248s ]
+
+[ 2017-08-26T15:48:15+08:00 ] 121.235.241.3 /install.php?m=Install&c=Install&a=step2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+NOTIC: [8] Undefined offset: 6 /data/www/smalltown/Application/Install/Controller/InstallController.class.php 第 78 行.
+NOTIC: [8] Undefined index: db_name /data/www/smalltown/ThinkPHP/Library/Think/Db.class.php 第 68 行.
+SQL: CREATE DATABASE IF NOT EXISTS `smalltown` DEFAULT CHARACTER SET utf8 [ RunTime:0.0001s ]
+
+[ 2017-08-26T15:48:15+08:00 ] 121.235.241.3 /install.php?m=Install&c=Install&a=step3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000980s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000263s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000507s ]
+SQL: SET FOREIGN_KEY_CHECKS = 0 [ RunTime:0.0001s ]
+SQL: -- ------------------------------
+
+-- Table structure for admin_user.
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_admin_user` [ RunTime:0.0415s ]
+SQL: CREATE TABLE `wb_admin_user` (
+
+  `id`           INT(10)      NOT NULL AUTO_INCREMENT,
+
+  `gid`          INT(10)               DEFAULT 1
+
+  COMMENT '管理员级别',
+
+  `username`     VARCHAR(20)  NOT NULL
+
+  COMMENT '登陆名',
+
+  `password`     VARCHAR(128) NOT NULL
+
+  COMMENT '登陆密码',
+
+  `last_login`   INT(10)      NOT NULL
+
+  COMMENT '最后登陆时间',
+
+  `created_time` INT(10)      NOT NULL
+
+  COMMENT '账户添加时间',
+
+  `login_count`  INT(10)               DEFAULT 0
+
+  COMMENT '登录次数',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '管理员表' [ RunTime:0.0692s ]
+SQL: DROP TABLE IF EXISTS `wb_user` [ RunTime:0.0153s ]
+SQL: CREATE TABLE `wb_user` (
+
+  `id`         INT(10)      NOT NULL AUTO_INCREMENT,
+
+  `openid`     VARCHAR(128) NOT NULL
+
+  COMMENT '公众号粉丝ID',
+
+  `nickname`   VARCHAR(20)           DEFAULT ''
+
+  COMMENT '用户昵称',
+
+  `headimgurl` VARCHAR(255)          DEFAULT ''
+
+  COMMENT '头像',
+
+  `sex`        TINYINT(1)            DEFAULT 1
+
+  COMMENT '性别',
+
+  `language`   VARCHAR(10)           DEFAULT ''
+
+  COMMENT '语言',
+
+  `city`       VARCHAR(10)           DEFAULT ''
+
+  COMMENT '城市',
+
+  `province`   VARCHAR(10)           DEFAULT ''
+
+  COMMENT '省份',
+
+  `country`    VARCHAR(10)           DEFAULT '中国'
+
+  COMMENT '国家',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '粉丝用户表' [ RunTime:0.0836s ]
+SQL: -- ------------------------------
+
+-- Table structure for admin_group.
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_admin_group` [ RunTime:0.0126s ]
+SQL: CREATE TABLE `wb_admin_group` (
+
+  `id`   INT(10)     NOT NULL AUTO_INCREMENT,
+
+  `name` VARCHAR(10) NOT NULL
+
+  COMMENT '组名',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '管理员组' [ RunTime:0.0605s ]
+SQL: INSERT INTO `wb_admin_group` VALUES (1, '超级管理员') [ RunTime:0.0033s ]
+SQL: INSERT INTO `wb_admin_group` VALUES (2, '管理员') [ RunTime:0.0073s ]
+SQL: -- ------------------------------
+
+-- Table structure for admin_group.
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_permission` [ RunTime:0.0148s ]
+SQL: CREATE TABLE `wb_permission` (
+
+  `id`    INT(10)     NOT NULL AUTO_INCREMENT,
+
+  `value` VARCHAR(15) NOT NULL
+
+  COMMENT '权限',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '权限表' [ RunTime:0.0593s ]
+SQL: INSERT INTO `wb_permission` VALUES (1, 'admin_add') [ RunTime:0.0034s ]
+SQL: INSERT INTO `wb_permission` VALUES (2, 'admin_edit') [ RunTime:0.0076s ]
+SQL: INSERT INTO `wb_permission` VALUES (3, 'admin_del') [ RunTime:0.0036s ]
+SQL: INSERT INTO `wb_permission` VALUES (4, 'article_add') [ RunTime:0.0053s ]
+SQL: INSERT INTO `wb_permission` VALUES (5, 'article_edit') [ RunTime:0.0036s ]
+SQL: INSERT INTO `wb_permission` VALUES (6, 'article_del') [ RunTime:0.0031s ]
+SQL: INSERT INTO `wb_permission` VALUES (7, 'ticket_add') [ RunTime:0.0034s ]
+SQL: INSERT INTO `wb_permission` VALUES (8, 'ticket_edit') [ RunTime:0.0034s ]
+SQL: INSERT INTO `wb_permission` VALUES (9, 'ticket_del') [ RunTime:0.0036s ]
+SQL: INSERT INTO `wb_permission` VALUES (10, 'sight_add') [ RunTime:0.0030s ]
+SQL: INSERT INTO `wb_permission` VALUES (11, 'sight_edit') [ RunTime:0.0030s ]
+SQL: INSERT INTO `wb_permission` VALUES (12, 'sight_del') [ RunTime:0.0032s ]
+SQL: INSERT INTO `wb_permission` VALUES (13, 'finance_add') [ RunTime:0.0036s ]
+SQL: INSERT INTO `wb_permission` VALUES (14, 'finance_edit') [ RunTime:0.0035s ]
+SQL: INSERT INTO `wb_permission` VALUES (15, 'finance_del') [ RunTime:0.0031s ]
+SQL: INSERT INTO `wb_permission` VALUES (16, 'group_add') [ RunTime:0.0032s ]
+SQL: INSERT INTO `wb_permission` VALUES (17, 'group_edit') [ RunTime:0.0032s ]
+SQL: INSERT INTO `wb_permission` VALUES (18, 'group_del') [ RunTime:0.0035s ]
+SQL: INSERT INTO `wb_permission` VALUES (19, 'category_add') [ RunTime:0.0033s ]
+SQL: INSERT INTO `wb_permission` VALUES (20, 'category_edit') [ RunTime:0.0032s ]
+SQL: INSERT INTO `wb_permission` VALUES (21, 'category_del') [ RunTime:0.0029s ]
+SQL: -- ------------------------------
+
+-- Table structure for admin_group.
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_admin_permission` [ RunTime:0.0001s ]
+SQL: CREATE TABLE `wb_admin_permission` (
+
+  `id`  INT(10) NOT NULL AUTO_INCREMENT,
+
+  `uid` INT(10) NOT NULL
+
+  COMMENT '管理员ID',
+
+  `pid` INT(10) NOT NULL
+
+  COMMENT '权限ID',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '管理权限表' [ RunTime:0.0562s ]
+SQL: -- ------------------------------
+
+-- Table structure for category.
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_category` [ RunTime:0.0002s ]
+SQL: CREATE TABLE `wb_category` (
+
+  `id`        INT(10)     NOT NULL AUTO_INCREMENT,
+
+  `parent_id` INT(10)              DEFAULT 0
+
+  COMMENT '父分类ID',
+
+  `name`      VARCHAR(20) NOT NULL
+
+  COMMENT '分类名称',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '多级分类记录表' [ RunTime:0.0781s ]
+SQL: INSERT INTO `wb_category` VALUES (1, 0, '会议类型') [ RunTime:0.0037s ]
+SQL: INSERT INTO `wb_category` VALUES (2, 0, '门票种类') [ RunTime:0.0035s ]
+SQL: INSERT INTO `wb_category` VALUES (3, 0, '微刊类型') [ RunTime:0.0047s ]
+SQL: INSERT INTO `wb_category` VALUES (4, 0, '景点类型') [ RunTime:0.0047s ]
+SQL: -- ------------------------------
+
+-- Table structure for meeting.
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_meet` [ RunTime:0.0002s ]
+ERR: 1101:BLOB/TEXT column 'content' can't have a default value
+ [ SQL语句 ] : CREATE TABLE `wb_meet` (
+
+  `id`         INT(10) NOT NULL AUTO_INCREMENT,
+
+  `subject`    VARCHAR(50)      DEFAULT ''
+
+  COMMENT '会议主题',
+
+  `content`    TEXT             DEFAULT ''
+
+  COMMENT '会议内容',
+
+  `start_time` INT(10) NOT NULL
+
+  COMMENT '会议开始时间',
+
+  `end_time`   INT(10) NOT NULL
+
+  COMMENT '会试结束时间',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '会议表'
+ERR: 1101:BLOB/TEXT column 'content' can't have a default value
+ [ SQL语句 ] : CREATE TABLE `wb_meet` (
+
+  `id`         INT(10) NOT NULL AUTO_INCREMENT,
+
+  `subject`    VARCHAR(50)      DEFAULT ''
+
+  COMMENT '会议主题',
+
+  `content`    TEXT             DEFAULT ''
+
+  COMMENT '会议内容',
+
+  `start_time` INT(10) NOT NULL
+
+  COMMENT '会议开始时间',
+
+  `end_time`   INT(10) NOT NULL
+
+  COMMENT '会试结束时间',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '会议表'
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/www/smalltown/Application/Install/Common/function.php:207) /data/www/smalltown/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/www/smalltown/Application/Install/Common/function.php:207) /data/www/smalltown/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-08-26T15:49:15+08:00 ] 121.235.241.3 /install.php?m=Install&c=Install&a=step2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001153s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000918s ]
+
+[ 2017-08-26T15:49:26+08:00 ] 121.235.241.3 /install.php?m=Install&c=Install&a=step2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+NOTIC: [8] Undefined offset: 6 /data/www/smalltown/Application/Install/Controller/InstallController.class.php 第 78 行.
+NOTIC: [8] Undefined index: db_name /data/www/smalltown/ThinkPHP/Library/Think/Db.class.php 第 68 行.
+SQL: CREATE DATABASE IF NOT EXISTS `smalltown` DEFAULT CHARACTER SET utf8 [ RunTime:0.0001s ]
+
+[ 2017-08-26T15:49:28+08:00 ] 121.235.241.3 /install.php?m=Install&c=Install&a=step3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011525s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000710s ]
+SQL: SET FOREIGN_KEY_CHECKS = 0 [ RunTime:0.0001s ]
+SQL: -- ------------------------------
+
+-- Table structure for admin_user.
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_admin_user` [ RunTime:0.1144s ]
+SQL: CREATE TABLE `wb_admin_user` (
+
+  `id`           INT(10)      NOT NULL AUTO_INCREMENT,
+
+  `gid`          INT(10)               DEFAULT 1
+
+  COMMENT '管理员级别',
+
+  `username`     VARCHAR(20)  NOT NULL
+
+  COMMENT '登陆名',
+
+  `password`     VARCHAR(128) NOT NULL
+
+  COMMENT '登陆密码',
+
+  `last_login`   INT(10)      NOT NULL
+
+  COMMENT '最后登陆时间',
+
+  `created_time` INT(10)      NOT NULL
+
+  COMMENT '账户添加时间',
+
+  `login_count`  INT(10)               DEFAULT 0
+
+  COMMENT '登录次数',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '管理员表' [ RunTime:0.1136s ]
+SQL: DROP TABLE IF EXISTS `wb_user` [ RunTime:0.0102s ]
+SQL: CREATE TABLE `wb_user` (
+
+  `id`         INT(10)      NOT NULL AUTO_INCREMENT,
+
+  `openid`     VARCHAR(128) NOT NULL
+
+  COMMENT '公众号粉丝ID',
+
+  `nickname`   VARCHAR(20)           DEFAULT ''
+
+  COMMENT '用户昵称',
+
+  `headimgurl` VARCHAR(255)          DEFAULT ''
+
+  COMMENT '头像',
+
+  `sex`        TINYINT(1)            DEFAULT 1
+
+  COMMENT '性别',
+
+  `language`   VARCHAR(10)           DEFAULT ''
+
+  COMMENT '语言',
+
+  `city`       VARCHAR(10)           DEFAULT ''
+
+  COMMENT '城市',
+
+  `province`   VARCHAR(10)           DEFAULT ''
+
+  COMMENT '省份',
+
+  `country`    VARCHAR(10)           DEFAULT '中国'
+
+  COMMENT '国家',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '粉丝用户表' [ RunTime:0.0914s ]
+SQL: -- ------------------------------
+
+-- Table structure for admin_group.
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_admin_group` [ RunTime:0.0105s ]
+SQL: CREATE TABLE `wb_admin_group` (
+
+  `id`   INT(10)     NOT NULL AUTO_INCREMENT,
+
+  `name` VARCHAR(10) NOT NULL
+
+  COMMENT '组名',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '管理员组' [ RunTime:0.1192s ]
+SQL: INSERT INTO `wb_admin_group` VALUES (1, '超级管理员') [ RunTime:0.0039s ]
+SQL: INSERT INTO `wb_admin_group` VALUES (2, '管理员') [ RunTime:0.0032s ]
+SQL: -- ------------------------------
+
+-- Table structure for admin_group.
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_permission` [ RunTime:0.0186s ]
+SQL: CREATE TABLE `wb_permission` (
+
+  `id`    INT(10)     NOT NULL AUTO_INCREMENT,
+
+  `value` VARCHAR(15) NOT NULL
+
+  COMMENT '权限',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '权限表' [ RunTime:0.0868s ]
+SQL: INSERT INTO `wb_permission` VALUES (1, 'admin_add') [ RunTime:0.0038s ]
+SQL: INSERT INTO `wb_permission` VALUES (2, 'admin_edit') [ RunTime:0.0067s ]
+SQL: INSERT INTO `wb_permission` VALUES (3, 'admin_del') [ RunTime:0.0032s ]
+SQL: INSERT INTO `wb_permission` VALUES (4, 'article_add') [ RunTime:0.0034s ]
+SQL: INSERT INTO `wb_permission` VALUES (5, 'article_edit') [ RunTime:0.0031s ]
+SQL: INSERT INTO `wb_permission` VALUES (6, 'article_del') [ RunTime:0.0032s ]
+SQL: INSERT INTO `wb_permission` VALUES (7, 'ticket_add') [ RunTime:0.0032s ]
+SQL: INSERT INTO `wb_permission` VALUES (8, 'ticket_edit') [ RunTime:0.0029s ]
+SQL: INSERT INTO `wb_permission` VALUES (9, 'ticket_del') [ RunTime:0.0034s ]
+SQL: INSERT INTO `wb_permission` VALUES (10, 'sight_add') [ RunTime:0.0029s ]
+SQL: INSERT INTO `wb_permission` VALUES (11, 'sight_edit') [ RunTime:0.0031s ]
+SQL: INSERT INTO `wb_permission` VALUES (12, 'sight_del') [ RunTime:0.0031s ]
+SQL: INSERT INTO `wb_permission` VALUES (13, 'finance_add') [ RunTime:0.0032s ]
+SQL: INSERT INTO `wb_permission` VALUES (14, 'finance_edit') [ RunTime:0.0033s ]
+SQL: INSERT INTO `wb_permission` VALUES (15, 'finance_del') [ RunTime:0.0030s ]
+SQL: INSERT INTO `wb_permission` VALUES (16, 'group_add') [ RunTime:0.0031s ]
+SQL: INSERT INTO `wb_permission` VALUES (17, 'group_edit') [ RunTime:0.0032s ]
+SQL: INSERT INTO `wb_permission` VALUES (18, 'group_del') [ RunTime:0.0031s ]
+SQL: INSERT INTO `wb_permission` VALUES (19, 'category_add') [ RunTime:0.0034s ]
+SQL: INSERT INTO `wb_permission` VALUES (20, 'category_edit') [ RunTime:0.0032s ]
+SQL: INSERT INTO `wb_permission` VALUES (21, 'category_del') [ RunTime:0.0046s ]
+SQL: -- ------------------------------
+
+-- Table structure for admin_group.
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_admin_permission` [ RunTime:0.0187s ]
+SQL: CREATE TABLE `wb_admin_permission` (
+
+  `id`  INT(10) NOT NULL AUTO_INCREMENT,
+
+  `uid` INT(10) NOT NULL
+
+  COMMENT '管理员ID',
+
+  `pid` INT(10) NOT NULL
+
+  COMMENT '权限ID',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '管理权限表' [ RunTime:0.0867s ]
+SQL: -- ------------------------------
+
+-- Table structure for category.
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_category` [ RunTime:0.0111s ]
+SQL: CREATE TABLE `wb_category` (
+
+  `id`        INT(10)     NOT NULL AUTO_INCREMENT,
+
+  `parent_id` INT(10)              DEFAULT 0
+
+  COMMENT '父分类ID',
+
+  `name`      VARCHAR(20) NOT NULL
+
+  COMMENT '分类名称',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '多级分类记录表' [ RunTime:0.1116s ]
+SQL: INSERT INTO `wb_category` VALUES (1, 0, '会议类型') [ RunTime:0.0033s ]
+SQL: INSERT INTO `wb_category` VALUES (2, 0, '门票种类') [ RunTime:0.0032s ]
+SQL: INSERT INTO `wb_category` VALUES (3, 0, '微刊类型') [ RunTime:0.0036s ]
+SQL: INSERT INTO `wb_category` VALUES (4, 0, '景点类型') [ RunTime:0.0033s ]
+SQL: -- ------------------------------
+
+-- Table structure for meeting.
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_meet` [ RunTime:0.0001s ]
+SQL: CREATE TABLE `wb_meet` (
+
+  `id`         INT(10) NOT NULL AUTO_INCREMENT,
+
+  `subject`    VARCHAR(50)      DEFAULT ''
+
+  COMMENT '会议主题',
+
+  `content`    TEXT
+
+  COMMENT '会议内容',
+
+  `start_time` INT(10) NOT NULL
+
+  COMMENT '会议开始时间',
+
+  `end_time`   INT(10) NOT NULL
+
+  COMMENT '会试结束时间',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '会议表' [ RunTime:0.1214s ]
+SQL: -- ------------------------------
+
+-- Table structure for sight.
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_sight` [ RunTime:0.0002s ]
+SQL: CREATE TABLE `wb_sight` (
+
+  `id`   INT(10)     NOT NULL AUTO_INCREMENT,
+
+  `name` VARCHAR(20) NOT NULL
+
+  COMMENT '景点名称',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '景点信息录入表' [ RunTime:0.1744s ]
+SQL: -- ------------------------------
+
+-- Table structure for sight_info.
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_sight_info` [ RunTime:0.0002s ]
+SQL: CREATE TABLE `wb_sight_info` (
+
+  `id`         INT(10)     NOT NULL AUTO_INCREMENT,
+
+  `name`       VARCHAR(20) NOT NULL
+
+  COMMENT '景点名称',
+
+  `content`    TEXT        NOT NULL
+
+  COMMENT '景点说明',
+
+  `qrcode_url` VARCHAR(50)          DEFAULT ''
+
+  COMMENT '二维码',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '电子导游信息录入表' [ RunTime:0.1170s ]
+SQL: -- ------------------------------
+
+-- Table structure for qr_code_scaned.
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_scan_qr_code_log` [ RunTime:0.0002s ]
+SQL: CREATE TABLE `wb_scan_qr_code_log` (
+
+  `id`      INT(10) NOT NULL AUTO_INCREMENT,
+
+  `uid`     INT(10) NOT NULL
+
+  COMMENT '扫描的用户',
+
+  `info_id` INT(10) NOT NULL
+
+  COMMENT '扫描的节点',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '景点扫描记录表' [ RunTime:0.1210s ]
+SQL: -- ------------------------------
+
+-- Table structure for ticket.
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_ticket` [ RunTime:0.0002s ]
+SQL: CREATE TABLE `wb_ticket` (
+
+  `id`           INT(10) NOT NULL AUTO_INCREMENT,
+
+  `billcode`     VARCHAR(20)      DEFAULT ''
+
+  COMMENT '发票代码',
+
+  `ticket_name`  VARCHAR(20)      DEFAULT ''
+
+  COMMENT '票名',
+
+  `ticket_pic`   VARCHAR(128)     DEFAULT ''
+
+  COMMENT '票面图',
+
+  `ticket_price` DECIMAL(10, 2)   DEFAULT 0.00
+
+  COMMENT '票价',
+
+  `add_time`     INT(10) NOT NULL
+
+  COMMENT '添加日期',
+
+  `sight_info`   TEXT COMMENT '景点特色',
+
+  `warning`      TEXT COMMENT '购票须知',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '票据信息' [ RunTime:0.1200s ]
+SQL: -- ------------------------------
+
+-- Table structure for buy_ticket_log.  -- order
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_buy_ticket_log` [ RunTime:0.0002s ]
+SQL: CREATE TABLE `wb_buy_ticket_log` (
+
+  `id`           INT(10) NOT NULL AUTO_INCREMENT,
+
+  `trade_no`     VARCHAR(20)      DEFAULT ''
+
+  COMMENT '订单号',
+
+  `openid`       VARCHAR(255)     DEFAULT ''
+
+  COMMENT '购买用户OPENID',
+
+  `t_name`       VARCHAR(20)      DEFAULT ''
+
+  COMMENT '购买的票名',
+
+  `single_price` DECIMAL(10, 2)   DEFAULT 0.00
+
+  COMMENT '单价',
+
+  `use_time`     INT(10)          DEFAULT 0
+
+  COMMENT '出行日期',
+
+  `count`        INT(10)          DEFAULT 0
+
+  COMMENT '购买数量',
+
+  `customer`     VARCHAR(10)      DEFAULT ''
+
+  COMMENT '出行人名称',
+
+  `phone`        VARCHAR(20)      DEFAULT ''
+
+  COMMENT '出行人手机号',
+
+  `price`        DECIMAL(10, 2)   DEFAULT 0.00
+
+  COMMENT '总价',
+
+  `ticket_sn`    INT(6)           DEFAULT 0
+
+  COMMENT '取票号',
+
+  `buy_time`     INT(10)          DEFAULT 0
+
+  COMMENT '下单日期',
+
+  `status`       TINYINT(1)       DEFAULT 0
+
+  COMMENT '交易状态 0.未付款，1.已付款（交易成功），2.未使用，3.退款，4.已退款',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '购买记录-购票订单' [ RunTime:0.0963s ]
+SQL: -- ------------------------------
+
+-- Table structure for micro_article.
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_micro_article` [ RunTime:0.0002s ]
+SQL: CREATE TABLE `wb_micro_article` (
+
+  `id`             INT(10)     NOT NULL AUTO_INCREMENT,
+
+  `title`          VARCHAR(20) NOT NULL
+
+  COMMENT '微刊标题',
+
+  `author`         VARCHAR(20) NOT NULL
+
+  COMMENT '作者ID-管理员ID',
+
+  `category`       VARCHAR(20)          DEFAULT 0
+
+  COMMENT '分类',
+
+  `content`        TEXT        NOT NULL
+
+  COMMENT '内容',
+
+  `status`         TINYINT(1)           DEFAULT 0
+
+  COMMENT '审核状态， 0待审核，1为审核通过',
+
+  `created_time`   INT(10)     NOT NULL
+
+  COMMENT '添加时间',
+
+  `published_time` INT(10)     NOT NULL
+
+  COMMENT '发布时间',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '微刊数据记录表' [ RunTime:0.1010s ]
+SQL: -- ------------------------------
+
+-- Table structure for interface.
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_interface` [ RunTime:0.0002s ]
+SQL: CREATE TABLE `wb_interface` (
+
+  `id`       INT(10)     NOT NULL AUTO_INCREMENT,
+
+  `name`     VARCHAR(20) NOT NULL
+
+  COMMENT '接口名称',
+
+  `url`      VARCHAR(255)         DEFAULT ''
+
+  COMMENT '接口链接',
+
+  `add_time` INT(10)     NOT NULL
+
+  COMMENT '接口添加时间',
+
+  `params`   VARCHAR(255)         DEFAULT ''
+
+  COMMENT '接口参数',
+
+  `status`   TINYINT(1)           DEFAULT 1
+
+  COMMENT '接口是否启用，0未启用，1已启用',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '第三方接口记录' [ RunTime:0.0899s ]
+SQL: -- ------------------------------
+
+-- Table structure for staticfiles.
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_staticfiles` [ RunTime:0.0002s ]
+SQL: CREATE TABLE `wb_staticfiles` (
+
+  `id`       INT(10)      NOT NULL AUTO_INCREMENT,
+
+  `md5`      VARCHAR(32)  NOT NULL
+
+  COMMENT '唯一编码值，验重',
+
+  `add_time` INT(10)      NOT NULL
+
+  COMMENT '添加时间',
+
+  `filetype` TINYINT(1)            DEFAULT 0
+
+  COMMENT '0图片，1文件，2音频，3视频，4其他',
+
+  `path`     VARCHAR(255) NOT NULL
+
+  COMMENT '文件路径',
+
+  `size`     INT(10)      NOT NULL
+
+  COMMENT '文件大小',
+
+  `status`   TINYINT(1)            DEFAULT 1
+
+  COMMENT '1启用，0禁用',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '静态资源记录' [ RunTime:0.1347s ]
+SQL: INSERT INTO `wb_admin_user` (`gid`, `username`, `password`,`last_login`, `created_time`,`login_count`) VALUES
+(1, 'admin', 'f6fdffe48c908deb0f4c3bd36c032e72',1503733768,1503733768,0) [ RunTime:0.0036s ]
+
+[ 2017-08-26T15:49:28+08:00 ] 121.235.241.3 /install.php?m=Install&c=Index&a=complete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000895s ]
+

@@ -1,0 +1,18 @@
+[ 2017-09-02T00:16:57+08:00 ] 49.80.237.50 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+ERR: 无法加载模块:Favicon
+
+[ 2017-09-02T10:56:58+08:00 ] 180.98.9.31 /Uploads/videos/%E7%89%A9%E8%81%94%E7%BD%91%E5%AE%A3%E4%BC%A0%E7%89%87.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+ERR: 无法加载模块:Uploads
+
+[ 2017-09-02T13:14:14+08:00 ] 180.98.10.120 /Uploads/videos/%E7%89%A9%E8%81%94%E7%BD%91%E5%AE%A3%E4%BC%A0%E7%89%87.mp4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+ERR: 无法加载模块:Uploads
+

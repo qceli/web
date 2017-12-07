@@ -1,0 +1,58 @@
+[ 2017-08-23T08:44:16+08:00 ] ::1 /wubo/index.php/Home/Ticket/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001382s ]
+ERR: 1146:Table 'wubo.ticket' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ticket`
+ERR: 1146:Table 'wubo.ticket' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `ticket`
+
+[ 2017-08-23T08:46:59+08:00 ] ::1 /wubo/index.php/Home/Ticket/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `wb_ticket`  [ RunTime:0.0004s ]
+
+[ 2017-08-23T08:47:09+08:00 ] ::1 /wubo/index.php/Home/Ticket/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wb_ticket`  [ RunTime:0.0004s ]
+
+[ 2017-08-23T09:02:34+08:00 ] ::1 /wubo/index.php/Home/Ticket/detail/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001310s ]
+
+[ 2017-08-23T09:02:50+08:00 ] ::1 /wubo/index.php/Home/Ticket/detail?id=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `wb_ticket` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-08-23T09:03:51+08:00 ] ::1 /wubo/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000095s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002778s ]
+

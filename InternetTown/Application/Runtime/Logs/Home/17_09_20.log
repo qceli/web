@@ -1,0 +1,2402 @@
+[ 2017-09-20T00:43:41+08:00 ] 117.136.46.65 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T00:43:50+08:00 ] 117.136.46.65 /Home/Index/articleDetail/id/30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='30' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T00:43:59+08:00 ] 117.136.46.65 /Home/Index/articleDetail/id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='15' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='13' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T00:44:17+08:00 ] 117.136.46.65 /Home/Index/articleDetail/id/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000942s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='13' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='16' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T00:45:10+08:00 ] 117.136.46.65 /Home/Index/articleDetail/id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='14' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='12' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T00:45:26+08:00 ] 117.136.46.65 /Home/Index/articleDetail/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='4' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='18' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T00:45:32+08:00 ] 117.136.46.65 /Home/Index/articleDetail/id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='22' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='17' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T00:45:43+08:00 ] 117.136.46.65 /Home/Index/articleDetail/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='23' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='17' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T00:46:27+08:00 ] 117.136.46.65 /Home/Index/articleDetail/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='8' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='20' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T00:47:15+08:00 ] 117.136.46.65 /Home/Index/articleDetail/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='20' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T00:47:38+08:00 ] 117.136.46.65 /Home/Index/articleDetail/id/28
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='28' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='17' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T00:47:53+08:00 ] 117.136.46.65 /Home/Index/articleDetail/id/5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='5' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='19' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T00:48:04+08:00 ] 117.136.46.65 /Home/Index/articleDetail/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='9' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='19' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T00:48:26+08:00 ] 117.136.46.65 /Home/Index/articleDetail/id/24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='24' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='17' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T00:48:43+08:00 ] 117.136.46.65 /Home/Index/articleDetail/id/27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='27' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='17' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T00:48:51+08:00 ] 117.136.46.65 /Home/Index/articleDetail/id/29
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='29' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='17' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T00:48:58+08:00 ] 117.136.46.65 /Home/Index/articleDetail/id/25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='25' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='17' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T00:49:52+08:00 ] 117.136.46.65 /Home/Index/articleDetail/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='21' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='17' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T00:50:17+08:00 ] 117.136.46.65 /Home/Index/articleDetail/id/32
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='32' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T00:50:27+08:00 ] 117.136.46.65 /Home/Index/articleDetail/id/26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='26' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='17' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T00:51:11+08:00 ] 117.136.46.65 /Home/Index/articleDetail/id/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='20' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='17' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T00:52:12+08:00 ] 117.136.46.65 /Home/Index/articleDetail/id/33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='11' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T06:23:30+08:00 ] 49.80.148.115 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T09:36:26+08:00 ] 117.136.40.206 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T09:36:35+08:00 ] 117.136.40.206 /Home/Index/articleDetail/id/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='13' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='16' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T09:38:18+08:00 ] 117.136.40.206 /Home/Index/articleDetail/id/30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='30' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T09:57:20+08:00 ] 117.136.66.103 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T09:57:57+08:00 ] 61.160.83.244 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T09:58:02+08:00 ] 61.160.83.244 /Home/Index/articleDetail/id/30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='30' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T09:58:29+08:00 ] 61.160.83.244 /Home/Ticket/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wb_ticket`  [ RunTime:0.0003s ]
+
+[ 2017-09-20T10:01:16+08:00 ] 61.160.83.244 /Home/Index/articleDetail/id/33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='11' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T10:02:09+08:00 ] 61.160.83.244 /Home/Index/articleDetail/id/30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='30' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T10:11:14+08:00 ] 49.92.145.209 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T10:13:27+08:00 ] 58.214.97.124 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T10:14:07+08:00 ] 117.136.66.103 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T10:17:44+08:00 ] 60.191.52.130 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T10:31:31+08:00 ] 61.160.83.244 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T10:31:59+08:00 ] 61.160.83.244 /Home/Index/articleDetail/id/30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='30' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T10:41:09+08:00 ] 49.90.147.68 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T10:41:14+08:00 ] 49.90.147.68 /Home/Index/articleDetail/id/33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='11' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T10:41:26+08:00 ] 49.90.147.68 /Home/Index/articleDetail/id/30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='30' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T10:42:00+08:00 ] 121.225.94.218 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T10:42:40+08:00 ] 49.90.147.68 /Home/Index/articleDetail/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='12' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='15' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T10:42:54+08:00 ] 49.90.147.68 /Home/Index/articleDetail/id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='15' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='13' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T10:43:35+08:00 ] 49.66.86.215 /Home/Index/articleDetail/id/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='16' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='14' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T10:43:43+08:00 ] 49.66.86.215 /Home/Index/articleDetail/id/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='13' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='16' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T10:44:22+08:00 ] 49.66.86.215 /Home/Index/articleDetail/id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000870s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='14' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='12' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T10:45:28+08:00 ] 49.66.86.215 /Home/Index/articleDetail/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='4' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='18' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T10:46:04+08:00 ] 49.66.86.215 /Home/Index/articleDetail/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='23' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='17' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T10:46:48+08:00 ] 49.66.86.215 /Home/Index/articleDetail/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='20' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T11:07:55+08:00 ] 58.214.97.124 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T11:08:13+08:00 ] 58.214.97.124 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T11:08:25+08:00 ] 58.214.97.124 /Home/Air/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+
+[ 2017-09-20T11:09:02+08:00 ] 58.214.97.124 /Home/Park/freeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T11:30:57+08:00 ] 58.214.97.124 /Home/Park/freeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T11:32:37+08:00 ] 58.214.97.124 /Home/Park/freeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T11:32:39+08:00 ] 58.214.97.124 /Home/Park/freeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T11:32:40+08:00 ] 58.214.97.124 /Home/Park/freeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T11:32:59+08:00 ] 58.214.97.124 /Home/Park/freeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T11:33:01+08:00 ] 58.214.97.124 /Home/Park/freeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001946s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T11:33:05+08:00 ] 58.214.97.124 /Home/Park/freeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T11:35:45+08:00 ] 58.214.97.124 /Home/Park/freeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T11:35:51+08:00 ] 58.214.97.124 /Home/Park/freeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T11:35:53+08:00 ] 58.214.97.124 /Home/Park/freeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T11:36:45+08:00 ] 58.214.97.124 /Home/Park/freeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T11:39:01+08:00 ] 58.214.97.124 /Home/Park/freeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T11:39:02+08:00 ] 58.214.97.124 /Home/Park/freeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T11:39:03+08:00 ] 58.214.97.124 /Home/Park/freeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T11:39:04+08:00 ] 58.214.97.124 /Home/Park/freeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T11:39:58+08:00 ] 58.214.97.124 /Home/Park/freeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T11:40:00+08:00 ] 58.214.97.124 /Home/Park/freeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T11:40:03+08:00 ] 58.214.97.124 /Home/Park/freeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T11:42:52+08:00 ] 180.114.6.93 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T11:42:59+08:00 ] 180.114.6.93 /Home/Index/articleDetail/id/33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='11' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T11:44:52+08:00 ] 180.114.6.93 /Home/Index/articleDetail/id/30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='30' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T11:45:22+08:00 ] 180.114.6.93 /Home/Index/articleDetail/id/25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='25' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='17' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T11:45:52+08:00 ] 58.214.97.124 /Home/Park/freeCount?_1505879152388=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T11:45:55+08:00 ] 58.214.97.124 /Home/Park/freeCount?_1505879155316=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T11:54:36+08:00 ] 183.46.170.240 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T11:55:08+08:00 ] 183.46.170.240 /Home/Ticket/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_ticket`  [ RunTime:0.0002s ]
+
+[ 2017-09-20T11:55:14+08:00 ] 183.46.170.240 /Home/Park/freeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T11:55:18+08:00 ] 183.46.170.240 /Home/Air/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+
+[ 2017-09-20T11:55:20+08:00 ] 183.46.170.240 /Home/Index/articleDetail/id/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='18' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='21' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T11:55:39+08:00 ] 183.46.170.240 /Home/Index/articleDetail/id/30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='30' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T11:55:46+08:00 ] 183.46.170.240 /Home/Index/articleDetail/id/33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='11' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T12:01:16+08:00 ] 58.214.97.124 /Home/Air/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+
+[ 2017-09-20T12:29:16+08:00 ] 223.104.145.27 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T12:29:25+08:00 ] 223.104.145.27 /Home/Index/articleDetail/id/30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000956s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='30' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T12:29:36+08:00 ] 223.104.145.27 /Home/Index/articleDetail/id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='15' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='13' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T13:40:28+08:00 ] 223.104.145.27 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T13:58:37+08:00 ] 59.60.0.205 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T14:00:51+08:00 ] 58.214.97.124 /Home/Park/freeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T14:00:52+08:00 ] 58.214.97.124 /Home/Park/freeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T14:00:52+08:00 ] 58.214.97.124 /Home/Park/freeParkDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T15:03:50+08:00 ] 223.104.145.11 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T15:04:34+08:00 ] 223.104.145.11 /Home/Air/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+
+[ 2017-09-20T15:04:37+08:00 ] 223.104.145.11 /Home/Index/articleDetail/id/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='18' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='21' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T15:04:41+08:00 ] 223.104.145.11 /Home/Ticket/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wb_ticket`  [ RunTime:0.0002s ]
+
+[ 2017-09-20T15:04:46+08:00 ] 223.104.145.11 /Home/Park/freeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T15:04:48+08:00 ] 223.104.145.11 /Home/Park/freeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T15:04:49+08:00 ] 223.104.145.11 /Home/Park/freeParkDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T15:05:06+08:00 ] 117.136.46.75 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T15:05:19+08:00 ] 117.136.46.75 /Home/Index/articleDetail/id/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='13' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='16' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T15:05:30+08:00 ] 117.136.46.75 /Home/Park/freeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T15:06:02+08:00 ] 117.136.46.75 /Home/Air/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+
+[ 2017-09-20T15:11:11+08:00 ] 49.66.183.42 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T15:25:46+08:00 ] 49.66.183.42 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T15:26:28+08:00 ] 49.66.183.42 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T15:26:42+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='11' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T15:29:48+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='14' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='12' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T15:30:22+08:00 ] 49.66.183.42 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T15:32:51+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='14' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='12' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T15:34:32+08:00 ] 49.66.183.42 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T15:34:35+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='15' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='13' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T15:35:42+08:00 ] 49.66.183.42 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T15:35:54+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='12' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='15' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T15:37:31+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='16' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='14' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T15:47:34+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0076s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='24' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='17' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T15:48:21+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='20' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='17' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T15:53:55+08:00 ] 49.66.183.42 /Home/Ticket/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wb_ticket`  [ RunTime:0.0003s ]
+
+[ 2017-09-20T15:54:06+08:00 ] 49.66.183.42 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T15:54:08+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='14' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='12' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T15:54:10+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='15' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='13' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T15:54:11+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='16' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='14' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T15:54:13+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='12' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='15' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T15:54:14+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='13' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='16' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T15:56:43+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='24' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='17' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T15:57:47+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/29
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='29' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='17' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T15:58:14+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='27' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='17' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T15:59:29+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='25' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='17' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:05:17+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='22' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='17' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:05:48+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='4' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='18' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:06:22+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='23' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='17' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:06:55+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='8' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='20' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:07:05+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/28
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='28' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='17' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:07:36+08:00 ] 117.136.66.105 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:08:38+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='20' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='17' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:09:36+08:00 ] 49.66.183.42 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:09:45+08:00 ] 49.66.183.42 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:10:29+08:00 ] 58.214.97.124 /Home/Park/freeCount?_1505895030020=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001387s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:14:22+08:00 ] 49.66.183.42 /Home/Ticket/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wb_ticket`  [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:14:33+08:00 ] 58.214.97.124 /Home/Park/freeCount?_1505895273980=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:14:34+08:00 ] 58.214.97.124 /Home/Park/freeCount?_1505895275145=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:14:38+08:00 ] 58.214.97.124 /Home/Park/freeCount?_1505895278644=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:14:40+08:00 ] 58.214.97.124 /Home/Park/freeCount?_1505895280879=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:14:40+08:00 ] 58.214.97.124 /Home/Park/freeCount?_1505895281314=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:15:31+08:00 ] 58.214.97.124 /Home/Park/freeCount?_1505895331428=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:21:06+08:00 ] 49.66.183.42 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:21:08+08:00 ] 49.66.183.42 /Home/Park/freeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:23:00+08:00 ] 49.66.183.42 /Home/Ticket/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wb_ticket`  [ RunTime:0.0004s ]
+
+[ 2017-09-20T16:23:01+08:00 ] 49.66.183.42 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000963s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:23:08+08:00 ] 49.66.183.42 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:23:15+08:00 ] 49.66.183.42 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:23:23+08:00 ] 49.66.183.42 /Home/Air/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+
+[ 2017-09-20T16:23:24+08:00 ] 49.66.183.42 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:23:27+08:00 ] 49.66.183.42 /Home/Park/freeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:23:28+08:00 ] 49.66.183.42 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:23:32+08:00 ] 49.66.183.42 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:27:33+08:00 ] 49.66.183.42 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:28:31+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='4' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='18' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:28:32+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='22' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='17' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:28:35+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='23' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='17' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:28:40+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='7' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='20' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:28:42+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='6' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='20' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:28:44+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000545s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='8' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='20' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:28:53+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='20' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='17' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:28:58+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='14' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='12' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:29:00+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000869s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='15' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='13' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:29:02+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='16' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='14' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:29:03+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='12' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='15' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:29:05+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='13' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='16' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:29:08+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='30' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:29:12+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000964s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='33' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='11' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:29:30+08:00 ] 49.66.183.42 /Home/Ticket/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wb_ticket`  [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:29:34+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='18' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='21' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:29:41+08:00 ] 49.66.183.42 /Home/Air/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+
+[ 2017-09-20T16:29:47+08:00 ] 49.66.183.42 /Home/Park/freeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:29:50+08:00 ] 122.96.42.201 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:29:52+08:00 ] 122.96.42.201 /Home/Index/articleDetail/id/30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='30' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:30:05+08:00 ] 49.66.183.42 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:31:43+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='20' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='17' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:31:53+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='4' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='18' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:31:54+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='22' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='17' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:33:11+08:00 ] 49.66.183.42 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001332s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:33:14+08:00 ] 49.66.183.42 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:33:20+08:00 ] 49.66.183.42 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:34:18+08:00 ] 49.66.183.42 /Home/Air/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001379s ]
+
+[ 2017-09-20T16:34:44+08:00 ] 49.66.183.42 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:35:32+08:00 ] 58.214.97.124 /Home/Park/freeCount?_1505896533041=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:35:33+08:00 ] 58.214.97.124 /Home/Park/freeCount?_1505896533613=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:35:33+08:00 ] 58.214.97.124 /Home/Park/freeCount?_1505896534221=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:36:09+08:00 ] 58.214.97.124 /Home/Park/freeCount?_1505896569547=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:36:10+08:00 ] 58.214.97.124 /Home/Park/freeCount?_1505896570812=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:36:11+08:00 ] 58.214.97.124 /Home/Park/freeCount?_1505896571625=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:36:53+08:00 ] 58.214.97.124 /Home/Park/freeCount?_1505896613502=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:43:40+08:00 ] 49.66.183.42 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:46:09+08:00 ] 125.84.85.227 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:46:14+08:00 ] 125.84.85.227 /Home/Index/articleDetail/id/30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='30' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:46:29+08:00 ] 125.84.85.227 /Home/Index/articleDetail/id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='14' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='12' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:46:32+08:00 ] 125.84.85.227 /Home/Index/articleDetail/id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='15' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='13' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:46:37+08:00 ] 125.84.85.227 /Home/Index/articleDetail/id/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='16' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='14' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:46:42+08:00 ] 125.84.85.227 /Home/Index/articleDetail/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='12' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='15' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:46:56+08:00 ] 125.84.85.227 /Home/Index/articleDetail/id/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='13' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='16' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:47:18+08:00 ] 125.84.85.227 /Home/Index/articleDetail/id/33
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='33' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='11' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:48:04+08:00 ] 125.84.85.227 /Home/Ticket/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wb_ticket`  [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:48:27+08:00 ] 125.84.85.227 /Home/Index/articleDetail/id/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='18' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='21' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:48:49+08:00 ] 125.84.85.227 /Home/Air/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+
+[ 2017-09-20T16:48:53+08:00 ] 125.84.85.227 /Home/Park/freeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:48:58+08:00 ] 125.84.85.227 /Home/Park/freeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:48:59+08:00 ] 125.84.85.227 /Home/Park/freeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:48:59+08:00 ] 125.84.85.227 /Home/Park/freeParkDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:49:01+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/20
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='20' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='17' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:49:52+08:00 ] 125.84.85.227 /Home/Index/articleDetail/id/30
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='30' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:49:56+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='18' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='21' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:50:59+08:00 ] 49.66.183.42 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000887s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:52:21+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='22' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='17' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T16:58:42+08:00 ] 58.214.97.124 /Home/Park/freeCount?_1505897923044=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T16:59:47+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='18' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='21' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T17:02:50+08:00 ] 49.66.183.42 /Home/Air/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+
+[ 2017-09-20T17:03:25+08:00 ] 49.66.183.42 /Home/Park/freeCount
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T17:09:06+08:00 ] 116.232.197.8 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+
+[ 2017-09-20T17:12:31+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='14' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='12' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T17:12:32+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='15' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='13' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T17:12:34+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='16' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='14' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T17:12:39+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='12' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='15' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T17:12:40+08:00 ] 49.66.183.42 /Home/Index/articleDetail/id/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id='13' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='16' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-09-20T17:46:55+08:00 ] 58.214.97.124 /Home/Air/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+
+[ 2017-09-20T17:47:12+08:00 ] 58.214.97.124 /Home/Air/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+
+[ 2017-09-20T17:51:56+08:00 ] 58.214.97.124 /Home/Air/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+
+[ 2017-09-20T17:52:31+08:00 ] 58.214.97.124 /Home/Air/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+
+[ 2017-09-20T17:52:33+08:00 ] 58.214.97.124 /Home/Air/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+
+[ 2017-09-20T18:47:58+08:00 ] 183.46.170.240 /Home/WxOpt/getOpenid
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+NOTIC: [2] curl_setopt(): CURLOPT_FOLLOWLOCATION cannot be activated when an open_basedir is set /data/www/smalltown/Application/Home/Common/function.php 第 29 行.
+

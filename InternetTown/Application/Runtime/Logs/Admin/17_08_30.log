@@ -1,0 +1,1747 @@
+[ 2017-08-30T17:03:06+08:00 ] 117.84.246.13 /Admin/MicroArticle/edit.html?id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id=18 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020039s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001188s ]
+
+[ 2017-08-30T17:04:03+08:00 ] 117.84.246.13 /Admin/MicroArticle/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0006s ]
+SQL: UPDATE `wb_micro_article` SET `title`='全景扫码',`author`='admin',`category`='21',`content`='&lt;p&gt;全景扫码&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;功能介绍：&lt;/p&gt;&lt;p style=&quot;white-space: normal;&quot;&gt;全景扫码，通过二维码方便快捷地让您全面了解各类景点特色。相当于您手机中的私人电子导航，摆脱户外的箭头导航和说明，通过优美的文字，让您的旅行更加舒心。&lt;/p&gt;&lt;p style=&quot;white-space: normal;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;使用方法：&lt;/p&gt;&lt;p style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;景区各个景点标牌上都会有一个二维码，&lt;/span&gt;扫描二维码，会自动跳转出该景点的文字或语音介绍，带领您抢先领略吴博园各类景点。&lt;/p&gt;&lt;p style=&quot;white-space: normal;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;white-space: normal;&quot;&gt;&lt;br/&gt;&lt;/p&gt;',`status`='0',`created_time`='1504083843',`published_time`='1504083843' WHERE `id` = 18 [ RunTime:0.0992s ]
+
+[ 2017-08-30T17:04:04+08:00 ] 117.84.246.13 /Admin/MicroArticle/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_micro_article`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='12' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='11' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='3' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='11' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='21' ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014291s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000931s ]
+
+[ 2017-08-30T17:04:26+08:00 ] 117.84.246.13 /Admin/Ticket/edit.html?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_ticket` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001005s ]
+
+[ 2017-08-30T17:04:53+08:00 ] 117.84.246.13 /Admin/Ticket/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0005s ]
+SQL: UPDATE `wb_ticket` SET `billcode`='',`ticket_name`='梁鸿国家湿地公园',`ticket_pic`='https://api.smalltown.wshoto.com/Uploads/ticket_images/20170830/201708301704531504083893.jpg',`ticket_price`='30.00',`add_time`='1504083893',`sight_info`='     作为中国吴文化博览园的特色景点之一，湿地公园总占地面积3465亩，拥有河流湿地、沼泽湿地、人工湿地三大湿地类型，孕育了丰富多样的湿地动植物资源，景观优美，富于野趣。
+      梁鸿国家湿地公园不仅拥有得天独厚江南水乡自然环境，更是坐拥吴地3200年文明，农耕文化、水利文化、民居文化、桥文化和水文化等吴地文化精华尽显其间。除此之外，公园内还有丰富的游玩设施，可以乘坐古朴的画舫在水面穿桥而过，感受江南独特的水桥融合的景致，也可以一家人登着脚踏小船在水面游玩，同样，这里有两人和四人自行车，可以满足情侣和家庭不同的需求在公园内游玩，当然，也可以在公园内漫步，只需要在累了的时候在路边的园区公交站台等候，就可以坐上观光车，继续游览公园了。在公园的爱情谷，有露天烧烤、大草坪以及爱情驿站可以作为游玩时休憩的落脚点；在爱情谷，情侣们可以试试走完爱情步道，并在许愿树下同系红绳，结下美好姻缘，小朋友们也可以在梁鸿孟光的雕塑旁听爸爸妈妈说说中国历史上最美丽的爱情故事。在夏季，湿地内将会开放露天的沙滩浴场，可以让游客们在炎炎夏日享受惬意的清凉，沙滩的边上还有孔雀和獐子园，小朋友们可以去找找看是否能够看到美丽的孔雀开屏。',`warning`='中国吴文化博览园功能园区内各景区独立售票，游客在线要预订30日以内门票。
+开放时间：
+无锡梁鸿国家湿地公园：开放时间8:30-16:30
+取票地点：景区售票处
+优惠标准：
+A.免费政策：
+1、身高1.4米（含）以下的儿童免票（需由监护人陪同）。
+2、年满70周岁以上老人凭有效证件免票。
+3、残疾人、现役军人、离休干部凭有效证件免票。
+4、持有国家新闻总署颁发的新闻记者证和中国广播电视总局颁发的中国电视编辑记者证，在执行采访任务时免票。
+5、持有国家旅游局颁发的国导证、旅行社经理资格证和领队证的人员， 执行带团任务时免票。
+B.优惠政策：
+1、60-69周岁老人持身份证享受半价。
+2、学生凭学生证享受半票优惠。
+3、无锡30年以上教龄教师凭教师证享受半票优惠。' WHERE `id` = 2 [ RunTime:0.0363s ]
+
+[ 2017-08-30T17:04:55+08:00 ] 117.84.246.13 /Admin/Ticket/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_ticket`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000217s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000317s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001044s ]
+
+[ 2017-08-30T17:05:21+08:00 ] 117.84.246.13 /Admin/MicroArticle/edit.html?id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id=18 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000195s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013264s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001106s ]
+
+[ 2017-08-30T17:06:03+08:00 ] 117.84.246.13 /Admin/MicroArticle/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000904s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0006s ]
+SQL: UPDATE `wb_micro_article` SET `title`='全景扫码',`author`='admin',`category`='21',`content`='&lt;p&gt;全景扫码&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;功能介绍：&lt;/p&gt;&lt;p style=&quot;white-space: normal;&quot;&gt;全景扫码，通过二维码方便快捷地让您全面了解各类景点特色。相当于您手机中的私人电子导航，摆脱户外的箭头导航和说明，通过优美的文字和图片，让您的旅行更加舒心。&lt;/p&gt;&lt;p style=&quot;white-space: normal;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;使用方法：&lt;/p&gt;&lt;p style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;景区各个景点标牌上都会有一个二维码，&lt;/span&gt;扫描二维码，会自动跳转出该景点的文字和图片介绍，带领您抢先领略吴博园各类景点。&lt;/p&gt;&lt;p style=&quot;white-space: normal;&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;p style=&quot;white-space: normal;&quot;&gt;&lt;br/&gt;&lt;/p&gt;',`status`='0',`created_time`='1504083963',`published_time`='1504083963' WHERE `id` = 18 [ RunTime:0.0184s ]
+
+[ 2017-08-30T17:06:04+08:00 ] 117.84.246.13 /Admin/MicroArticle/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='12' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='11' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='3' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='11' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='21' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000982s ]
+
+[ 2017-08-30T17:11:33+08:00 ] 117.84.246.13 /Admin/MicroArticle/edit.html?id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001025s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id=16 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015606s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015707s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001172s ]
+
+[ 2017-08-30T17:11:49+08:00 ] 117.84.246.13 /Admin/MicroArticle/edit.html?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id=14 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014348s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001033s ]
+
+[ 2017-08-30T17:12:37+08:00 ] 117.84.246.13 /Admin/MicroArticle/edit.html?id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id=18 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012568s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001101s ]
+
+[ 2017-08-30T17:12:58+08:00 ] 117.84.246.13 /Admin/MicroArticle/edit.html?id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id=16 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2017-08-30T17:13:06+08:00 ] 117.84.246.13 /Admin/MicroArticle/edit.html?id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id=15 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011981s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2017-08-30T17:13:21+08:00 ] 117.84.246.13 /Admin/MicroArticle/edit.html?id=14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000931s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id=14 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000980s ]
+
+[ 2017-08-30T17:13:30+08:00 ] 117.84.246.13 /Admin/MicroArticle/edit.html?id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id=16 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000991s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001095s ]
+
+[ 2017-08-30T17:17:30+08:00 ] 117.84.246.13 /Admin/MicroArticle/edit.html?id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000950s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id=18 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012137s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012242s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000932s ]
+
+[ 2017-08-30T17:17:36+08:00 ] 117.84.246.13 /Admin/MicroArticle/edit.html?id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id=16 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2017-08-30T17:17:41+08:00 ] 117.84.246.13 /Admin/MicroArticle/edit.html?id=15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000961s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id=15 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001047s ]
+
+[ 2017-08-30T17:20:16+08:00 ] 117.84.246.13 /Admin/MicroArticle/edit.html?id=16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_micro_article` WHERE ( id=16 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_category`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2017-08-30T18:39:52+08:00 ] 117.84.246.13 /Admin/MicroArticle/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+
+[ 2017-08-30T18:39:52+08:00 ] 117.84.246.13 /Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001030s ]
+
+[ 2017-08-30T18:39:52+08:00 ] 117.84.246.13 /Admin/Login/verifyCodeServlet.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000917s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001033s ]
+
+[ 2017-08-30T18:40:14+08:00 ] 117.84.246.13 /Admin/Login/loginValidate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+SQL: SHOW COLUMNS FROM `wb_admin_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_admin_user` WHERE `username` = 'admin' AND `password` = 'f6fdffe48c908deb0f4c3bd36c032e72' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `wb_admin_user` SET `gid`='1',`username`='admin',`last_login`='1504089614',`created_time`='1503733768',`login_count`='29' WHERE `id` = 1 [ RunTime:0.0150s ]
+
+[ 2017-08-30T18:40:14+08:00 ] 117.84.246.13 /Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000965s ]
+
+[ 2017-08-30T18:40:14+08:00 ] 117.84.246.13 /Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_buy_ticket_log` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_buy_ticket_log` WHERE ( status=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016860s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000987s ]
+
+[ 2017-08-30T18:40:14+08:00 ] 117.84.246.13 /Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_buy_ticket_log` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wb_buy_ticket_log` WHERE ( status=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001022s ]
+
+[ 2017-08-30T18:40:15+08:00 ] 117.84.246.13 /Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_buy_ticket_log` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wb_buy_ticket_log` WHERE ( status=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2017-08-30T18:40:15+08:00 ] 117.84.246.13 /Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_buy_ticket_log` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wb_buy_ticket_log` WHERE ( status=1 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000982s ]
+
+[ 2017-08-30T18:40:15+08:00 ] 117.84.246.13 /Admin/MicroArticle/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_micro_article` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_micro_article`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='12' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='11' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='3' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='11' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='2' ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id='21' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016680s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2017-08-30T18:40:29+08:00 ] 117.84.246.13 /Admin/Ticket/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wb_ticket`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2017-08-30T18:40:46+08:00 ] 117.84.246.13 /Admin/Ticket/edit.html?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_ticket` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000911s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2017-08-30T18:42:53+08:00 ] 117.84.246.13 /Admin/Ticket/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0006s ]
+SQL: UPDATE `wb_ticket` SET `billcode`='',`ticket_name`='梁鸿国家湿地公园',`ticket_pic`='https://api.smalltown.wshoto.com/Uploads/ticket_images/20170830/201708301842531504089773.jpg',`ticket_price`='30.00',`add_time`='1504089773',`sight_info`='     作为中国吴文化博览园的特色景点之一，湿地公园总占地面积3465亩，拥有河流湿地、沼泽湿地、人工湿地三大湿地类型，孕育了丰富多样的湿地动植物资源，景观优美，富于野趣。
+      梁鸿国家湿地公园不仅拥有得天独厚江南水乡自然环境，更是坐拥吴地3200年文明，农耕文化、水利文化、民居文化、桥文化和水文化等吴地文化精华尽显其间。除此之外，公园内还有丰富的游玩设施，可以乘坐古朴的画舫在水面穿桥而过，感受江南独特的水桥融合的景致，也可以一家人登着脚踏小船在水面游玩，同样，这里有两人和四人自行车，可以满足情侣和家庭不同的需求在公园内游玩，当然，也可以在公园内漫步，只需要在累了的时候在路边的园区公交站台等候，就可以坐上观光车，继续游览公园了。在公园的爱情谷，有露天烧烤、大草坪以及爱情驿站可以作为游玩时休憩的落脚点；在爱情谷，情侣们可以试试走完爱情步道，并在许愿树下同系红绳，结下美好姻缘，小朋友们也可以在梁鸿孟光的雕塑旁听爸爸妈妈说说中国历史上最美丽的爱情故事。在夏季，湿地内将会开放露天的沙滩浴场，可以让游客们在炎炎夏日享受惬意的清凉，沙滩的边上还有孔雀和獐子园，小朋友们可以去找找看是否能够看到美丽的孔雀开屏。',`warning`='中国吴文化博览园功能园区内各景区独立售票，游客在线要预订30日以内门票。
+开放时间：
+无锡梁鸿国家湿地公园：开放时间8:30-16:30
+取票地点：景区售票处
+优惠标准：
+A.免费政策：
+1、身高1.4米（含）以下的儿童免票（需由监护人陪同）。
+2、年满70周岁以上老人凭有效证件免票。
+3、残疾人、现役军人、离休干部凭有效证件免票。
+4、持有国家新闻总署颁发的新闻记者证和中国广播电视总局颁发的中国电视编辑记者证，在执行采访任务时免票。
+5、持有国家旅游局颁发的国导证、旅行社经理资格证和领队证的人员， 执行带团任务时免票。
+B.优惠政策：
+1、60-69周岁老人持身份证享受半价。
+2、学生凭学生证享受半票优惠。
+3、无锡30年以上教龄教师凭教师证享受半票优惠。' WHERE `id` = 2 [ RunTime:0.0598s ]
+
+[ 2017-08-30T18:44:06+08:00 ] 117.84.246.13 /Admin/Ticket/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wb_ticket`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017073s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000993s ]
+
+[ 2017-08-30T18:44:08+08:00 ] 117.84.246.13 /Admin/Ticket/edit.html?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_ticket` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010691s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000935s ]
+
+[ 2017-08-30T18:44:15+08:00 ] 117.84.246.13 /Admin/Ticket/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0006s ]
+SQL: UPDATE `wb_ticket` SET `billcode`='',`ticket_name`='梁鸿国家湿地公园',`ticket_pic`='https://api.smalltown.wshoto.com/Uploads/ticket_images/20170830/201708301844151504089855.jpg',`ticket_price`='30.00',`add_time`='1504089855',`sight_info`='     作为中国吴文化博览园的特色景点之一，湿地公园总占地面积3465亩，拥有河流湿地、沼泽湿地、人工湿地三大湿地类型，孕育了丰富多样的湿地动植物资源，景观优美，富于野趣。
+      梁鸿国家湿地公园不仅拥有得天独厚江南水乡自然环境，更是坐拥吴地3200年文明，农耕文化、水利文化、民居文化、桥文化和水文化等吴地文化精华尽显其间。除此之外，公园内还有丰富的游玩设施，可以乘坐古朴的画舫在水面穿桥而过，感受江南独特的水桥融合的景致，也可以一家人登着脚踏小船在水面游玩，同样，这里有两人和四人自行车，可以满足情侣和家庭不同的需求在公园内游玩，当然，也可以在公园内漫步，只需要在累了的时候在路边的园区公交站台等候，就可以坐上观光车，继续游览公园了。在公园的爱情谷，有露天烧烤、大草坪以及爱情驿站可以作为游玩时休憩的落脚点；在爱情谷，情侣们可以试试走完爱情步道，并在许愿树下同系红绳，结下美好姻缘，小朋友们也可以在梁鸿孟光的雕塑旁听爸爸妈妈说说中国历史上最美丽的爱情故事。在夏季，湿地内将会开放露天的沙滩浴场，可以让游客们在炎炎夏日享受惬意的清凉，沙滩的边上还有孔雀和獐子园，小朋友们可以去找找看是否能够看到美丽的孔雀开屏。',`warning`='中国吴文化博览园功能园区内各景区独立售票，游客在线要预订30日以内门票。
+开放时间：
+无锡梁鸿国家湿地公园：开放时间8:30-16:30
+取票地点：景区售票处
+优惠标准：
+A.免费政策：
+1、身高1.4米（含）以下的儿童免票（需由监护人陪同）。
+2、年满70周岁以上老人凭有效证件免票。
+3、残疾人、现役军人、离休干部凭有效证件免票。
+4、持有国家新闻总署颁发的新闻记者证和中国广播电视总局颁发的中国电视编辑记者证，在执行采访任务时免票。
+5、持有国家旅游局颁发的国导证、旅行社经理资格证和领队证的人员， 执行带团任务时免票。
+B.优惠政策：
+1、60-69周岁老人持身份证享受半价。
+2、学生凭学生证享受半票优惠。
+3、无锡30年以上教龄教师凭教师证享受半票优惠。' WHERE `id` = 2 [ RunTime:0.0141s ]
+
+[ 2017-08-30T18:44:17+08:00 ] 117.84.246.13 /Admin/Ticket/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_ticket`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015189s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015277s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2017-08-30T18:44:23+08:00 ] 117.84.246.13 /Admin/Ticket/edit.html?id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_ticket` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010100s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2017-08-30T18:45:10+08:00 ] 117.84.246.13 /Admin/Ticket/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000997s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0006s ]
+SQL: UPDATE `wb_ticket` SET `billcode`='',`ticket_name`='中华赏石园',`ticket_pic`='https://api.smalltown.wshoto.com/Uploads/ticket_images/20170830/201708301845091504089909.jpg',`ticket_price`='40.00',`add_time`='1504089909',`sight_info`='      中华赏石园由中国观赏石协会与无锡新吴区合作共建，为中国观赏石综合基地，建筑面积约25000平方米，于2011年11月28日建成开园，并举办无锡首届国际石博会。
+      主展馆石博馆建筑面积约15000平方米，展示了造型石、图纹石、矿物晶体石、化石、特种石五大门类精品奇石1100余件，涵盖近300种主流石种。其中，光华国际矿晶馆、光华化石馆展示了来自世界各地的精品化石、矿物晶体200余件。
+      中国观赏石文化历史悠久、博大精深。在唐宋时期，文人雅士皆喜把玩奇石，如白居易、牛僧孺、苏东坡、米芾等。传统的观赏石有四大名石，即太湖石、灵璧石、昆石、英石。近现代以来，观赏石文化日盛，并逐渐走进千家万户。赏石的理念也在悄然发生变化，人们开始从传统的观赏石，转向一些形、色、质、纹、韵俱佳的新石种，如大化石、彩陶石、来宾石、戈壁石等。随着中西文化的交融，西方盛行的矿物晶体、化石也受到越来越多人的喜爱。
+      2013年，中华赏石园被国家旅游局评定为“AAAA级”旅游景区。',`warning`='中国吴文化博览园功能园区内各景区独立售票，游客在线要预订30日以内门票。
+开放时间：
+中华赏石园：开放时间：9:00-17:00
+取票地点：景区售票处
+优惠标准：
+ A.  免费政策：
+     1、身高1.4米（含）以下的儿童免票（需由监护人陪同）。
+     2、年满70周岁以上老人凭有效证件免票。
+     3、残疾人、现役军人、离休干部凭有效证件免票。
+     4、持有国家新闻总署颁发的新闻记者证和中国广播电视总局颁发的中国电视编辑记者证，在执行采访任务时免票。
+     5、持有国家旅游局颁发的国导证、旅行社经理资格证和领队证的人员，在执行带团任务时免票。
+  B.   优惠政策：
+     1、60-69周岁老人持身份证享受半价。
+     2、学生凭学生证享受半票优惠。
+     3、无锡30年以上教龄教师凭教师证享受半票优惠。' WHERE `id` = 3 [ RunTime:0.0377s ]
+
+[ 2017-08-30T18:45:12+08:00 ] 117.84.246.13 /Admin/Ticket/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wb_ticket`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015065s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2017-08-30T18:45:14+08:00 ] 117.84.246.13 /Admin/Ticket/edit.html?id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wb_ticket` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2017-08-30T18:45:26+08:00 ] 117.84.246.13 /Admin/Ticket/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0007s ]
+SQL: UPDATE `wb_ticket` SET `billcode`='',`ticket_name`='中华赏石园',`ticket_pic`='https://api.smalltown.wshoto.com/Uploads/ticket_images/20170830/201708301845261504089926.jpg',`ticket_price`='40.00',`add_time`='1504089926',`sight_info`='      中华赏石园由中国观赏石协会与无锡新吴区合作共建，为中国观赏石综合基地，建筑面积约25000平方米，于2011年11月28日建成开园，并举办无锡首届国际石博会。
+      主展馆石博馆建筑面积约15000平方米，展示了造型石、图纹石、矿物晶体石、化石、特种石五大门类精品奇石1100余件，涵盖近300种主流石种。其中，光华国际矿晶馆、光华化石馆展示了来自世界各地的精品化石、矿物晶体200余件。
+      中国观赏石文化历史悠久、博大精深。在唐宋时期，文人雅士皆喜把玩奇石，如白居易、牛僧孺、苏东坡、米芾等。传统的观赏石有四大名石，即太湖石、灵璧石、昆石、英石。近现代以来，观赏石文化日盛，并逐渐走进千家万户。赏石的理念也在悄然发生变化，人们开始从传统的观赏石，转向一些形、色、质、纹、韵俱佳的新石种，如大化石、彩陶石、来宾石、戈壁石等。随着中西文化的交融，西方盛行的矿物晶体、化石也受到越来越多人的喜爱。
+      2013年，中华赏石园被国家旅游局评定为“AAAA级”旅游景区。',`warning`='中国吴文化博览园功能园区内各景区独立售票，游客在线要预订30日以内门票。
+开放时间：
+中华赏石园：开放时间：9:00-17:00
+取票地点：景区售票处
+优惠标准：
+ A.  免费政策：
+     1、身高1.4米（含）以下的儿童免票（需由监护人陪同）。
+     2、年满70周岁以上老人凭有效证件免票。
+     3、残疾人、现役军人、离休干部凭有效证件免票。
+     4、持有国家新闻总署颁发的新闻记者证和中国广播电视总局颁发的中国电视编辑记者证，在执行采访任务时免票。
+     5、持有国家旅游局颁发的国导证、旅行社经理资格证和领队证的人员，在执行带团任务时免票。
+  B.   优惠政策：
+     1、60-69周岁老人持身份证享受半价。
+     2、学生凭学生证享受半票优惠。
+     3、无锡30年以上教龄教师凭教师证享受半票优惠。' WHERE `id` = 3 [ RunTime:0.0549s ]
+
+[ 2017-08-30T18:45:27+08:00 ] 117.84.246.13 /Admin/Ticket/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wb_ticket`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014035s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000932s ]
+
+[ 2017-08-30T18:45:32+08:00 ] 117.84.246.13 /Admin/Ticket/edit.html?id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wb_ticket` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013887s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001357s ]
+
+[ 2017-08-30T18:46:16+08:00 ] 117.84.246.13 /Admin/Ticket/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0006s ]
+SQL: UPDATE `wb_ticket` SET `billcode`='',`ticket_name`='鸿山遗址博物馆',`ticket_pic`='https://api.smalltown.wshoto.com/Uploads/ticket_images/20170830/201708301846161504089976.jpg',`ticket_price`='50.00',`add_time`='1504089976',`sight_info`='      鸿山遗址博物馆位于吴文化博览园境内，是一个以全国重点文物保护单位鸿山墓群为依托，在特大墓葬丘承墩原址上规划建设的专题博物馆。
+      鸿山遗址博物馆展陈分为古墓惊现、等级之尊、奢华生活、贵族玉礼、乐库华章、千古之谜六大板块，主要展示了鸿山遗址考古发掘中出土的精品文物，如玉飞凤、青瓷三足缶、盘蛇玲珑球、温酒器等。鸿山遗址被评为2004年度全国十大考古新发现、第六批全国重点文物保护单位和“十一五”期间全国100项重点保护大遗址工程之一。2010年10月，被国家文物局评定为首批国家考古遗址公园，并于2011年11月被国家旅游局评定为“AAAA级”旅游景区。',`warning`='中国吴文化博览园功能园区内各景区独立售票，游客在线要预订30日以内门票。
+开放时间：
+ 鸿山遗址博物馆：开放时间：周二至周日9:00—16:30；周一闭馆
+取票地点：景区售票处
+优惠标准：
+ A.  免费政策：
+     1、身高1.4米（含）以下的儿童免票（需由监护人陪同）。
+     2、年满70周岁以上老人凭有效证件免票。
+     3、残疾人、现役军人、离休干部凭有效证件免票。
+     4、持有国家新闻总署颁发的新闻记者证和中国广播电视总局颁发的中国电视编辑记者证，在执行采访任务时免票。
+     5、持有国家旅游局颁发的国导证、旅行社经理资格证和领队证的人员， 在执行带团任务时免票。
+  B.   优惠政策：
+     1、60-69周岁老人持身份证享受半价。
+     2、学生凭学生证享受半票优惠。
+     3、无锡30年以上教龄教师凭教师证享受半票优惠。' WHERE `id` = 4 [ RunTime:0.0359s ]
+
+[ 2017-08-30T18:46:18+08:00 ] 117.84.246.13 /Admin/Ticket/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_ticket`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000922s ]
+
+[ 2017-08-30T18:46:21+08:00 ] 117.84.246.13 /Admin/Ticket/edit.html?id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_ticket` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011099s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000861s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000950s ]
+
+[ 2017-08-30T18:46:27+08:00 ] 117.84.246.13 /Admin/Ticket/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000894s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0006s ]
+SQL: UPDATE `wb_ticket` SET `billcode`='',`ticket_name`='中华赏石园',`ticket_pic`='https://api.smalltown.wshoto.com/Uploads/ticket_images/20170830/201708301846271504089987.jpg',`ticket_price`='40.00',`add_time`='1504089987',`sight_info`='      中华赏石园由中国观赏石协会与无锡新吴区合作共建，为中国观赏石综合基地，建筑面积约25000平方米，于2011年11月28日建成开园，并举办无锡首届国际石博会。
+      主展馆石博馆建筑面积约15000平方米，展示了造型石、图纹石、矿物晶体石、化石、特种石五大门类精品奇石1100余件，涵盖近300种主流石种。其中，光华国际矿晶馆、光华化石馆展示了来自世界各地的精品化石、矿物晶体200余件。
+      中国观赏石文化历史悠久、博大精深。在唐宋时期，文人雅士皆喜把玩奇石，如白居易、牛僧孺、苏东坡、米芾等。传统的观赏石有四大名石，即太湖石、灵璧石、昆石、英石。近现代以来，观赏石文化日盛，并逐渐走进千家万户。赏石的理念也在悄然发生变化，人们开始从传统的观赏石，转向一些形、色、质、纹、韵俱佳的新石种，如大化石、彩陶石、来宾石、戈壁石等。随着中西文化的交融，西方盛行的矿物晶体、化石也受到越来越多人的喜爱。
+      2013年，中华赏石园被国家旅游局评定为“AAAA级”旅游景区。',`warning`='中国吴文化博览园功能园区内各景区独立售票，游客在线要预订30日以内门票。
+开放时间：
+中华赏石园：开放时间：9:00-17:00
+取票地点：景区售票处
+优惠标准：
+ A.  免费政策：
+     1、身高1.4米（含）以下的儿童免票（需由监护人陪同）。
+     2、年满70周岁以上老人凭有效证件免票。
+     3、残疾人、现役军人、离休干部凭有效证件免票。
+     4、持有国家新闻总署颁发的新闻记者证和中国广播电视总局颁发的中国电视编辑记者证，在执行采访任务时免票。
+     5、持有国家旅游局颁发的国导证、旅行社经理资格证和领队证的人员，在执行带团任务时免票。
+  B.   优惠政策：
+     1、60-69周岁老人持身份证享受半价。
+     2、学生凭学生证享受半票优惠。
+     3、无锡30年以上教龄教师凭教师证享受半票优惠。' WHERE `id` = 3 [ RunTime:0.0138s ]
+
+[ 2017-08-30T18:46:28+08:00 ] 117.84.246.13 /Admin/Ticket/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_ticket`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013610s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000912s ]
+
+[ 2017-08-30T18:46:33+08:00 ] 117.84.246.13 /Admin/Ticket/edit.html?id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wb_ticket` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2017-08-30T18:46:58+08:00 ] 117.84.246.13 /Admin/Ticket/edit.html?id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wb_ticket` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2017-08-30T18:47:05+08:00 ] 117.84.246.13 /Admin/Ticket/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0005s ]
+SQL: UPDATE `wb_ticket` SET `billcode`='',`ticket_name`='鸿山遗址博物馆',`ticket_pic`='https://api.smalltown.wshoto.com/Uploads/ticket_images/20170830/201708301847051504090025.jpg',`ticket_price`='50.00',`add_time`='1504090025',`sight_info`='      鸿山遗址博物馆位于吴文化博览园境内，是一个以全国重点文物保护单位鸿山墓群为依托，在特大墓葬丘承墩原址上规划建设的专题博物馆。
+      鸿山遗址博物馆展陈分为古墓惊现、等级之尊、奢华生活、贵族玉礼、乐库华章、千古之谜六大板块，主要展示了鸿山遗址考古发掘中出土的精品文物，如玉飞凤、青瓷三足缶、盘蛇玲珑球、温酒器等。鸿山遗址被评为2004年度全国十大考古新发现、第六批全国重点文物保护单位和“十一五”期间全国100项重点保护大遗址工程之一。2010年10月，被国家文物局评定为首批国家考古遗址公园，并于2011年11月被国家旅游局评定为“AAAA级”旅游景区。',`warning`='中国吴文化博览园功能园区内各景区独立售票，游客在线要预订30日以内门票。
+开放时间：
+ 鸿山遗址博物馆：开放时间：周二至周日9:00—16:30；周一闭馆
+取票地点：景区售票处
+优惠标准：
+ A.  免费政策：
+     1、身高1.4米（含）以下的儿童免票（需由监护人陪同）。
+     2、年满70周岁以上老人凭有效证件免票。
+     3、残疾人、现役军人、离休干部凭有效证件免票。
+     4、持有国家新闻总署颁发的新闻记者证和中国广播电视总局颁发的中国电视编辑记者证，在执行采访任务时免票。
+     5、持有国家旅游局颁发的国导证、旅行社经理资格证和领队证的人员， 在执行带团任务时免票。
+  B.   优惠政策：
+     1、60-69周岁老人持身份证享受半价。
+     2、学生凭学生证享受半票优惠。
+     3、无锡30年以上教龄教师凭教师证享受半票优惠。' WHERE `id` = 4 [ RunTime:0.1330s ]
+
+[ 2017-08-30T18:47:06+08:00 ] 117.84.246.13 /Admin/Ticket/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_ticket`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014284s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2017-08-30T18:54:25+08:00 ] 117.84.246.13 /Admin/Ticket/edit.html?id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wb_ticket` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010587s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010696s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000896s ]
+
+[ 2017-08-30T18:58:27+08:00 ] 117.84.246.13 /Admin/Ticket/edit.html?id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_ticket` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000947s ]
+
+[ 2017-08-30T18:58:41+08:00 ] 117.84.246.13 /Admin/Ticket/edit.html?id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_ticket` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000943s ]
+
+[ 2017-08-30T18:58:58+08:00 ] 117.84.246.13 /Admin/Ticket/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0006s ]
+SQL: UPDATE `wb_ticket` SET `billcode`='',`ticket_name`='中华赏石园',`ticket_pic`='https://api.smalltown.wshoto.com/Uploads/ticket_images/20170830/201708301858581504090738.jpg',`ticket_price`='40.00',`add_time`='1504090738',`sight_info`='      中华赏石园由中国观赏石协会与无锡新吴区合作共建，为中国观赏石综合基地，建筑面积约25000平方米，于2011年11月28日建成开园，并举办无锡首届国际石博会。
+      主展馆石博馆建筑面积约15000平方米，展示了造型石、图纹石、矿物晶体石、化石、特种石五大门类精品奇石1100余件，涵盖近300种主流石种。其中，光华国际矿晶馆、光华化石馆展示了来自世界各地的精品化石、矿物晶体200余件。
+      中国观赏石文化历史悠久、博大精深。在唐宋时期，文人雅士皆喜把玩奇石，如白居易、牛僧孺、苏东坡、米芾等。传统的观赏石有四大名石，即太湖石、灵璧石、昆石、英石。近现代以来，观赏石文化日盛，并逐渐走进千家万户。赏石的理念也在悄然发生变化，人们开始从传统的观赏石，转向一些形、色、质、纹、韵俱佳的新石种，如大化石、彩陶石、来宾石、戈壁石等。随着中西文化的交融，西方盛行的矿物晶体、化石也受到越来越多人的喜爱。
+      2013年，中华赏石园被国家旅游局评定为“AAAA级”旅游景区。',`warning`='中国吴文化博览园功能园区内各景区独立售票，游客在线要预订30日以内门票。
+开放时间：
+中华赏石园：开放时间：9:00-17:00
+取票地点：景区售票处
+优惠标准：
+A.免费政策：
+1、身高1.4米（含）以下的儿童免票（需由监护人陪同）。
+2、年满70周岁以上老人凭有效证件免票。
+3、残疾人、现役军人、离休干部凭有效证件免票。
+4、持有国家新闻总署颁发的新闻记者证和中国广播电视总局颁发的中国电视编辑记者证，在执行采访任务时免票。
+5、持有国家旅游局颁发的国导证、旅行社经理资格证和领队证的人员， 执行带团任务时免票。
+B.优惠政策：
+1、60-69周岁老人持身份证享受半价。
+2、学生凭学生证享受半票优惠。
+3、无锡30年以上教龄教师凭教师证享受半票优惠。' WHERE `id` = 3 [ RunTime:0.0355s ]
+
+[ 2017-08-30T18:58:59+08:00 ] 117.84.246.13 /Admin/Ticket/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wb_ticket`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015365s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000967s ]
+
+[ 2017-08-30T18:59:10+08:00 ] 117.84.246.13 /Admin/Ticket/edit.html?id=4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_ticket` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2017-08-30T18:59:32+08:00 ] 117.84.246.13 /Admin/Ticket/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0006s ]
+SQL: UPDATE `wb_ticket` SET `billcode`='',`ticket_name`='鸿山遗址博物馆',`ticket_pic`='https://api.smalltown.wshoto.com/Uploads/ticket_images/20170830/201708301859321504090772.jpg',`ticket_price`='50.00',`add_time`='1504090772',`sight_info`='      鸿山遗址博物馆位于吴文化博览园境内，是一个以全国重点文物保护单位鸿山墓群为依托，在特大墓葬丘承墩原址上规划建设的专题博物馆。
+      鸿山遗址博物馆展陈分为古墓惊现、等级之尊、奢华生活、贵族玉礼、乐库华章、千古之谜六大板块，主要展示了鸿山遗址考古发掘中出土的精品文物，如玉飞凤、青瓷三足缶、盘蛇玲珑球、温酒器等。鸿山遗址被评为2004年度全国十大考古新发现、第六批全国重点文物保护单位和“十一五”期间全国100项重点保护大遗址工程之一。2010年10月，被国家文物局评定为首批国家考古遗址公园，并于2011年11月被国家旅游局评定为“AAAA级”旅游景区。',`warning`='中国吴文化博览园功能园区内各景区独立售票，游客在线要预订30日以内门票。
+开放时间：
+ 鸿山遗址博物馆：开放时间：周二至周日9:00—16:30；周一闭馆
+取票地点：景区售票处
+优惠标准：
+A.免费政策：
+1、身高1.4米（含）以下的儿童免票（需由监护人陪同）。
+2、年满70周岁以上老人凭有效证件免票。
+3、残疾人、现役军人、离休干部凭有效证件免票。
+4、持有国家新闻总署颁发的新闻记者证和中国广播电视总局颁发的中国电视编辑记者证，在执行采访任务时免票。
+5、持有国家旅游局颁发的国导证、旅行社经理资格证和领队证的人员， 执行带团任务时免票。
+B.优惠政策：
+1、60-69周岁老人持身份证享受半价。
+2、学生凭学生证享受半票优惠。
+3、无锡30年以上教龄教师凭教师证享受半票优惠。' WHERE `id` = 4 [ RunTime:0.0360s ]
+
+[ 2017-08-30T18:59:33+08:00 ] 117.84.246.13 /Admin/Ticket/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0006s ]
+SQL: UPDATE `wb_ticket` SET `billcode`='',`ticket_name`='鸿山遗址博物馆',`ticket_pic`='https://api.smalltown.wshoto.com/Uploads/ticket_images/20170830/201708301859331504090773.jpg',`ticket_price`='50.00',`add_time`='1504090773',`sight_info`='      鸿山遗址博物馆位于吴文化博览园境内，是一个以全国重点文物保护单位鸿山墓群为依托，在特大墓葬丘承墩原址上规划建设的专题博物馆。
+      鸿山遗址博物馆展陈分为古墓惊现、等级之尊、奢华生活、贵族玉礼、乐库华章、千古之谜六大板块，主要展示了鸿山遗址考古发掘中出土的精品文物，如玉飞凤、青瓷三足缶、盘蛇玲珑球、温酒器等。鸿山遗址被评为2004年度全国十大考古新发现、第六批全国重点文物保护单位和“十一五”期间全国100项重点保护大遗址工程之一。2010年10月，被国家文物局评定为首批国家考古遗址公园，并于2011年11月被国家旅游局评定为“AAAA级”旅游景区。',`warning`='中国吴文化博览园功能园区内各景区独立售票，游客在线要预订30日以内门票。
+开放时间：
+ 鸿山遗址博物馆：开放时间：周二至周日9:00—16:30；周一闭馆
+取票地点：景区售票处
+优惠标准：
+A.免费政策：
+1、身高1.4米（含）以下的儿童免票（需由监护人陪同）。
+2、年满70周岁以上老人凭有效证件免票。
+3、残疾人、现役军人、离休干部凭有效证件免票。
+4、持有国家新闻总署颁发的新闻记者证和中国广播电视总局颁发的中国电视编辑记者证，在执行采访任务时免票。
+5、持有国家旅游局颁发的国导证、旅行社经理资格证和领队证的人员， 执行带团任务时免票。
+B.优惠政策：
+1、60-69周岁老人持身份证享受半价。
+2、学生凭学生证享受半票优惠。
+3、无锡30年以上教龄教师凭教师证享受半票优惠。' WHERE `id` = 4 [ RunTime:0.0263s ]
+
+[ 2017-08-30T18:59:33+08:00 ] 117.84.246.13 /Admin/Ticket/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_ticket`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000924s ]
+
+[ 2017-08-30T18:59:33+08:00 ] 117.84.246.13 /Admin/Ticket/edit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_ticket` [ RunTime:0.0006s ]
+SQL: UPDATE `wb_ticket` SET `billcode`='',`ticket_name`='鸿山遗址博物馆',`ticket_pic`='https://api.smalltown.wshoto.com/Uploads/ticket_images/20170830/201708301859331504090773.jpg',`ticket_price`='50.00',`add_time`='1504090773',`sight_info`='      鸿山遗址博物馆位于吴文化博览园境内，是一个以全国重点文物保护单位鸿山墓群为依托，在特大墓葬丘承墩原址上规划建设的专题博物馆。
+      鸿山遗址博物馆展陈分为古墓惊现、等级之尊、奢华生活、贵族玉礼、乐库华章、千古之谜六大板块，主要展示了鸿山遗址考古发掘中出土的精品文物，如玉飞凤、青瓷三足缶、盘蛇玲珑球、温酒器等。鸿山遗址被评为2004年度全国十大考古新发现、第六批全国重点文物保护单位和“十一五”期间全国100项重点保护大遗址工程之一。2010年10月，被国家文物局评定为首批国家考古遗址公园，并于2011年11月被国家旅游局评定为“AAAA级”旅游景区。',`warning`='中国吴文化博览园功能园区内各景区独立售票，游客在线要预订30日以内门票。
+开放时间：
+ 鸿山遗址博物馆：开放时间：周二至周日9:00—16:30；周一闭馆
+取票地点：景区售票处
+优惠标准：
+A.免费政策：
+1、身高1.4米（含）以下的儿童免票（需由监护人陪同）。
+2、年满70周岁以上老人凭有效证件免票。
+3、残疾人、现役军人、离休干部凭有效证件免票。
+4、持有国家新闻总署颁发的新闻记者证和中国广播电视总局颁发的中国电视编辑记者证，在执行采访任务时免票。
+5、持有国家旅游局颁发的国导证、旅行社经理资格证和领队证的人员， 执行带团任务时免票。
+B.优惠政策：
+1、60-69周岁老人持身份证享受半价。
+2、学生凭学生证享受半票优惠。
+3、无锡30年以上教龄教师凭教师证享受半票优惠。' WHERE `id` = 4 [ RunTime:0.0042s ]
+
+[ 2017-08-30T19:15:13+08:00 ] 117.84.246.13 /Admin/Index/ticket_info.html?tid=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001408s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_buy_ticket_log` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wb_buy_ticket_log` WHERE ( id='53' AND status=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Trying to get property of non-object /data/www/smalltown/Application/Admin/Controller/IndexController.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+NOTIC: [8] Undefined variable: ticket /data/www/smalltown/Application/Runtime/Cache/Admin/6f82630adca426615ccbcc53b32951a5.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032543s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032646s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000999s ]
+
+[ 2017-08-30T19:15:18+08:00 ] 117.84.246.13 /Admin/Index/changeStatus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_buy_ticket_log` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_buy_ticket_log` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wb_buy_ticket_log` SET `out_refund_no`='',`trade_no`='MP20170828195603562',`openid`='onKDx0Pz7h-QTJGmfww9rzjRnl2Y',`t_name`='测试',`single_price`='0.01',`use_time`='0',`count`='1',`customer`='ytrewq',`phone`='16251611234',`price`='0.01',`ticket_sn`='615451',`buy_time`='1503921363',`status`='2' WHERE `id` = 44 [ RunTime:0.0156s ]
+
+[ 2017-08-30T19:15:20+08:00 ] 117.84.246.13 /Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000919s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_buy_ticket_log` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wb_buy_ticket_log` WHERE ( status=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014833s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001067s ]
+
+[ 2017-08-30T19:15:25+08:00 ] 117.84.246.13 /Admin/Index/ticket_info.html?tid=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001376s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_buy_ticket_log` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wb_buy_ticket_log` WHERE ( id='45' AND status=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Trying to get property of non-object /data/www/smalltown/Application/Admin/Controller/IndexController.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [8] Undefined variable: ticket /data/www/smalltown/Application/Runtime/Cache/Admin/6f82630adca426615ccbcc53b32951a5.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2017-08-30T19:17:14+08:00 ] 117.84.246.13 /Admin/Index/ticket_info.html?tid=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_buy_ticket_log` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wb_buy_ticket_log` WHERE ( id='45' AND status=1 ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Trying to get property of non-object /data/www/smalltown/Application/Admin/Controller/IndexController.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined variable: ticket /data/www/smalltown/Application/Runtime/Cache/Admin/6f82630adca426615ccbcc53b32951a5.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2017-08-30T19:32:57+08:00 ] 117.84.246.13 /Admin/Index/ticket_info.html?tid=45
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_buy_ticket_log` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `wb_buy_ticket_log` WHERE ( id='45' AND status=1 ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Trying to get property of non-object /data/www/smalltown/Application/Admin/Controller/IndexController.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+NOTIC: [8] Undefined variable: ticket /data/www/smalltown/Application/Runtime/Cache/Admin/6f82630adca426615ccbcc53b32951a5.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009375s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2017-08-30T19:32:59+08:00 ] 117.84.246.13 /Admin/Index/changeStatus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001241s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_buy_ticket_log` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_buy_ticket_log` WHERE ( status=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wb_buy_ticket_log` SET `out_refund_no`='',`trade_no`='MP20170828202854402',`openid`='onKDx0Pz7h-QTJGmfww9rzjRnl2Y',`t_name`='测试',`single_price`='0.01',`use_time`='1503936000',`count`='1',`customer`='abcdefg',`phone`='15251619969',`price`='0.01',`ticket_sn`='531444',`buy_time`='1503923334',`status`='2' WHERE `id` = 45 [ RunTime:0.0201s ]
+
+[ 2017-08-30T19:33:00+08:00 ] 117.84.246.13 /Admin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_buy_ticket_log` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wb_buy_ticket_log` WHERE ( status=1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014777s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000878s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000997s ]
+
+[ 2017-08-30T19:37:36+08:00 ] 117.84.246.13 /Admin/System/adminUserList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_admin_user` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wb_admin_group` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `wb_admin_user`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_admin_group` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_admin_group` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001139s ]
+
+[ 2017-08-30T19:37:38+08:00 ] 117.84.246.13 /Admin/System/groupList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_admin_group` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `wb_admin_group`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000945s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001030s ]
+
+[ 2017-08-30T19:37:39+08:00 ] 117.84.246.13 /Admin/System/categoryList.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+NOTIC: [2] Division by zero /data/www/smalltown/Application/Admin/Controller/AuthLoginController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `wb_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wb_category`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id=' 3' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id=' 3' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id=' 3' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id=' 3' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id=' 3' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id=' 17' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id=' 17' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wb_category` WHERE ( id=' 17' ) LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014737s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000931s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+

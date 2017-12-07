@@ -1,0 +1,705 @@
+[ 2017-08-22T08:37:12+08:00 ] ::1 /wubo/install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+ERR: 模板不存在:./Application/Install/View/Index/index.php
+
+[ 2017-08-22T08:38:36+08:00 ] ::1 /wubo/install.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003053s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001255s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001479s ]
+
+[ 2017-08-22T08:38:39+08:00 ] ::1 /wubo/install.php/Install/Install/step1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001314s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000242s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016365s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000805s ]
+
+[ 2017-08-22T08:38:42+08:00 ] ::1 /wubo/install.php/Install/Install/step2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001196s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000309s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000980s ]
+
+[ 2017-08-22T08:38:59+08:00 ] ::1 /wubo/install.php/Install/Install/step2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000896s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001509s ]
+NOTIC: [8] Undefined offset: 6 D:\www\wubo\Application\Install\Controller\InstallController.class.php 第 78 行.
+NOTIC: [8] Undefined index: db_name D:\www\wubo\ThinkPHP\Library\Think\Db.class.php 第 68 行.
+SQL: CREATE DATABASE IF NOT EXISTS `wubo` DEFAULT CHARACTER SET utf8 [ RunTime:0.0003s ]
+
+[ 2017-08-22T08:39:00+08:00 ] ::1 /wubo/install.php/Install/Install/step3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001654s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000497s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001177s ]
+SQL: SET FOREIGN_KEY_CHECKS = 0 [ RunTime:0.0014s ]
+SQL: -- ------------------------------
+
+-- Table structure for admin_user.
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_admin_user` [ RunTime:0.0058s ]
+SQL: CREATE TABLE `wb_admin_user` (
+
+  `id`           INT(10)      NOT NULL AUTO_INCREMENT,
+
+  `gid`          INT(10)               DEFAULT 1
+
+  COMMENT '管理员级别',
+
+  `username`     VARCHAR(20)  NOT NULL
+
+  COMMENT '登陆名',
+
+  `password`     VARCHAR(128) NOT NULL
+
+  COMMENT '登陆密码',
+
+  `last_login`   INT(10)      NOT NULL
+
+  COMMENT '最后登陆时间',
+
+  `created_time` INT(10)      NOT NULL
+
+  COMMENT '账户添加时间',
+
+  `login_count`  INT(10)               DEFAULT 0
+
+  COMMENT '登录次数',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '管理员表' [ RunTime:0.0081s ]
+SQL: DROP TABLE IF EXISTS `wb_user` [ RunTime:0.0049s ]
+SQL: CREATE TABLE `wb_user` (
+
+  `id`         INT(10)      NOT NULL AUTO_INCREMENT,
+
+  `openid`     VARCHAR(128) NOT NULL
+
+  COMMENT '公众号粉丝ID',
+
+  `nickname`   VARCHAR(20)           DEFAULT ''
+
+  COMMENT '用户昵称',
+
+  `headimgurl` VARCHAR(255)          DEFAULT ''
+
+  COMMENT '头像',
+
+  `sex`        TINYINT(1)            DEFAULT 1
+
+  COMMENT '性别',
+
+  `language`   VARCHAR(10)           DEFAULT ''
+
+  COMMENT '语言',
+
+  `city`       VARCHAR(10)           DEFAULT ''
+
+  COMMENT '城市',
+
+  `province`   VARCHAR(10)           DEFAULT ''
+
+  COMMENT '省份',
+
+  `country`    VARCHAR(10)           DEFAULT '中国'
+
+  COMMENT '国家',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '粉丝用户表' [ RunTime:0.0112s ]
+SQL: -- ------------------------------
+
+-- Table structure for admin_group.
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_admin_group` [ RunTime:0.0051s ]
+SQL: CREATE TABLE `wb_admin_group` (
+
+  `id`   INT(10)     NOT NULL AUTO_INCREMENT,
+
+  `name` VARCHAR(10) NOT NULL
+
+  COMMENT '组名',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '管理员组' [ RunTime:0.0066s ]
+SQL: INSERT INTO `wb_admin_group` VALUES (1, '超级管理员') [ RunTime:0.0036s ]
+SQL: INSERT INTO `wb_admin_group` VALUES (2, '管理员') [ RunTime:0.0019s ]
+SQL: -- ------------------------------
+
+-- Table structure for admin_group.
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_permission` [ RunTime:0.0046s ]
+SQL: CREATE TABLE `wb_permission` (
+
+  `id`    INT(10)     NOT NULL AUTO_INCREMENT,
+
+  `value` VARCHAR(10) NOT NULL
+
+  COMMENT '权限',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '权限表' [ RunTime:0.0086s ]
+SQL: INSERT INTO `wb_permission` VALUES (1, 'admin_add') [ RunTime:0.0039s ]
+SQL: INSERT INTO `wb_permission` VALUES (2, 'admin_edit') [ RunTime:0.0023s ]
+SQL: INSERT INTO `wb_permission` VALUES (3, 'admin_del') [ RunTime:0.0026s ]
+SQL: INSERT INTO `wb_permission` VALUES (4, 'article_add') [ RunTime:0.0025s ]
+SQL: INSERT INTO `wb_permission` VALUES (5, 'article_edit') [ RunTime:0.0029s ]
+SQL: INSERT INTO `wb_permission` VALUES (6, 'article_del') [ RunTime:0.0038s ]
+SQL: INSERT INTO `wb_permission` VALUES (7, 'ticket_add') [ RunTime:0.0035s ]
+SQL: INSERT INTO `wb_permission` VALUES (8, 'ticket_edit') [ RunTime:0.0037s ]
+SQL: INSERT INTO `wb_permission` VALUES (9, 'ticket_del') [ RunTime:0.0034s ]
+SQL: INSERT INTO `wb_permission` VALUES (10, 'sight_add') [ RunTime:0.0023s ]
+SQL: INSERT INTO `wb_permission` VALUES (11, 'sight_edit') [ RunTime:0.0019s ]
+SQL: INSERT INTO `wb_permission` VALUES (12, 'sight_del') [ RunTime:0.0019s ]
+SQL: INSERT INTO `wb_permission` VALUES (13, 'finance_add') [ RunTime:0.0018s ]
+SQL: INSERT INTO `wb_permission` VALUES (14, 'finance_edit') [ RunTime:0.0034s ]
+SQL: INSERT INTO `wb_permission` VALUES (15, 'finance_del') [ RunTime:0.0033s ]
+SQL: INSERT INTO `wb_permission` VALUES (16, 'group_add') [ RunTime:0.0033s ]
+SQL: INSERT INTO `wb_permission` VALUES (17, 'group_edit') [ RunTime:0.0031s ]
+SQL: INSERT INTO `wb_permission` VALUES (18, 'group_del') [ RunTime:0.0020s ]
+SQL: INSERT INTO `wb_permission` VALUES (19, 'category_add') [ RunTime:0.0018s ]
+SQL: INSERT INTO `wb_permission` VALUES (20, 'category_edit') [ RunTime:0.0017s ]
+SQL: INSERT INTO `wb_permission` VALUES (21, 'category_del') [ RunTime:0.0018s ]
+SQL: -- ------------------------------
+
+-- Table structure for admin_group.
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_admin_permission` [ RunTime:0.0042s ]
+SQL: CREATE TABLE `wb_admin_permission` (
+
+  `id`  INT(10) NOT NULL AUTO_INCREMENT,
+
+  `uid` INT(10) NOT NULL
+
+  COMMENT '管理员ID',
+
+  `pid` INT(10) NOT NULL
+
+  COMMENT '权限ID',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '管理权限表' [ RunTime:0.0080s ]
+SQL: -- ------------------------------
+
+-- Table structure for category.
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_category` [ RunTime:0.0029s ]
+SQL: CREATE TABLE `wb_category` (
+
+  `id`        INT(10)     NOT NULL AUTO_INCREMENT,
+
+  `parent_id` INT(10)              DEFAULT 0
+
+  COMMENT '父分类ID',
+
+  `name`      VARCHAR(20) NOT NULL
+
+  COMMENT '分类名称',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '多级分类记录表' [ RunTime:0.0058s ]
+SQL: INSERT INTO `wb_category` VALUES (1, 0, '会议类型') [ RunTime:0.0022s ]
+SQL: INSERT INTO `wb_category` VALUES (2, 0, '门票种类') [ RunTime:0.0034s ]
+SQL: INSERT INTO `wb_category` VALUES (3, 0, '微刊类型') [ RunTime:0.0034s ]
+SQL: INSERT INTO `wb_category` VALUES (4, 0, '景点类型') [ RunTime:0.0042s ]
+SQL: -- ------------------------------
+
+-- Table structure for meeting.
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_meet` [ RunTime:0.0061s ]
+SQL: CREATE TABLE `wb_meet` (
+
+  `id`         INT(10) NOT NULL AUTO_INCREMENT,
+
+  `subject`    VARCHAR(50)      DEFAULT ''
+
+  COMMENT '会议主题',
+
+  `content`    TEXT             DEFAULT ''
+
+  COMMENT '会议内容',
+
+  `start_time` INT(10) NOT NULL
+
+  COMMENT '会议开始时间',
+
+  `end_time`   INT(10) NOT NULL
+
+  COMMENT '会试结束时间',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '会议表' [ RunTime:0.0046s ]
+SQL: -- ------------------------------
+
+-- Table structure for sight.
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_sight` [ RunTime:0.0026s ]
+SQL: CREATE TABLE `wb_sight` (
+
+  `id`   INT(10)     NOT NULL AUTO_INCREMENT,
+
+  `name` VARCHAR(20) NOT NULL
+
+  COMMENT '景点名称',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '景点信息录入表' [ RunTime:0.0075s ]
+SQL: -- ------------------------------
+
+-- Table structure for sight_info.
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_sight_info` [ RunTime:0.0041s ]
+SQL: CREATE TABLE `wb_sight_info` (
+
+  `id`         INT(10)     NOT NULL AUTO_INCREMENT,
+
+  `name`       VARCHAR(20) NOT NULL
+
+  COMMENT '景点名称',
+
+  `content`    TEXT        NOT NULL
+
+  COMMENT '景点说明',
+
+  `qrcode_url` VARCHAR(50)          DEFAULT ''
+
+  COMMENT '二维码',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '电子导游信息录入表' [ RunTime:0.0084s ]
+SQL: -- ------------------------------
+
+-- Table structure for qr_code_scaned.
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_scan_qr_code_log` [ RunTime:0.0029s ]
+SQL: CREATE TABLE `wb_scan_qr_code_log` (
+
+  `id`      INT(10) NOT NULL AUTO_INCREMENT,
+
+  `uid`     INT(10) NOT NULL
+
+  COMMENT '扫描的用户',
+
+  `info_id` INT(10) NOT NULL
+
+  COMMENT '扫描的节点',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '景点扫描记录表' [ RunTime:0.0045s ]
+SQL: -- ------------------------------
+
+-- Table structure for ticket.
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_ticket` [ RunTime:0.0025s ]
+SQL: CREATE TABLE `wb_ticket` (
+
+  `id`           INT(10) NOT NULL AUTO_INCREMENT,
+
+  `billcode`     VARCHAR(20)      DEFAULT ''
+
+  COMMENT '发票代码',
+
+  `ticket_name`  VARCHAR(20)      DEFAULT ''
+
+  COMMENT '票名',
+
+  `ticket_pic`   VARCHAR(128)     DEFAULT ''
+
+  COMMENT '票面图',
+
+  `ticket_price` DECIMAL(10, 2)   DEFAULT 0.00
+
+  COMMENT '票价',
+
+  `add_time`     INT(10) NOT NULL
+
+  COMMENT '添加日期',
+
+  `sight_info`   TEXT COMMENT '景点特色',
+
+  `warning`      TEXT COMMENT '购票须知',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '票据信息' [ RunTime:0.0076s ]
+SQL: -- ------------------------------
+
+-- Table structure for buy_ticket_log.  -- order
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_buy_ticket_log` [ RunTime:0.0054s ]
+SQL: CREATE TABLE `wb_buy_ticket_log` (
+
+  `id`           INT(10) NOT NULL AUTO_INCREMENT,
+
+  `trade_no`     VARCHAR(20)      DEFAULT ''
+
+  COMMENT '订单号',
+
+  `openid`       VARCHAR(255)     DEFAULT ''
+
+  COMMENT '购买用户OPENID',
+
+  `t_name`       VARCHAR(20)      DEFAULT ''
+
+  COMMENT '购买的票名',
+
+  `single_price` DECIMAL(10, 2)   DEFAULT 0.00
+
+  COMMENT '单价',
+
+  `use_time`     INT(10)          DEFAULT 0
+
+  COMMENT '出行日期',
+
+  `count`        INT(10)          DEFAULT 0
+
+  COMMENT '购买数量',
+
+  `customer`     VARCHAR(10)      DEFAULT ''
+
+  COMMENT '出行人名称',
+
+  `phone`        VARCHAR(20)      DEFAULT ''
+
+  COMMENT '出行人手机号',
+
+  `price`        DECIMAL(10, 2)   DEFAULT 0.00
+
+  COMMENT '总价',
+
+  `ticket_sn`    INT(6)           DEFAULT 0
+
+  COMMENT '取票号',
+
+  `buy_time`     INT(10)          DEFAULT 0
+
+  COMMENT '下单日期',
+
+  `status`       TINYINT(1)       DEFAULT 0
+
+  COMMENT '交易状态 0.未付款，1.已付款（交易成功），2.未使用，3.退款，4.已退款',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '购买记录-购票订单' [ RunTime:0.0071s ]
+SQL: -- ------------------------------
+
+-- Table structure for micro_article.
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_micro_article` [ RunTime:0.0046s ]
+SQL: CREATE TABLE `wb_micro_article` (
+
+  `id`            INT(10)     NOT NULL AUTO_INCREMENT,
+
+  `title`         VARCHAR(20) NOT NULL
+
+  COMMENT '微刊标题',
+
+  `author`        INT(10)     NOT NULL
+
+  COMMENT '作者ID-管理员ID',
+
+  `vistors`       INT(10)              DEFAULT 0
+
+  COMMENT '浏览量',
+
+  `content`       TEXT        NOT NULL
+
+  COMMENT '内容',
+
+  `status`        TINYINT(1)           DEFAULT 0
+
+  COMMENT '审核状态， 0待审核，1为审核通过',
+
+  `created_time`  INT(10)     NOT NULL
+
+  COMMENT '添加时间',
+
+  `publised_time` INT(10)     NOT NULL
+
+  COMMENT '发布时间',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '微刊数据记录表' [ RunTime:0.0070s ]
+SQL: -- ------------------------------
+
+-- Table structure for interface.
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_interface` [ RunTime:0.0043s ]
+SQL: CREATE TABLE `wb_interface` (
+
+  `id`       INT(10)     NOT NULL AUTO_INCREMENT,
+
+  `name`     VARCHAR(20) NOT NULL
+
+  COMMENT '接口名称',
+
+  `url`      VARCHAR(255)         DEFAULT ''
+
+  COMMENT '接口链接',
+
+  `add_time` INT(10)     NOT NULL
+
+  COMMENT '接口添加时间',
+
+  `params`   VARCHAR(255)         DEFAULT ''
+
+  COMMENT '接口参数',
+
+  `status`   TINYINT(1)           DEFAULT 1
+
+  COMMENT '接口是否启用，0未启用，1已启用',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '第三方接口记录' [ RunTime:0.0088s ]
+SQL: -- ------------------------------
+
+-- Table structure for staticfiles.
+
+-- ------------------------------
+
+DROP TABLE IF EXISTS `wb_staticfiles` [ RunTime:0.0029s ]
+SQL: CREATE TABLE `wb_staticfiles` (
+
+  `id`       INT(10)      NOT NULL AUTO_INCREMENT,
+
+  `md5`      VARCHAR(32)  NOT NULL
+
+  COMMENT '唯一编码值，验重',
+
+  `add_time` INT(10)      NOT NULL
+
+  COMMENT '添加时间',
+
+  `filetype` TINYINT(1)            DEFAULT 0
+
+  COMMENT '0图片，1文件，2音频，3视频，4其他',
+
+  `path`     VARCHAR(255) NOT NULL
+
+  COMMENT '文件路径',
+
+  `size`     INT(10)      NOT NULL
+
+  COMMENT '文件大小',
+
+  `status`   TINYINT(1)            DEFAULT 1
+
+  COMMENT '1启用，0禁用',
+
+  PRIMARY KEY (`id`)
+
+)
+
+  ENGINE = InnoDB
+
+  DEFAULT CHARSET = utf8
+
+  COMMENT '静态资源记录' [ RunTime:0.0049s ]
+SQL: INSERT INTO `wb_admin_user` (`gid`, `username`, `password`,`last_login`, `created_time`,`login_count`) VALUES
+(1, 'admin', 'f6fdffe48c908deb0f4c3bd36c032e72',1503362340,1503362340,0) [ RunTime:0.0024s ]
+
+[ 2017-08-22T08:39:00+08:00 ] ::1 /wubo/install.php/Install/Index/complete.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001409s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013483s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013674s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000743s ]
+
