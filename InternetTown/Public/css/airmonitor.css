@@ -1,0 +1,128 @@
+html,body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.bg-img {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://api.smalltown.wshoto.com/Public/images/microprogram/weatherbg.jpg");
+    overflow: hidden;
+    background-size:cover;
+}
+.location {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    color: #ccc;
+}
+.wind {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #ccc;
+    font-size: 14px;
+    text-align:center;
+}
+.wind-img {
+    height: 32.5px;
+}
+.wind-img>img {
+    width: 25px;
+    height: 25px;
+}
+.position {
+    margin-top: 7.5px;
+}
+.position>view {
+    display: inline-block
+}
+.speed {
+    font-size: 21px;
+    margin-left: 5px;
+}
+.humidity {
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    color: #ccc;
+    font-size: 14px;
+    text-align:center;
+}
+.humidity-img {
+    height: 50px;
+}
+.humidity-img>img {
+    width: 20px;
+    height: 45px;
+}
+.humidity-num {
+    margin-top: 5px;
+    font-size: 24px;
+}
+.temperature {
+    padding-top: 60px;
+    left: 20px;
+    color: #ccc;
+    font-size: 14px;
+    text-align:center;
+}
+.temperature-img {
+    height:75px;
+    margin:75px auto 0 auto;
+}
+.temperature-img>img {
+    width: 140px;
+    height: 140px;
+}
+.temperature2 {
+    font-size: 28px;
+    margin: 7.5px 0 10px 0;
+}
+.temperature-num {
+    font-size: 50px;
+}
+.deg {
+    position: absolute;
+    margin-top:-60px;
+    margin-left:260px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.bottom {
+    padding: 10px 20px;
+    position:absolute;
+    width:calc(100% - 40px);
+    bottom:10px;
+}
+.bottom-title {
+    color: #ccc;
+    font-weight: bold;
+    line-height: 25px;
+}
+.title-num {
+    font-size: 14px;
+}
+.bottom-line {
+    height: 112px;
+    display: flex;
+}
+.weather-list {
+    background-image: url("https://api.smalltown.wshoto.com/Public/images/microprogram/bottombg.png");
+    margin: 10px;
+    padding: 15px 0;
+    flex: 1;
+    overflow: hidden;
+    background-size:cover;
+    text-align: center;
+}
+.list1, .list2 {
+    line-height: 30px;
+}
+.list1 {
+    color: #666;
+}
+.list2 {
+    font-size: 21px;
+    color: #333;
+}

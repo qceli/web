@@ -1,0 +1,137 @@
+
+body,html{
+height: 100vh;
+width: 100vw;
+margin: 0;
+overflow: hidden;
+display: flex;
+}
+.all{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    background-image: url(./kaimushi.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+   
+}
+.content{
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenta{
+    height: 100%;
+    width: 100%;
+    /* background-image: url(./kaimushi.jpg); */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* position: relative; */
+ 
+}
+.test{
+width: 325.7px;
+height: 326.9px;
+/* position: absolute; */
+margin: 35vh auto 0 ;
+top:244.8px;
+left:415px;
+}
+.welcome{
+position: absolute;
+top:47vh;
+left:50%;
+margin-left: 0;
+font-size:0px;
+text-align:center;
+color: white;
+opacity: 0;
+width: 0px;
+}
+.welcome span{
+    position:relative;
+}
+.test2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.turn1{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    background-image: url(erweima.png);
+    background-size: 100% 100%;
+     background-color: white;
+     z-index: 80;
+}
+
+.turn2{
+    width:100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left:- 1.7px;
+    transform: rotateY(180deg);
+    /*background-image: url(erweima2.jpg);*/
+    background-size: 100% 100%;
+    /*transform-origin: center left;*/
+    z-index: 50;
+    background-color: white;
+}
+.turn2 img{
+    width:100%;
+    height: 100%;
+}
+.niu{
+   transform-style: preserve-3d;
+    animation: spin 1.5s 1 linear;
+    animation-fill-mode : forwards;
+}
+@keyframes spin {
+	from { transform: rotateY(0); }
+	to { transform: rotateY(-180deg); }
+}
+
+.zhezhao{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left:0;
+    top: 0; 
+}
+.greyzhezhao{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left:0;
+    top: 0; 
+    animation: spin2 2s 1 linear;
+    opacity: 0.9;
+    animation-fill-mode : forwards;
+}
+@keyframes spin2 {
+	from {  }
+	to {   background-color:#526ca1;}
+}
+.border{
+    box-shadow: 0 0 200px white;
+}
+.jump{
+    /* position: relative; */
+    animation: spin3 0.5s 1 linear;
+}
+@keyframes spin3 {
+	0% { top:0 }
+    50% {top:-60px }
+    100%{top:0}
+}

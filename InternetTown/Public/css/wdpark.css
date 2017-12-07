@@ -1,0 +1,97 @@
+html,body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.bg-img {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://api.smalltown.wshoto.com/Public/images/microprogram/parkbg.jpg");
+    overflow: hidden;
+    background-size:cover;
+}
+.park-title {
+    margin-top: 110px;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+    color: #fff;
+}
+.park {
+    margin:30px auto 0 auto;
+    width: calc(100% - 90px);
+    height: 43px;
+    padding: 2px;
+    background-color: #fff;
+    /* border-radius: 5px; */
+    /* box-shadow: 0 0 20rpx #ccc;  */
+    border-radius:43px;
+}
+.parkSearch-img {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+}
+.parkSearch-img>img {
+    width: 20px;
+    height: 20px;
+    margin-top:10px;
+    margin-left:20px;
+    /* position:fixed; */
+}
+.park>input {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px #ccc solid;
+    padding-left:40px;
+    font-size: 14px;
+}
+.void-num {
+    height: 40px;
+    line-height: 40px;
+    border: 1px #ccc solid;
+    padding-left:50px;
+    font-size: 16px;
+    border-radius:40px;
+    color: #8b8b8b;
+}
+.surplusPark-img {
+    height: 105px;
+    width: 100px;
+    position:absolute;
+    right:20px;
+    bottom:50px;
+    text-align: center;
+}
+.surplusPark-img>img {
+    height: 80px;
+    width: 80px;
+}
+.surplusPark-img>view {
+    font-size: 14px;
+    color: #ccc;
+    height: 25px;
+    line-height: 25px;
+}
+.prompt-background{
+    background-color: #000;opacity: 0.6;position: fixed;top: 0;left: 0;right: 0;bottom: 0;
+}
+.prompt-content{
+    background-color: #fff;position: fixed;top:40%;left: 10%;right: 10%;text-align: center;vertical-align: middle;border-radius: 0.5em;
+}
+.prompt-content-left{
+    text-align: left;top:20%;
+}
+.prompt-content>div:first-child{
+    padding: 1em;line-height: 1.6em;
+}
+
+.prompt-content>div:last-child{
+    border-top:1px solid #ddd;padding: 0.5em;color: #2ba0ff;
+}
+.prompt-content-left>div:last-child{
+    text-align: center;
+}

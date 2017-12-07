@@ -1,0 +1,25 @@
+.maplists {
+    /* border: 1px solid #ccc; */
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    /* height: 400rpx; */
+    width: 50px;
+    z-index:1;
+    text-align: center;
+    border-radius: 10px;
+    font-size:16px;
+}
+.maplists>div {
+    width: 20px;
+    padding: 20px 15px;
+    color: #ccc;
+    background-color: #fff;
+}
+#maplist1 {
+    border-bottom: 1px solid #ccc;
+}
+.active {
+    color: #fff !important;
+    background-color: #ccc !important;
+}

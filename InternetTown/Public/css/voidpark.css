@@ -1,0 +1,66 @@
+html,body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.bg-img {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://api.smalltown.wshoto.com/Public/images/microprogram/parkbg.jpg");
+    overflow: hidden;
+    background-size:cover;
+}
+.top {
+    /* height: 100rpx; */
+    text-align: center;
+    padding: 10px 0 20px 0;
+    color: #ccc;
+}
+.top>div {
+    height: 40px;
+    line-height: 40px;
+}
+.freeNum {
+    font-size: 24px;
+    /* color: crimson; */
+}
+.park-nums {
+    width: calc(100% - 40px);
+    border-top: 1px #ccc solid;
+    padding: 5px 20px;
+}
+.park-area {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    color: #666;
+}
+.park-area>div {
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 50px;
+    flex: 1;
+}
+.active {
+    background-color: rgba(204, 204, 204,0.8);
+    border-radius: 5px;
+}
+.area-nums {
+    width: 100%;
+    display: inline-block;
+    font-size:16px;
+    padding-top: 10px;
+}
+.detail {
+    height:35px;
+    line-height:35px;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin: 0 0 10px 10px;
+    border-radius: 5px;
+    width:20%;
+    display:inline-block;
+    font-size: 18px;
+    color: #ccc;
+}
