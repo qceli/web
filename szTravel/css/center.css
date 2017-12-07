@@ -1,0 +1,604 @@
+
+.icon-center {
+    font-size: 20px;
+}
+.icon-delete {
+    font-size: 28px;
+    color: #666;
+    cursor: pointer;
+}
+.icon-bell {
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.content {
+    width: 1180px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #f0f0f0;
+    min-height: 556px;
+}
+.left {
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+    background-color: #fff;
+}
+.index-nav {
+    height: 60px;
+}
+.Nav-zero {
+    height: 60px;
+    line-height: 60px;
+    cursor: pointer;
+}
+.Nav-zero>div {
+    width: 65px;
+    float: left;
+    text-align: center;
+}
+.Nav-zero>span {
+    font-weight:bold;
+}
+.leftNav-active {
+    border-left: 5px solid #4d95f7 !important;
+}
+.left-nav {
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+}
+.index-nav,.second-nav,.first-nav, .third-nav{
+    border: 5px solid #ffffff;
+    border-bottom: solid 1px #dfdfdf;
+}
+.left-nav>div {
+    width: 65px;
+    float: left;
+    text-align: center;
+}
+.left-nav>div>span {
+    font-weight:bold;
+}
+.left-nav>span {
+    font-weight:bold;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+.nav-ul {
+    padding-left: 65px;
+    box-sizing: border-box;
+    margin: 0;
+}
+.nav-ul>li {
+    height: 35px;
+    line-height: 35px;
+    cursor: pointer;
+}
+.leftnav-active {
+    color: #4d95f7;
+}
+
+.right {
+    width: 970px;
+    display: inline-block;
+}
+.right-top {
+    height: 100px;
+    width: calc(100% - 30px);
+    padding: 15px;
+    /*background:url(../img/personal.jpg) no-repeat;*/
+    background-color: #4d95f7;
+}
+.right-bottom {
+    width: 100%;
+    margin-top: 15px;
+    background-color: #fff;
+}
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float: left;
+}
+.personal-info {
+    margin: 15px 0 15px 35px;
+    width: 150px;
+    height: 70px;
+    float: left;
+    color: #fff;
+}
+.personal-name {
+    font-size: 24px;
+    height: 35px;
+    line-height: 35px;
+}
+.personal-tel {
+    height: 35px;
+    line-height: 35px;
+}
+.bell {
+    float: right;
+    line-height: 100px;
+    width: 50px;
+    height: 50px;
+}
+.right-list {
+    width: 100%;
+    min-height: 408px;
+}
+.right-nav {
+    list-style: none;
+    height: 49px;
+    margin: 0;
+    border-bottom: solid 1px #dfdfdf;
+}
+.right-nav>li {
+    float: left;
+    width: 160px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    cursor: pointer;
+}
+.rightNav-active {
+    border-bottom: 5px solid #4d95f7;
+}
+
+.list-infos {
+    border-bottom: 5px solid #ebebeb;
+}
+.info-top {
+    height: 40px;
+    line-height:40px;
+    background-color: #f9f7f8;
+    padding: 0 20px;
+}
+.infoTop-time {
+    float: left;
+    margin-right: 20px;
+    font-weight:bold;
+}
+.infoTop-code {
+    float: left;
+}
+.infoTop-delete {
+    float: right;
+    width: 30px;
+}
+.info-bottom {
+    padding: 0 15px;
+    height: 120px;
+}
+.info-bottom>div {
+    padding: 20px 0;
+}
+.info-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 5%;
+    margin-right:48px;
+    float: left;
+}
+.info-line {
+    width: 460px;
+    float: left;
+}
+.lines-info {
+    height: 70px;
+    float: left;
+    margin-right: 40px;
+}
+.line-first {
+    width: 120px;
+}
+.lines-info>div {
+    padding-bottom: 15px;
+}
+.lineFirst-top {
+    color: #4d95f7;
+}
+.line-second {
+    width: 50px;
+}
+.line-third {
+    width: 170px;
+}
+.info-money {
+    width: 100px;
+    height: 80px;
+    float: left;
+    color: #e57728;
+    font-weight: bold;
+}
+.info-state {
+    width: 110px;
+    height: 80px;
+    float: left;
+    margin-right: 40px;
+    text-align: center;
+    border-left: solid 1px #dfdfdf;
+    border-right: solid 1px #dfdfdf;
+}
+.trace-state {
+    height: 40px;
+    line-height: 40px;
+}
+.order-details {
+    height: 40px;
+    line-height: 40px;
+    color: #4d95f7;
+    cursor: pointer;
+}
+.info-next {
+    width: 90px;
+    height: 80px;
+    float: left;
+    text-align: center;
+}
+.continue-trace {
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 25px;
+    color: #fff;
+    background: #fbb100;
+    cursor: pointer;
+}
+
+.list-order {
+    width: calc(100% - 30px);
+    height: 50px;
+    padding: 0 15px;
+    border-bottom: solid 1px #ebebeb;
+}
+.traveller, .goods {
+    float: left;
+    line-height: 50px;
+    align-items: center;
+    display: -webkit-flex;
+}
+.tName, .gName {
+    float: left;
+    margin-right: 20px;
+}
+.travellerName {
+    color: #666;
+    width: 120px;
+    text-indent: 1em;
+    height: 21px;
+}
+.goodName, .goodNum {
+    text-indent: 1em;
+    height: 21px;
+}
+.travelData {
+    color: #666;
+    width: 120px;
+    margin: 0;
+    height: 21px;
+}
+.travelDatas {
+    color: #666;
+    width: 120px;
+    height: 21px;
+}
+.orderStates {
+    color: #666;
+    width: 80px;
+    height: 25px;
+}
+.order-search,.traveller-add {
+    float: left;
+    text-align: center;
+    width: 70px;
+    height: 25px;
+    line-height: 25px;
+    margin-top:12px;
+    border: solid 1px #dfdfdf;
+    cursor: pointer;
+}
+
+.info-line3 {
+    width: 400px;
+}
+.line-first3 {
+    width: 200px;
+}
+.lineFirst-bottom, .lineTop3 {
+    color: #666;
+}
+.info-money3 {
+    width: 150px;
+    height: 80px;
+    float: left;
+    text-align: center;
+    border-left: solid 1px #dfdfdf;
+}
+.info-money3>div {
+    height: 40px;
+    line-height: 40px;
+}
+.money {
+    color: #e57728;
+    font-weight: bold;
+}
+.freight {
+    font-size: 14px;
+    color: #666;
+}
+.line-first4 {
+    width: 200px;
+    color: #4d95f7;
+}
+.line-second4 {
+    margin-left: 30px;
+    line-height: 80px;
+}
+.info-money4 {
+    line-height: 80px;
+    color: #e57728;
+    font-weight: bold;
+}
+.continue-trace4 {
+    margin-top: 10px;
+}
+.cancel {
+    color: #666;
+    line-height: 35px;
+}
+.line-first5 {
+    width: 150px;
+    margin-right: 30px;
+}
+.line-second5 {
+    width: 180px;
+    float: left;
+    margin-right: 30px;
+    text-align: center;
+}
+.line-second5>div {
+    height: 25px;
+}
+.lines-people {
+    float: left;
+    margin-right: 40px;
+    line-height: 80px;
+}
+.info-money5 {
+    width: 90px;
+    color: #e57728;
+    font-weight: bold;
+    float: left;
+    line-height: 80px;
+}
+
+.coupon {
+    display: flex;
+    margin: 0 20px;
+    padding-top: 20px;
+}
+.coupon>div {
+    flex: 1;
+}
+
+.personal, .security-title {
+    height: 49px;
+    line-height: 49px;
+    padding-left: 20px;
+    border-bottom: solid 1px #dfdfdf;
+    font-weight: bold;
+    clear: both;
+}
+.infos {
+    padding-left: 100px;
+    padding-top: 20px;
+}
+.traveller-infos {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.infos-left {
+    width: 100px;
+    text-align: right;
+    float: left;
+}
+.infos-left>div, .infos-right>div {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+}
+.infos-right>div>input {
+    height: 25px;
+    line-height: 25px;
+    text-indent: 1em;
+}
+.infos-right>div>select {
+    width: 120px;
+    height: 31px;
+}
+.infos-right {
+    margin-left: 20px;
+    display: inline-block;
+}
+.revise {
+    margin-left: 25px;
+    color: #4d95f7;
+    cursor: pointer;
+}
+
+.edit, .back-address, .save-address, .back-traveller, .save-traveller, .cancel-traveller {
+    width: 60px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background-color: #4d95f7;
+    border-radius: 5px;
+    margin:10px 0 10px 120px;
+    cursor: pointer;
+}
+.back-address, .save-address {
+    display: inline-block;
+}
+.address-search, .traveller-search {
+    margin-right: 20px;
+}
+td {
+    text-align: center;
+}
+.address-title {
+    color: #666;
+}
+.address-name1 {
+    width: 90px;
+    padding-right: 5px;
+}
+.address-name2 {
+    width: 130px;
+    padding-right: 5px;
+}
+.address-name3 {
+    width: 170px;
+    padding-right: 5px;
+    display: inline-block;
+}
+.address-name4 {
+    width: 70px;
+    padding-right: 5px;
+}
+.address-name5 {
+    width: 110px;
+    padding-right: 5px;
+}
+.address-editor {
+    margin: auto 20px;
+}
+.address-name3>span {
+    color: #4d95f7;
+    cursor: pointer;
+}
+
+.traveller-top {
+    height: 425px;
+}
+.travellerInfo {
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+}
+.travellerTop-left {
+    float: left;
+    padding-left: 20px;
+    text-align: right;
+}
+.travellerTop-left>div, .travellerTop-right>div {
+    height: 40px;
+    line-height: 40px;
+}
+input[type="checkbox"] {
+    height: 15px !important;
+}
+.travellerTop-left>div>span, .red {
+    color: red;
+}
+.grey {
+    color: #666;
+}
+.travellerTop-right {
+    display: inline-block;
+    margin-left: 10px;
+}
+.travellerTop-right>div>input {
+    height: 25px;
+    line-height: 25px;
+}
+.travellerTop-right>div>select {
+    height: 32px;
+    line-height: 32px;
+}
+.certificate-code {
+    margin-left: 20px;
+}
+.save-traveller, .cancel-traveller {
+    display: inline-block;
+}
+.cancel {
+    margin-left: 10px !important;
+    background-color: #fff;
+    color: #666;
+    border: solid 1px #666;
+}
+
+.security-title {
+    border-top: solid 1px #dfdfdf;
+}
+.security-content {
+    padding-top: 30px;
+    padding-left: 130px;
+}
+.secret-left {
+    float: left;
+}
+.secret-left>div {
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+}
+.secret-right {
+    display: inline-block;
+    margin-left: 10px;
+}
+.secret-right>div {
+    height: 40px;
+    line-height: 40px;
+}
+.secret-right>div>input {
+    height: 25px;
+    line-height: 25px;
+    margin-top: 5px;
+    text-indent: 1em;
+}
+.check-email {
+    display: inline-block;
+}
+.save, .check-email, .send, .change-mobile {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #0182ea;
+    color: #fff;
+    border-radius: 5px;
+    margin: 15px 0 30px 90px;
+    cursor: pointer;
+}
+
+.save, .check-email {
+    width: 80px;
+}
+.security-content>span {
+    margin-left: 20px;
+}
+.security-bottom {
+    padding-bottom: 30px;
+}
+.send {
+    width: 90px;
+}
+.change-mobile {
+    width: 130px;
+}
+
+.icon-how {
+    color: #0182ea;
+}
+
+.jPaginate {
+    padding-bottom: 10px;
+    margin: 20px 0 0 520px;
+}

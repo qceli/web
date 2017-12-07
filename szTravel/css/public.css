@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 369820 */
+    src: url('//at.alicdn.com/t/font_g6sffl4hpms1nhfr.eot');
+    src: url('//at.alicdn.com/t/font_g6sffl4hpms1nhfr.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_g6sffl4hpms1nhfr.woff') format('woff'),
+    url('//at.alicdn.com/t/font_g6sffl4hpms1nhfr.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_g6sffl4hpms1nhfr.svg#iconfont') format('svg');
+}
+.iconfont{font-family:"iconfont";}
+
+html{
+    height:100%;
+}
+body {
+    font-family: '微软雅黑';
+    height:100%;
+    font-size: 16px;
+    color: #000;
+}

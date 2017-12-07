@@ -1,0 +1,182 @@
+.icon-custom {
+    color: #4d95f7;
+    font-size: 18px;
+}
+
+.banner {
+    width: 1920px;
+    height:490px;
+    background: url("../img/custom.jpg") no-repeat;
+
+}
+.custom {
+    width: 240px;
+    height: 60px;
+    border-radius: 60px;
+    background-color: transparent;
+    cursor: pointer;
+}
+.company-custom {
+    margin: 323px 0 0 465px;
+    position: fixed;
+}
+.personal-custom {
+    margin: 397px 0 0 465px;
+    position: fixed;
+}
+
+.custom-content {
+    width: 1200px;
+    margin: auto;
+}
+.custom-title {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    color: #c79452;
+    font-size: 20px;
+    font-weight:bold;
+}
+.custom-infos {
+    width: calc(100% - 70px);
+    padding: 20px 35px;
+    margin-top: 20px;
+    border: solid 1px #cfd2d7;
+}
+.custom-info {
+    clear: both;
+    width: 100%;
+}
+.customInfo-first {
+    height: 320px;
+}
+.customInfo-second {
+    height: 955px;
+}
+.left-info {
+    width: 180px;
+    margin-left: 10px;
+    float: left;
+}
+.left-info>div {
+    float: left;
+    line-height: 50px;
+}
+.right-info {
+    float: left;
+}
+.info-name {
+    margin-left: 10px;
+    font-size: 18px;
+}
+.custom-line {
+    height: 50px;
+    line-height: 50px;
+}
+.customLine-name {
+    width: 150px;
+    height: 50px;
+    float: left;
+    text-align: right;
+}
+.input-public {
+    margin-left: 10px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #cfd2d7;
+    float: left;
+    position: relative;
+    top: 10px;
+    text-indent: 1em;
+}
+.input-first {
+    width: 270px;
+}
+.input-second {
+    width: 130px;
+}
+.input-third {
+    margin: 0;
+    width: 130px;
+}
+input[type="checkbox"] {
+    margin-left: 20px;
+}
+.customLine-and {
+    width: 45px;
+    text-align: center;
+    float: left;
+}
+.customLine-right {
+    width: 780px;
+}
+.div-public {
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #cfd2d7;
+    float: left;
+    margin-left: 10px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.div-first {
+    width: 130px;
+}
+.div-second {
+    width: 80px;
+}
+.div-third {
+    width: 210px;
+}
+.div-forth {
+    width: 370px;
+}
+.custom-textarea {
+    width: 450px;
+    height: 150px;
+    border: 1px solid #cfd2d7;
+    margin-left: 10px;
+    text-indent: 1em;
+}
+.customInfo-third {
+    height: 275px;
+}
+.custom-buttom {
+    width: 250px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: #fff;
+    background-color: #ff9a00;
+    margin: 10px 0 0 160px;
+    cursor: pointer;
+}
+.custom-hr {
+    margin-bottom: 25px;
+    clear: both;
+    border: 0;
+    background-color: #cfd2d7;
+    height: 1px;
+}
+.customInfo-forth {
+    height: 265px;
+}
+
+.custom-design {
+    margin-top: 50px;
+}
+
+.customActive {
+    background-color: #4d95f7;
+    color: #fff;
+}
+
+
+
+
+
+
+

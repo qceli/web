@@ -1,0 +1,162 @@
+.insure-content {
+    width: 1200px;
+    margin: auto;
+}
+.insure2-left {
+    width: 268px;
+    float: left;
+}
+.goal-place {
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+}
+.ideal-place {
+    height: 70px;
+    border: 1px solid #cfd2d7;
+}
+.all-list {
+    border: 1px solid #cfd2d7;
+    margin-top: 15px;
+}
+.ideal-place>input {
+    width: 220px;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 25px;
+    text-indent: 1em;
+}
+.clear {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.list-1,.list-2 {
+    line-height: 30px;
+}
+.list-2 {
+    margin-top: 15px;
+}
+.list-top {
+    height: 30px;
+    margin-bottom: 10px;
+}
+.list-name {
+    float: left;
+    padding-left: 20px;
+}
+.list-num {
+    float: right;
+    padding-right: 10px;
+}
+.list-body {
+    text-align: center;
+    clear: both;
+}
+.list-body>span {
+    width: 130px;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+}
+.list-add {
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.insure2-right {
+    display: inline-block;
+    margin-left: 20px;
+}
+.right-top {
+    font-size: 14px;
+}
+.total-price {
+    height: 30px;
+    float: left;
+}
+.insure2-desc {
+    float: right;
+    width: 50px;
+    margin-left: 20px;
+    text-align: right;
+    cursor: pointer;
+}
+.descActive, .descActive>span {
+    color: #ff6803;
+}
+.prices {
+    clear: both;
+}
+.prices-1 {
+    width: 890px;
+    height: 120px;
+    border: 1px solid #cfd2d7;
+    margin-bottom: 15px;
+}
+.company-infos {
+    float: left;
+    width: 575px;
+}
+.company-img {
+    width: 150px;
+    padding-top: 32px;
+    text-align: center;
+    float: left;
+}
+.company-name {
+    font-size: 22px;
+    margin-top: 15px;
+}
+.company-money {
+    margin: 10px 0;
+}
+.company-money>span {
+    margin-right: 5px;
+    font-size: 14px;
+}
+.money-middle {
+    padding: 0 5px;
+    border-left: 1px solid #cfd2d7;
+    border-right: 1px solid #cfd2d7;
+}
+.insure-time {
+    width: 310px;
+    display: inline-block;
+}
+.insure-price {
+    float: left;
+    width: 80px;
+    margin-top: 10px;
+    color: #ff6803;
+}
+.price-unit {
+    position: absolute;
+    margin-top: 3px;
+}
+.price {
+    font-size: 26px;
+    margin-left: 15px;
+}
+.look {
+    margin-top: 15px;
+    display: inline-block;
+    width: 65px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1.5px solid #4d95f7;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.compare {
+    float: right;
+    width: 50px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    margin:15px 18px 0 0;
+    border: 1px solid #cfd2d7;
+    font-size: 14px;
+    cursor: pointer;
+}
