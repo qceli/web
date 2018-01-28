@@ -8,6 +8,7 @@ import QuarterRequire from "./view/pages/quarterRequire.vue"
 import RequireProgress from "./view/pages/requireProgress.vue"
 import PlanRecord from "./view/pages/planRecord.vue"
 import WorktimeRecord from "./view/pages/worktimeRecord.vue"
+import WorktimeRecord from "./view/shopping/goods.vue"
 
 const Routers = [
   {path: "/login", name: "login", access: [], component: Login},
@@ -20,7 +21,8 @@ const Routers = [
       {path: "/home/require/quarterrequire", name: "quarterrequire", meta: { requireAuth: true }, access: [], component: QuarterRequire},
       {path: "/home/require/requireprogress", name: "requireprogress", meta: { requireAuth: true }, access: [], component: RequireProgress},
       {path: "/home/record/planrecord", name: "planrecord", meta: { requireAuth: true }, access: [], component: PlanRecord},
-      {path: "/home/record/worktimerecord", name: "worktimerecord", meta: { requireAuth: true }, access: [], component: WorktimeRecord}
+      {path: "/home/record/worktimerecord", name: "worktimerecord", meta: { requireAuth: true }, access: [], component: WorktimeRecord},
+      {path: "/home/shopping/goods", name: "goods", meta: { requireAuth: true }, access: [], component: Goods}
     ]
   },
   
