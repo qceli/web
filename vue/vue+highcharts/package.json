@@ -39,7 +39,7 @@
     "highcharts": "^6.0.4",
     "iview": "^2.5.1",
     "less-loader": "^4.0.5",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.13",
     "vue": "^2.4.3",
     "vue-highcharts": "0.0.10",
     "vue-router": "^3.0.1",
